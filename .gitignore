@@ -1,0 +1,12 @@
+# Notizen und Konzept bleiben privat in Google Drive
+*.md
+!README.md
+.claude/
+.DS_Store
+__pycache__/
+# Arbeitsdateien
+site/.hallmark/
+site/img/kandidaten*/
+site/img/themen-kandidaten/
+site/img/night/.tiles/
+data/cands.json

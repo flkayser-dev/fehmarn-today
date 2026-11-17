@@ -1,0 +1,789 @@
+{
+ "generated": "2026-11-15",
+ "items": [
+  {
+   "slug": "golfpark-fehmarn",
+   "name": "Golfpark Fehmarn",
+   "category": "Sport & Freizeit",
+   "subcategory": "Golf",
+   "town": "Wulfen",
+   "text": "18-Loch-Platz (Par 72) mit Ostseeblick, ganzjährig bespielbar.",
+   "url": "https://www.golfpark-fehmarn.de/",
+   "price": "Greenfee 18 Löcher: 75 € (Mo–Do), 85 € (Fr–So); Wintergreenfee ab 39 €",
+   "season": "ganzjährig",
+   "source_url": "https://www.golfpark-fehmarn.de/greenfee/",
+   "photo": {
+    "file": "img/akt/golfpark-fehmarn.jpg",
+    "commons_title": "File:Golf course Schloss Ranzow 2023-05-22 01.jpg",
+    "author": "Leonhard Lenz",
+    "license": "CC0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://www.golfpark-fehmarn.de/fileadmin/_processed_/c/2/csm__67A3705_42758cb3be.jpg",
+    "page": "https://www.golfpark-fehmarn.de/",
+    "w": 1800,
+    "h": 1200,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "golf-n-wave-shortcourse",
+   "name": "Golf 'n Wave Shortcourse",
+   "category": "Sport & Freizeit",
+   "subcategory": "Golf",
+   "town": "Wulfen",
+   "text": "Öffentlicher 9-Loch-Kurzplatz, auch für Anfänger ohne Platzreife.",
+   "url": "https://www.golfpark-fehmarn.de/",
+   "price": "Tageskarte 20 € (Mo–Do), 25 € (Fr–So)",
+   "season": "ganzjährig",
+   "source_url": "https://www.golfpark-fehmarn.de/greenfee/",
+   "photo": {
+    "file": "img/akt/golf-n-wave-shortcourse.jpg",
+    "commons_title": "File:Dwight Eisenhower and friends used this putting green on the property. (d0407fa9-da60-42c4-ace1-803a7027bfb8).jpg",
+    "author": "Mary O'Neill",
+    "license": "Public domain",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://www.golfpark-fehmarn.de/fileadmin/_processed_/5/6/csm__67A3270_db0f6ca022.jpg",
+    "page": "https://www.golfpark-fehmarn.de/",
+    "w": 1800,
+    "h": 1200,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "adventure-golf-fehmarn",
+   "name": "Adventure-Golf Fehmarn",
+   "category": "Sport & Freizeit",
+   "subcategory": "Minigolf",
+   "town": "Meeschendorf",
+   "text": "18 Bahnen mit Meerblick, Piratenspielplatz und Café.",
+   "url": "https://www.adventure-golf-fehmarn.de/",
+   "price": "Erwachsene 11,00 €, Kinder bis 17 Jahre 9,00 €",
+   "season": "23. März bis 31. Oktober",
+   "source_url": "https://www.adventure-golf-fehmarn.de/preise-oeffnungszeiten",
+   "photo": {
+    "file": "img/akt/adventure-golf-fehmarn.jpg",
+    "commons_title": "File:Adventure Golf im Stadtpark Norderstedt.jpg",
+    "author": "Karbohut",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "lat": 54.4231647,
+   "lon": 11.2557291,
+   "loc_source": "Nominatim",
+   "web_photo": {
+    "src": "https://www.adventure-golf-fehmarn.de/assets/images/4/luftbild-2-51649c46.jpg",
+    "page": "https://www.adventure-golf-fehmarn.de/",
+    "w": 800,
+    "h": 534,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "funtasia-minigolf",
+   "name": "Funtasia Adventure Minigolf",
+   "category": "Sport & Freizeit",
+   "subcategory": "Minigolf",
+   "town": "Burgstaaken",
+   "text": "Indoor-Minigolf mit 22 Bahnen in einer alten Bootshalle.",
+   "url": "http://www.funtasia-golf.de",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/funtasia-adventure-minigolf-anlage",
+   "photo": {
+    "file": "img/akt/funtasia-minigolf.jpg",
+    "commons_title": "File:Hammer Park Minigolf2.jpg",
+    "author": "Uwe Rohwedder",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "http://www.funtasia-golf.de/gallery/15.jpg",
+    "page": "http://www.funtasia-golf.de/galerie.html",
+    "w": 800,
+    "h": 423,
+    "ok": true,
+    "checked": "2026-11-15"
+   },
+   "lat": 54.4208345,
+   "lon": 11.1874118,
+   "loc_source": "Nominatim"
+  },
+  {
+   "slug": "soccergolf-fehmarn",
+   "name": "Soccergolf Fehmarn",
+   "category": "Sport & Freizeit",
+   "subcategory": "Minigolf",
+   "town": "Burg",
+   "text": "Minigolf mit dem Fußball: Ball mit wenigen Schüssen ins Loch.",
+   "url": "https://www.soccergolf-fehmarn.de",
+   "price": "Erwachsene 12,70 €, Kinder 5–15 Jahre 9,80 €",
+   "season": "März bis Oktober, mit Pausen",
+   "source_url": "https://www.soccergolf-fehmarn.de",
+   "photo": {
+    "file": "img/akt/soccergolf-fehmarn.jpg",
+    "commons_title": "File:Bradninch , Footgolf Devon - geograph.org.uk - 7553749.jpg",
+    "author": "Lewis Clarke",
+    "license": "CC BY-SA 2.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "note": "keine passende Aufnahme gefunden"
+   }
+  },
+  {
+   "slug": "silo-climbing-fehmarn",
+   "name": "Silo Climbing Fehmarn",
+   "category": "Sport & Freizeit",
+   "subcategory": "Klettern",
+   "town": "Burgstaaken",
+   "text": "Klettern am Getreidesilo, Routen bis 40 Meter, ab 1,10 m Größe.",
+   "url": "https://www.siloclimbing.com/",
+   "price": null,
+   "season": "23. März bis 30. November",
+   "source_url": "https://www.siloclimbing.com/",
+   "photo": {
+    "file": "img/akt/silo-climbing-fehmarn.jpg",
+    "commons_title": "File:Getreidesilos in Burgstaaken.jpg",
+    "author": "Torsten Behrens from Tarbek - Segeberg - Schleswig-Holstein., Deutschland",
+    "license": "CC BY 2.0",
+    "kind": "ort"
+   },
+   "web_photo": {
+    "src": "https://image.jimcdn.com/app/cms/image/transf/none/path/sa339b9546bb74f80/backgroundarea/i1ab3cda82d56c96c/version/1533291304/image.jpg",
+    "page": "https://www.siloclimbing.com/",
+    "w": 2400,
+    "h": 1182,
+    "ok": true
+   }
+  },
+  {
+   "slug": "hotel-escape-fehmarn",
+   "name": "Hotel Escape Fehmarn",
+   "category": "Sport & Freizeit",
+   "subcategory": "Escape Room",
+   "town": "Burg",
+   "text": "Escape Room im alten Hotel: ein Team, 60 Minuten, ein Rätsel.",
+   "url": "http://www.fliehwenndukannst.jetzt",
+   "price": null,
+   "season": "Frühjahr bis Oktober, ab November Winterpause",
+   "source_url": "https://www.fehmarn.de/poi/hotel-escape-fehmarn",
+   "photo": {
+    "file": "img/akt/hotel-escape-fehmarn.jpg",
+    "commons_title": "File:Escape Room - \"The Expedition\" (Escape Quest Bethesda).jpg",
+    "author": "Hudson Bloom",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "note": "keine passende Aufnahme gefunden"
+   },
+   "lat": 54.4383708,
+   "lon": 11.1991601,
+   "loc_source": "Nominatim"
+  },
+  {
+   "slug": "p3-padel-club-fehmarn",
+   "name": "P3 Padel Club Fehmarn",
+   "category": "Sport & Freizeit",
+   "subcategory": "Padel",
+   "town": "Burg",
+   "text": "Padelhalle mit drei Indoor-Plätzen, Schlägerverleih, Buchung über Playtomic.",
+   "url": "https://playtomic.com/de/clubs/p3-padel-club-fehmarn",
+   "price": null,
+   "season": "ganzjährig",
+   "source_url": "https://playtomic.com/de/clubs/p3-padel-club-fehmarn",
+   "photo": {
+    "file": "img/akt/p3-padel-club-fehmarn.jpg",
+    "commons_title": "File:Court de padel de Vic-en-Bigorre (Hautes-Pyrénées) 1.jpg",
+    "author": "Sotos",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "rejected": [],
+    "note": "keine passende Aufnahme gefunden"
+   }
+  },
+  {
+   "slug": "kuestenpadel-fehmarn",
+   "name": "KüstenPadel Fehmarn",
+   "category": "Sport & Freizeit",
+   "subcategory": "Padel",
+   "town": "Westermarkelsdorf",
+   "text": "Ein Outdoor-Padelplatz mit Flutlicht nahe der Ostsee.",
+   "url": "https://playtomic.com/clubs/inselhof-fehmarn",
+   "price": null,
+   "season": null,
+   "source_url": "https://playtomic.com/clubs/inselhof-fehmarn",
+   "photo": {
+    "file": "img/akt/kuestenpadel-fehmarn.jpg",
+    "commons_title": "File:Club Kingswood Padel.jpg",
+    "author": "OCHAPPS",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://res.cloudinary.com/playtomic/image/upload/c_scale,w_3840,q_80,f_auto/pro/tenants/9bb90069-be7a-40e4-9ca4-d32c83015761/1774636800180",
+    "page": "https://playtomic.com/clubs/inselhof-fehmarn",
+    "w": 3840,
+    "h": 2880,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "tennisclub-burgtiefe",
+   "name": "Fehmarnscher Tennisclub Burgtiefe",
+   "category": "Sport & Freizeit",
+   "subcategory": "Tennis",
+   "town": "Burgtiefe",
+   "text": "Vier Sandplätze zwischen Südstrand und Yachthafen, Training buchbar.",
+   "url": "http://www.fehmarnscher-tennisclub-burgtiefe.de",
+   "price": null,
+   "season": "Mai bis September",
+   "source_url": "http://www.fehmarnscher-tennisclub-burgtiefe.de",
+   "photo": {
+    "file": "img/akt/tennisclub-burgtiefe.jpg",
+    "commons_title": "File:Clay tennis courts melbourne looking down the net.jpg",
+    "author": "KeepActive Australia from Melbourne, VIC, Australia",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://www.fehmarnscher-tennisclub-burgtiefe.de/media/clubanlage/IMG_4267.JPG",
+    "page": "https://www.fehmarnscher-tennisclub-burgtiefe.de/clubanlage.html",
+    "w": 1600,
+    "h": 1200,
+    "ok": true,
+    "checked": "2026-11-15"
+   },
+   "lat": 54.4116817,
+   "lon": 11.2043868,
+   "loc_source": "Nominatim"
+  },
+  {
+   "slug": "beachvolleyball-suedstrand",
+   "name": "Beachvolleyball am Südstrand",
+   "category": "Sport & Freizeit",
+   "subcategory": "Beachvolleyball",
+   "town": "Burgtiefe",
+   "text": "Vier Felder am Südstrand, weitere in Meeschendorf und Grüner Brink.",
+   "url": "https://www.fehmarn.de/poi/beachvolleyball",
+   "price": null,
+   "season": "etwa Ostern bis Oktober",
+   "source_url": "https://www.fehmarn.de/poi/beachvolleyball",
+   "photo": {
+    "file": "img/akt/beachvolleyball-suedstrand.jpg",
+    "commons_title": "File:Beach volleyball in Herzliya.jpg",
+    "author": "דוד שי",
+    "license": "CC BY 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "note": "keine passende Aufnahme gefunden"
+   }
+  },
+  {
+   "slug": "skatepark-fehmarn",
+   "name": "Skatepark Fehmarn",
+   "category": "Sport & Freizeit",
+   "subcategory": "Skatepark",
+   "town": "Burg",
+   "text": "Rund 1.500 m² mit Rampen, Steilkurven und Plattformen.",
+   "url": "https://www.fehmarn.de/poi/skatepark-fehmarn",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/skatepark-fehmarn",
+   "photo": {
+    "file": "img/akt/skatepark-fehmarn.jpg",
+    "commons_title": "File:Krefeld, Germany - Voltaplatz skatepark, ramp.jpg",
+    "author": "Alexis Jazz",
+    "license": "CC BY 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "note": "keine passende Aufnahme gefunden"
+   }
+  },
+  {
+   "slug": "barfusspark-fehmarn",
+   "name": "Barfußpark Fehmarn",
+   "category": "Sport & Freizeit",
+   "subcategory": "Spielplatz",
+   "town": "Neue Tiefe",
+   "text": "Barfußpfad, Holzlabyrinth, Abenteuerspielplatz und Kneippbecken.",
+   "url": "http://www.barfusspark-fehmarn.de",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/barfusspark-fehmarn",
+   "photo": {
+    "file": "img/akt/barfusspark-fehmarn.jpg",
+    "commons_title": "File:Barfußpfad Dallau.jpg",
+    "author": "Granpar",
+    "license": "CC BY 3.0",
+    "kind": "symbol"
+   },
+   "lat": 54.4210706,
+   "lon": 11.2119515,
+   "loc_source": "Nominatim",
+   "web_photo": {
+    "note": "keine passende Aufnahme gefunden"
+   }
+  },
+  {
+   "slug": "spielplaetze-suedstrandpromenade",
+   "name": "Spielplätze an der Südstrandpromenade",
+   "category": "Sport & Freizeit",
+   "subcategory": "Spielplatz",
+   "town": "Burgtiefe",
+   "text": "Drei maritime Spielplätze mit Seilbahn, Parkour und barrierefreien Geräten.",
+   "url": "https://www.fehmarn.de/poi/spielplatz-suedstrand-west",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/fileadmin/fehmarn/Dateien/Presse/2023/Pressemitteilung_neue_Freizeitattraktionen_Tourismus-Service_Fehmarn.pdf",
+   "photo": {
+    "file": "img/akt/spielplaetze-suedstrandpromenade.jpg",
+    "commons_title": "File:Climbing frame at playground of ZŠ ul. Kpt. Jaroše in Třebíč, Třebíč District.jpg",
+    "author": "Frettie",
+    "license": "CC BY 3.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://www.fehmarn.de/images/eUGxXBiMDzo/rs:fill:842:516/dpr:1.5/cb:/g:ce/aHR0cHM6Ly9pbXhwbGF0Zm9ybS1jdXN0LXRhc2guZnNuMS55b3VyLW9iamVjdHN0b3JhZ2UuY29tL21lZGlhL3NwaWVscGxhdHpfc3VlZHN0cmFuZF93ZXN0X3RvdXJpc211cy1zZXJ2aWNlX2ZlaG1hcm5fb2xpdmVyX2JlaG5ja2UtMS5qcGc",
+    "page": "https://www.fehmarn.de/poi/spielplatz-suedstrand-west",
+    "w": 1024,
+    "h": 628,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "walk-of-fehm",
+   "name": "Walk of Fehm",
+   "category": "Sport & Freizeit",
+   "subcategory": "Spielplatz",
+   "town": "Burgtiefe",
+   "text": "Promenade am Yachthafen mit Spielplätzen, Grillplätzen und Liegen.",
+   "url": "https://www.fehmarn.de/poi/walk-of-fehm",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/walk-of-fehm",
+   "photo": {
+    "file": "img/akt/walk-of-fehm.jpg",
+    "commons_title": "File:Burgtiefe Yachthafen Aussichtsturm 01.jpg",
+    "author": "Unukorno",
+    "license": "CC BY 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://c.cdn-op.de/bilder/poimaps/0000000102/23306_1200h.jpg",
+    "page": "https://www.fehmarn.de/poi/walk-of-fehm",
+    "w": 1200,
+    "h": 800,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "abenteuerinsel-suedstrand",
+   "name": "Abenteuerinsel",
+   "category": "Sport & Freizeit",
+   "subcategory": "Kinderprogramm",
+   "town": "Burgtiefe",
+   "text": "Basteln, Malen, Spiel und Sport für Kinder an der Südstrandpromenade.",
+   "url": "https://www.fehmarn.de/poi/abenteuerinsel",
+   "price": null,
+   "season": "Ostern bis Ende August, Oktober und Weihnachtsferien",
+   "source_url": "https://www.fehmarn.de/fehmarn-erleben/familien",
+   "photo": {
+    "file": "img/akt/abenteuerinsel-suedstrand.jpg",
+    "commons_title": "File:Painting kid.jpg",
+    "author": "Jim Pennucci from Hope, USA",
+    "license": "CC BY 2.0",
+    "kind": "symbol"
+   },
+   "lat": 54.4102881,
+   "lon": 11.2047622,
+   "loc_source": "Nominatim",
+   "web_photo": {
+    "src": "https://www.fehmarn.de/images/zpZJbTSk4iE/rs:fill:842:516/dpr:1.5/cb:/g:ce/aHR0cHM6Ly9iLmNkbi1vcC5kZS9iaWxkZXIvcG9pbWFwcy8wMDAwMDAwMTAyLzIzMzk5XzEyMDBoLmpwZw",
+    "page": "https://www.fehmarn.de/poi/abenteuerinsel",
+    "w": 1200,
+    "h": 735,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "boulebahn-burgstaaken",
+   "name": "Boulebahn Burgstaaken",
+   "category": "Sport & Freizeit",
+   "subcategory": "Boule",
+   "town": "Burgstaaken",
+   "text": "Öffentliche Boulebahn mit Blick auf den Burger Binnensee.",
+   "url": "https://www.fehmarn.de/poi/boulebahn-burgstaaken",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/boulebahn-burgstaaken",
+   "photo": {
+    "file": "img/akt/boulebahn-burgstaaken.jpg",
+    "commons_title": "File:Boule GUG.jpg",
+    "author": "Peter Gugerell",
+    "license": "CC BY-SA 3.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://c.cdn-op.de/bilder/poimaps/0000000102/19473_1200h.jpg",
+    "page": "https://www.fehmarn.de/poi/boulebahn-burgstaaken",
+    "w": 1200,
+    "h": 800,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "bewegungsplatz-stadtpark-burg",
+   "name": "Bewegungsplatz und Boulebahn im Stadtpark",
+   "category": "Sport & Freizeit",
+   "subcategory": "Fitness",
+   "town": "Burg",
+   "text": "Outdoor-Fitnessgeräte und Boulebahn im Stadtpark von Burg.",
+   "url": "https://www.fehmarn.de/poi/bewegungsplatz-und-boulebahn",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/bewegungsplatz-und-boulebahn",
+   "photo": {
+    "file": "img/akt/bewegungsplatz-stadtpark-burg.jpg",
+    "commons_title": "File:Brooklyn Bridge Park td (2019-08-23) 190 - Pier 2, Outdoor Fitness Equipment.jpg",
+    "author": "Tdorante10",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "note": "keine passende Aufnahme gefunden"
+   }
+  },
+  {
+   "slug": "intervital-sonnenhof",
+   "name": "Intervital Sonnenhof",
+   "category": "Sport & Freizeit",
+   "subcategory": "Fitness",
+   "town": "Vadersdorf",
+   "text": "Fitnessstudio mit Kursen und Sauna, Tageskarte auch für Gäste.",
+   "url": "https://www.intervital.de",
+   "price": "Tageskarte Kurse und Studio 10,00 € (mit ostseecard 8,00 €)",
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/intervital-sonnenhof-fehmarn",
+   "photo": {
+    "file": "img/akt/intervital-sonnenhof.jpg",
+    "commons_title": "File:Harvia Ventura sauna.jpg",
+    "author": "Johnnidian",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "rejected": [
+     "https://static.wixstatic.com/media/e6b581_dbbc8dc179d04db3966f734a6c6d8898~mv2.jpg/v1/fill/w_2500,h_1669,al_c/e6b581_dbbc8dc179d04db3966f734a6c6d8898~mv2.jpg"
+    ],
+    "note": "keine passende Aufnahme gefunden"
+   }
+  },
+  {
+   "slug": "inbalance-fehmarn",
+   "name": "inbalance",
+   "category": "Sport & Freizeit",
+   "subcategory": "Fitness",
+   "town": "Burg",
+   "text": "Physiotherapie mit Pilates, Yoga und Training, Kurse auch für Urlauber.",
+   "url": "https://inbalancefehmarn.de/",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/inbalance",
+   "photo": {
+    "file": "img/akt/inbalance-fehmarn.jpg",
+    "commons_title": "File:Burg auf Fehmarn, Haus Bahnhofstraße 43 (Ärztehaus).JPG",
+    "author": "Dguendel",
+    "license": "CC BY 4.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "sportstudio-tangun",
+   "name": "Sportstudio Tangun",
+   "category": "Sport & Freizeit",
+   "subcategory": "Fitness",
+   "town": "Burg",
+   "text": "Fitness- und Sportstudio mit Kraftgeräten am Mellenthinplatz.",
+   "url": "https://www.fehmarn.de/poi/sportstudio-tangun",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/sportstudio-tangun",
+   "photo": {
+    "file": "img/akt/sportstudio-tangun.jpg",
+    "commons_title": "File:Bench Press.jpg",
+    "author": "Aditya Oberai",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://www.fehmarn.de/images/JsVbDINHsko/rs:fill:1400:900/dpr:1.5/cb:/gravity:fp:0.5353835978836:0.43303571428571/aHR0cHM6Ly9pbXhwbGF0Zm9ybS1jdXN0LXRhc2guZnNuMS55b3VyLW9iamVjdHN0b3JhZ2UuY29tL21lZGlhL0lNR184MzQyLmpwZw",
+    "page": "https://www.fehmarn.de/poi/sportstudio-tangun",
+    "w": 2100,
+    "h": 1350,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "osterhof-yoga-qigong",
+   "name": "Yoga und Qigong auf dem Osterhof",
+   "category": "Sport & Freizeit",
+   "subcategory": "Yoga",
+   "town": "Dänschendorf",
+   "text": "Yoga mittwochs, Qigong donnerstags, in kleiner Gruppe auf dem Hof.",
+   "url": "https://www.osterhof-fehmarn.de/",
+   "price": "18,00 € pro Termin",
+   "season": null,
+   "source_url": "https://www.fehmarn.de/event/dynamisches-yoga-mit-annemarie",
+   "photo": {
+    "file": "img/akt/osterhof-yoga-qigong.jpg",
+    "commons_title": "File:Outdoor Yoga At the Park.jpg",
+    "author": "Vuemobi Media",
+    "license": "CC BY-SA 2.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://static1.squarespace.com/static/5d7b4708a9847c47f25c168f/t/699d80cb88729c66e3515781/1771929803340/Osterhof_1431.jpg?format=1500w",
+    "page": "https://www.osterhof-fehmarn.de/",
+    "w": 1500,
+    "h": 1000,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "tridosha-ayurveda",
+   "name": "Tridosha Ayurveda",
+   "category": "Sport & Freizeit",
+   "subcategory": "Wellness",
+   "town": "Katharinenhof",
+   "text": "Ayurvedische Massagen nach Termin, Behandlungsraum am Campingplatz Katharinenhof.",
+   "url": "https://tridosha-ayurveda.de/",
+   "price": "Abhyanga 70 Min. 110 €, Fußmassage 30 Min. 60 €",
+   "season": null,
+   "source_url": "https://tridosha-ayurveda.de/",
+   "photo": {
+    "file": "img/akt/tridosha-ayurveda.jpg",
+    "commons_title": "File:Massage at Emotions Spa.jpg",
+    "author": "Alvinategyeka",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "note": "keine passende Aufnahme gefunden"
+   }
+  },
+  {
+   "slug": "wellness-pur-niendorf",
+   "name": "Wellness-Pur",
+   "category": "Sport & Freizeit",
+   "subcategory": "Wellness",
+   "town": "Niendorf",
+   "text": "Teil- und Ganzkörpermassagen, auch mobil, dazu Personal Training.",
+   "url": "https://www.massage-fehmarn.de/",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.massage-fehmarn.de/preise/",
+   "photo": {
+    "file": "img/akt/wellness-pur-niendorf.jpg",
+    "commons_title": "File:Massage Frankfurt.jpg",
+    "author": "Thomas Wanhoff from Phnom Penh, Cambodia",
+    "license": "CC BY-SA 2.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "note": "keine passende Aufnahme gefunden"
+   }
+  },
+  {
+   "slug": "wellness-point-wulfen",
+   "name": "Wellness-Point Wulfener Hals",
+   "category": "Sport & Freizeit",
+   "subcategory": "Wellness",
+   "town": "Wulfen",
+   "text": "Massagen am Campingpark Wulfener Hals, Termin vor Ort oder telefonisch.",
+   "url": "https://www.wulfenerhals.de/massage-kosmetik.html",
+   "price": "Rückenmassage ca. 25 Min. 39,00 €",
+   "season": "April bis Oktober",
+   "source_url": "https://www.wulfenerhals.de/massage-kosmetik.html",
+   "photo": {
+    "file": "img/akt/wellness-point-wulfen.jpg",
+    "commons_title": "File:Wulfener Hals (Fehmarn), Blick zum Burger Hafen.JPG",
+    "author": "Dguendel",
+    "license": "CC BY 4.0",
+    "kind": "ort"
+   },
+   "web_photo": {
+    "note": "Stock-, Team- oder unpassendes Motiv",
+    "rejected": [
+     "https://www.wulfenerhals.de/files/bilder/startseite/Luftaufnahme_WH_Bruecke.jpg"
+    ]
+   }
+  },
+  {
+   "slug": "pott-und-pinsel",
+   "name": "Pott & Pinsel",
+   "category": "Sport & Freizeit",
+   "subcategory": "Kurse",
+   "town": "Sahrensdorf",
+   "text": "Keramik selbst bemalen, danach wird glasiert und gebrannt.",
+   "url": "https://www.pottundpinsel.de/",
+   "price": "Keramik ca. 10 bis 50 €, inkl. Farbe, Glasur und Brand",
+   "season": null,
+   "source_url": "https://www.pottundpinsel.de/",
+   "photo": {
+    "file": "img/akt/pott-und-pinsel.jpg",
+    "commons_title": "File:Painting of color Delft pottery. 2012.jpg",
+    "author": "Ввласенко",
+    "license": "CC BY-SA 3.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://www.pottundpinsel.de/wp-content/uploads/2022/09/pup_hero_01_1920x1080.jpg",
+    "page": "https://www.pottundpinsel.de/",
+    "w": 1920,
+    "h": 1080,
+    "ok": true
+   }
+  },
+  {
+   "slug": "glas-kreativ-werkstatt",
+   "name": "Glas-Kreativ-Werkstatt",
+   "category": "Sport & Freizeit",
+   "subcategory": "Kurse",
+   "town": "Burgstaaken",
+   "text": "Eigenes Glas mit Sandstrahl gestalten, direkt am Klettersilo.",
+   "url": "https://www.glas-kreativ-werkstatt.de/",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.glas-kreativ-werkstatt.de/",
+   "photo": {
+    "file": "img/akt/glas-kreativ-werkstatt.jpg",
+    "commons_title": "File:Burgstaaken Kommunalhafen (4).JPG",
+    "author": "Hajotthu",
+    "license": "CC BY-SA 3.0",
+    "kind": "ort"
+   },
+   "web_photo": {
+    "src": "https://www.glas-kreativ-werkstatt.de/wp-content/uploads/2022/06/gkw_header_img_1920x1080-1.jpg",
+    "page": "https://www.glas-kreativ-werkstatt.de/",
+    "w": 1920,
+    "h": 1080,
+    "ok": true,
+    "rejected": [
+     "https://www.glas-kreativ-werkstatt.de/wp-content/uploads/2022/08/slogan_1538x159-2048x235.png"
+    ],
+    "recheck": true
+   }
+  },
+  {
+   "slug": "stadt-und-kirchenfuehrung-burg",
+   "name": "Stadt- und Kirchenführung Burg",
+   "category": "Sport & Freizeit",
+   "subcategory": "Führung",
+   "town": "Burg",
+   "text": "Rundgang durch die Altstadt und St. Nikolai, Start am Fehmarn-Museum.",
+   "url": "https://www.fehmarn.de/veranstaltungen",
+   "price": null,
+   "season": "Frühjahr bis Herbst, feste Abendtermine",
+   "source_url": "https://www.fehmarn.de/veranstaltungen",
+   "photo": {
+    "file": "img/akt/stadt-und-kirchenfuehrung-burg.jpg",
+    "commons_title": "File:Burg a F Breite Straße.jpg",
+    "author": "Nordenfan",
+    "license": "CC BY-SA 4.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "audioguide-rundgang-burg",
+   "name": "Audioguide-Rundgang Burg",
+   "category": "Sport & Freizeit",
+   "subcategory": "Führung",
+   "town": "Burg",
+   "text": "Rund 3 km durch Burg, Stationen per QR-Code am Handy.",
+   "url": "https://www.fehmarn.de/audioguide",
+   "price": null,
+   "season": "ganzjährig",
+   "source_url": "https://www.fehmarn.de/tour/spaziergang-durch-burg-mit-audioguide",
+   "photo": {
+    "file": "img/akt/audioguide-rundgang-burg.jpg",
+    "commons_title": "File:Burg auf Fehmarn, Markt und Rathaus.JPG",
+    "author": "Dguendel",
+    "license": "CC BY 4.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "krimi-trail-fehmarn",
+   "name": "Krimi-Trail Fehmarn",
+   "category": "Sport & Freizeit",
+   "subcategory": "Führung",
+   "town": "Burg",
+   "text": "Digitale Detektivtour per Handy, Start an der Stadtbücherei.",
+   "url": "https://krimi-trails.de/produkt/krimi-trail-fehmarn/",
+   "price": "39,00 € für 1 bis 5 Personen, jede weitere 7,80 €",
+   "season": "jederzeit spielbar",
+   "source_url": "https://krimi-trails.de/produkt/krimi-trail-fehmarn/",
+   "photo": {
+    "file": "img/akt/krimi-trail-fehmarn.jpg",
+    "commons_title": "File:Burg auf Fehmarn, Häuserzeile in der Bahnhofstraße.JPG",
+    "author": "Dguendel",
+    "license": "CC BY 4.0",
+    "kind": "ort"
+   },
+   "web_photo": {
+    "src": "https://secure.gravatar.com/avatar/059d7a9bd0d222767f823a139e71c59122ff3f1b63ec6586295035fa4e7ac34c?s=120&d=mm&r=g",
+    "page": "https://krimi-trails.de/produkt/krimi-trail-fehmarn/",
+    "w": 120,
+    "h": 120,
+    "ok": false,
+    "rejected": [],
+    "recheck": false
+   }
+  },
+  {
+   "slug": "infocenter-fehmarnbelt-fuehrung",
+   "name": "Führung im Infocenter Fehmarnbelt-Tunnel",
+   "category": "Sport & Freizeit",
+   "subcategory": "Führung",
+   "town": "Burg",
+   "text": "Halbstündige Führung zum Tunnelbau, ohne Anmeldung.",
+   "url": "https://femern.com/de/",
+   "price": "kostenlos",
+   "season": "regelmäßige Termine, meist Di und Do",
+   "source_url": "https://www.fehmarn.de/event/fuehrung-durch-das-infocenter-zum-fehmarnbelt-tunnel-5",
+   "photo": {
+    "file": "img/akt/infocenter-fehmarnbelt-fuehrung.jpg",
+    "commons_title": "File:Fehmarnbelt Bohrinsel 2015.jpg",
+    "author": "Holger.Ellgaard",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://femern.com/media/3mtdijyl/tog-femern.jpg?rxy=0.48872180451127817,0.015037593984962405&width=1200&height=800&quality=75&v=1dca25ac55460f0",
+    "page": "https://femern.com/de/",
+    "w": 1200,
+    "h": 800,
+    "ok": true
+   }
+  }
+ ]
+}

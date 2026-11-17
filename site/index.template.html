@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fehmarn Today · Was heute auf Fehmarn los ist</title>
+<meta name="description" content="Termine auf Fehmarn und in Ostholstein: Märkte, Konzerte, Kurse und Führungen, nach Tag und Ort.">
+<meta name="theme-color" content="#F6F8FA">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Hanken+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="container">
+    <a class="wordmark" href="#top" aria-label="Fehmarn Today, zur Startseite">
+      <svg viewBox="0 0 48 30" aria-hidden="true" fill="none" stroke-linecap="round"><path d="M3 24H45" stroke-width="3.5" style="stroke: var(--color-signal)"/><path d="M7 24C11 7 37 7 41 24" stroke-width="3.5" style="stroke: var(--color-signal)"/></svg>
+      <span>Fehmarn <span class="wm-2">Today</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#kalender">Events</a></li>
+      <li><a href="#aktivitaeten">Aktivitäten</a></li>
+      <li><a href="#nightlife">Nightlife</a></li>
+      <li><a href="#wellness">Wellness</a></li>
+      <li><a href="#erleben">Strände</a></li>
+      <li><a href="#regen">Bei Regen</a></li>
+      <li><a href="#orte">Orte</a></li>
+    </ul>
+    <a class="btn btn-primary" href="#melden">Termin melden</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="hero-h">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1 id="hero-h">Was heute auf Fehmarn los ist</h1>
+        <p class="hero-lead"><time datetime="{{TODAY_ISO}}">{{TODAY_LONG}}</time>. Märkte, Konzerte und Kurse von der Insel bis Eutin.</p>
+        <ul class="quick" aria-label="Termine nach Zeitraum">
+          <li><a class="quick-tile is-main" href="#kalender" data-range="today"><span class="quick-n num">{{TODAY_N}}</span><span class="quick-l">Termine heute</span></a></li>
+          <li><a class="quick-tile" href="#kalender" data-range="tomorrow"><span class="quick-n num">{{TOMORROW_N}}</span><span class="quick-l">morgen</span></a></li>
+          <li><a class="quick-tile" href="#kalender" data-range="weekend"><span class="quick-n num">{{WEEKEND_N}}</span><span class="quick-l">am Wochenende</span></a></li>
+          <li><a class="quick-tile" href="#kalender" data-range="week"><span class="quick-n num">{{WEEK_N}}</span><span class="quick-l">in 7 Tagen</span></a></li>
+        </ul>
+      </div>
+      <figure class="hero-photo" data-slot="hero" data-alt="Fehmarnsundbrücke im Sommer, Querformat">
+        <img src="img/bruecke-korn.jpg" alt="Die Fehmarnsundbrücke im Sommer, davor ein reifes Kornfeld" width="2000" height="1333" fetchpriority="high" sizes="(max-width: 60rem) 100vw, 58vw">
+      </figure>
+    </div>
+  </section>
+
+  <section class="cal container" id="kalender" aria-labelledby="cal-h">
+    <div class="cal-head">
+      <h2 id="cal-h">Was ist wann los?</h2>
+      <p class="cal-meta"><span id="cal-count">{{TOTAL}}</span> Termine aus drei Quellen, Stand {{GENERATED}}</p>
+    </div>
+    <div class="daybar-wrap" id="daybar-wrap" hidden>
+      <button type="button" class="db-step" id="db-prev" aria-label="Eine Woche zurück"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+      <div class="daybar" id="daybar" role="group" aria-label="Tag wählen"></div>
+      <button type="button" class="db-step" id="db-next" aria-label="Eine Woche weiter"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+    </div>
+
+    <div class="cal-body">
+      <div class="cal-main">
+        <div class="days" id="days" aria-live="polite">{{STATIC_DAYS}}</div>
+        <button type="button" class="btn btn-line more" id="more" hidden>Weitere Termine zeigen</button>
+      </div>
+
+      <aside class="cal-side" id="side" aria-label="Kalender und Filter" hidden>
+        <div class="month" id="month">
+          <div class="month-nav">
+            <button type="button" id="m-prev" aria-label="Vorheriger Monat"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+            <h3 id="m-title">November 2026</h3>
+            <button type="button" id="m-next" aria-label="Nächster Monat"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+          </div>
+          <div class="grid" id="m-grid"></div>
+          <p class="month-note">Tag antippen, dann erscheinen seine Termine. Die kleine Zahl zeigt, wie viele es sind.</p>
+        </div>
+        <fieldset class="seg" id="cats">
+          <legend>Was</legend>
+        </fieldset>
+        <div class="field">
+          <label for="f-town">Wo</label>
+          <select id="f-town" name="town"><option value="">Alle Orte</option></select>
+        </div>
+        <label class="check"><input type="checkbox" id="f-free"> Nur Eintritt frei</label>
+      </aside>
+    </div>
+  </section>
+
+  <section class="akt container" id="aktivitaeten" aria-labelledby="akt-h">
+    <div class="sec-head">
+      <h2 id="akt-h">Aktivitäten, die immer gehen</h2>
+      <p>Kurse, Verleih, Ausflüge und Plätze auf der Insel, unabhängig vom Terminkalender. Ein Klick öffnet die Website des Anbieters.</p>
+    </div>
+    <div class="seg akt-filter" id="akt-filter" role="group" aria-label="Art der Aktivität" hidden></div>
+    <ul class="akt-list" id="akt-list">{{AKTIV}}</ul>
+    <button type="button" class="btn btn-line more" id="akt-more" hidden>Weitere Aktivitäten zeigen</button>
+  </section>
+
+  <section class="akt night container" id="nightlife" aria-labelledby="night-h">
+    <div class="sec-head">
+      <h2 id="night-h">Nightlife</h2>
+      <p>Bars, Kneipen, Strandbars und Clubs auf Fehmarn, dazu die bekannten Adressen in Heiligenhafen und Großenbrode. Öffnungszeiten laut Anbieter, der Status „geöffnet“ oder „geschlossen“ wird live berechnet.</p>
+    </div>
+    <div class="seg akt-filter" id="night-filter" role="group" aria-label="Art des Lokals" hidden></div>
+    <ul class="akt-list" id="night-list">{{NIGHT}}</ul>
+    <button type="button" class="btn btn-line more" id="night-more" hidden>Weitere Lokale zeigen</button>
+  </section>
+
+  <section class="akt well container" id="wellness" aria-labelledby="well-h">
+    <div class="sec-head">
+      <h2 id="well-h">Wellness</h2>
+      <p>Thermen, Saunen, Day Spas, Massage und Salzgrotten auf Fehmarn und in Ostholstein, offen auch für Tagesgäste.</p>
+    </div>
+    <div class="seg akt-filter" id="well-filter" role="group" aria-label="Art des Angebots" hidden></div>
+    <ul class="akt-list" id="well-list">{{WELL}}</ul>
+    <button type="button" class="btn btn-line more" id="well-more" hidden>Weitere Angebote zeigen</button>
+  </section>
+
+  <section class="beach container" id="erleben" aria-labelledby="beach-h">
+    <div class="sec-head">
+      <h2 id="beach-h">Die besten Strände</h2>
+      <p>Auf der Karte antippen oder in der Liste wählen. Jeder Strand öffnet sich auch in Google Maps.</p>
+    </div>
+    <div class="beach-grid">
+      <div class="beach-mapcol">
+        <div class="seg map-tabs" role="group" aria-label="Kartenansicht">
+          <button type="button" data-view="osm" aria-pressed="true">Übersicht</button>
+          <button type="button" data-view="google" aria-pressed="false">Google Maps</button>
+        </div>
+        <div class="mapbox">
+          <div class="beach-map" id="beach-map" role="region" aria-label="Karte der Strände auf Fehmarn">
+            <img src="img/k/strand-bruecke.jpg" alt="Strand am Fehmarnsund mit Blick auf die Brücke" class="beach-map-fallback">
+          </div>
+          <div class="gmap" id="gmap" hidden>
+            <div class="gmap-consent">
+              <p>Google Maps lädt Inhalte von Google. Erst nach dem Klick wird die Karte geladen.</p>
+              <button type="button" class="btn btn-primary" id="gmap-load">Google Maps laden</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ol class="beach-list" id="beach-list">{{BEACH_LIST}}</ol>
+    </div>
+  </section>
+
+  <section class="rainy container" id="regen" aria-labelledby="rain-h">
+    <div class="sec-head">
+      <h2 id="rain-h">Wenn es regnet</h2>
+      <p>Preise laut Website der Anbieter, abgerufen am 15. November 2026. Ein Klick öffnet die Website.</p>
+    </div>
+    <ul class="rain-list">{{RAIN}}</ul>
+  </section>
+  <script type="application/json" id="beach-data">{{BEACH_JSON}}</script>
+
+  <section class="towns container" id="orte" aria-labelledby="towns-h">
+    <h2 id="towns-h">Wo am meisten los ist</h2>
+    <div class="towns-grid">
+      <div>
+        <h3>Auf Fehmarn</h3>
+        <ul class="town-list">{{TOWNS_F}}</ul>
+      </div>
+      <div>
+        <h3>Ostholstein und Umgebung</h3>
+        <ul class="town-list">{{TOWNS_O}}</ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="submit" id="melden" aria-labelledby="sub-h">
+    <div class="container submit-grid">
+      <div>
+        <h2 id="sub-h">Eintragen</h2>
+        <div class="seg sub-tabs" role="group" aria-label="Was möchten Sie eintragen?">
+          <button type="button" data-form="f-termin" aria-pressed="true">Termin melden</button>
+          <button type="button" data-form="f-angebot" aria-pressed="false">Angebot eintragen</button>
+        </div>
+        <p class="sub-text" data-for="f-termin">Flohmarkt auf dem Hof, Kirchenkonzert, Feuerwehrfest: kostenlos eintragen, gern mit Foto.</p>
+        <p class="sub-text" data-for="f-angebot" hidden>Kiteschule, Radverleih, Hofcafé: mit eigenen Fotos erscheinen Sie bei den Aktivitäten.</p>
+      </div>
+      <div>
+      <form class="form" id="f-termin" data-endpoint="" novalidate>
+        <div class="field wide"><label for="s-title">Was findet statt?</label><input id="s-title" name="title" type="text" autocomplete="off" required></div>
+        <div class="field"><label for="s-date">Datum</label><input id="s-date" name="date" type="date" required></div>
+        <div class="field"><label for="s-time">Uhrzeit</label><input id="s-time" name="time" type="time"></div>
+        <div class="field"><label for="s-place">Ort</label><input id="s-place" name="place" type="text" autocomplete="address-level2" required></div>
+        <div class="field"><label for="s-mail">Ihre E-Mail</label><input id="s-mail" name="email" type="email" autocomplete="email" inputmode="email" required></div>
+        <div class="field wide"><label for="s-text">Kurze Beschreibung</label><textarea id="s-text" name="text"></textarea></div>
+        <div class="field wide upload" data-upload>
+          <label for="s-photos">Fotos (bis zu 4, JPG, PNG oder WebP, je höchstens 8 MB)</label>
+          <input id="s-photos" name="photos" type="file" accept="image/jpeg,image/png,image/webp" multiple class="upload-input">
+          <label for="s-photos" class="upload-drop"><span class="upload-cta">Fotos auswählen</span><span class="upload-hint">oder hierher ziehen</span></label>
+          <ul class="upload-list" aria-live="polite"></ul>
+          <p class="upload-err" role="alert"></p>
+        </div>
+        <label class="check wide rights"><input type="checkbox" name="rights" required> Die Fotos sind von mir oder ich darf sie weitergeben. Fehmarn Today darf sie auf der Seite zeigen, mit meinem Namen als Fotograf.</label>
+        <div class="field wide"><label for="s-credit">Fotograf oder Fotografin</label><input id="s-credit" name="credit" type="text" autocomplete="name"></div>
+        <div class="wide"><button class="btn btn-primary" type="submit">Termin senden</button></div>
+        <p class="form-note" role="status"></p>
+      </form>
+      <form class="form" id="f-angebot" data-endpoint="" novalidate hidden>
+        <div class="field wide"><label for="a-name">Name des Angebots</label><input id="a-name" name="name" type="text" autocomplete="organization" required></div>
+        <div class="field"><label for="a-cat">Bereich</label><select id="a-cat" name="category" required><option value="">Bitte wählen</option><option>Wasser</option><option>Natur &amp; Ausflüge</option><option>Sport &amp; Freizeit</option><option>Bei Regen</option><option>Nightlife</option><option>Wellness</option><option>Kinder</option></select></div>
+        <div class="field"><label for="a-place">Ort</label><input id="a-place" name="place" type="text" autocomplete="address-level2" required></div>
+        <div class="field"><label for="a-url">Website</label><input id="a-url" name="url" type="url" inputmode="url" autocomplete="url" placeholder="https://"></div>
+        <div class="field"><label for="a-mail">Ihre E-Mail</label><input id="a-mail" name="email" type="email" autocomplete="email" inputmode="email" required></div>
+        <div class="field"><label for="a-price">Preis</label><input id="a-price" name="price" type="text" placeholder="z. B. Kurs ab 79 €"></div>
+        <div class="field"><label for="a-season">Saison</label><input id="a-season" name="season" type="text" placeholder="z. B. April bis Oktober"></div>
+        <div class="field wide upload" data-upload>
+          <label for="a-photos">Fotos (bis zu 4, JPG, PNG oder WebP, je höchstens 8 MB)</label>
+          <input id="a-photos" name="photos" type="file" accept="image/jpeg,image/png,image/webp" multiple class="upload-input">
+          <label for="a-photos" class="upload-drop"><span class="upload-cta">Fotos auswählen</span><span class="upload-hint">oder hierher ziehen</span></label>
+          <ul class="upload-list" aria-live="polite"></ul>
+          <p class="upload-err" role="alert"></p>
+        </div>
+        <label class="check wide rights"><input type="checkbox" name="rights" required> Die Fotos sind von mir oder ich darf sie weitergeben. Fehmarn Today darf sie auf der Seite zeigen, mit meinem Namen als Fotograf.</label>
+        <div class="field wide"><label for="a-credit">Fotograf oder Fotografin</label><input id="a-credit" name="credit" type="text" autocomplete="name"></div>
+        <div class="wide"><button class="btn btn-primary" type="submit">Angebot senden</button></div>
+        <p class="form-note" role="status"></p>
+      </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <a class="wordmark" href="#top" aria-label="Fehmarn Today, zur Startseite">
+          <svg viewBox="0 0 48 30" aria-hidden="true" fill="none" stroke-linecap="round"><path d="M3 24H45" stroke-width="3.5" style="stroke: var(--color-signal)"/><path d="M7 24C11 7 37 7 41 24" stroke-width="3.5" style="stroke: var(--color-signal)"/></svg>
+          <span>Fehmarn <span class="wm-2">Today</span></span>
+        </a>
+        <p>Prototyp. Termine werden aus öffentlichen Quellen gesammelt und verlinken immer auf das Original.</p>
+      </div>
+      <div>
+        <h2>Quellen</h2>
+        <ul>
+          <li><a href="https://www.der-reporter.de">der reporter</a></li>
+          <li><a href="https://www.fehmarn.de/veranstaltungen">Tourismus-Service Fehmarn</a></li>
+          <li><a href="https://www.hochberg-flohmarkt.de/termine.php">Hochberg Flohmarkt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Seite</h2>
+        <ul>
+          <li><a href="#kalender">Kalender</a></li>
+          <li><a href="#melden">Termin melden</a></li>
+          <li><span class="fill" data-fill="impressum">Impressum folgt</span></li>
+        </ul>
+      </div>
+    </div>
+    <details class="credits" data-credits><summary>Bildnachweise und Lizenzen</summary><p>{{CREDITS}}</p></details>
+  </div>
+</footer>
+
+<script type="application/json" id="events-data">{{EVENTS_JSON}}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="app.js"></script>
+<script src="strand.js"></script>
+<script src="aktiv.js"></script>
+<script src="upload.js"></script>
+<script src="night.js"></script>
+<script>window.hallmarkSlots = (m) => { for (const [k, v] of Object.entries(m)) { const s = document.querySelector(`[data-slot="${k}"]`); if (!s) continue; const im = new Image(); im.src = typeof v === 'string' ? v : v.src; im.alt = (typeof v === 'object' && v.alt) || s.dataset.alt || ''; s.querySelectorAll(':scope > img').forEach((o) => o.remove()); s.prepend(im); } };
+document.querySelectorAll('[data-slot] img').forEach((i) => { if (i.complete && !i.naturalWidth) i.remove(); else i.addEventListener('error', () => i.remove(), { once: true }); });</script>
+</body>
+</html>

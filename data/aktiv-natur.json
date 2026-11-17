@@ -1,0 +1,832 @@
+{
+ "generated": "2026-11-15",
+ "items": [
+  {
+   "slug": "wasservogelreservat-wallnau",
+   "name": "NABU Wasservogelreservat Wallnau",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Natur",
+   "town": "Wallnau",
+   "text": "Vogelreservat mit Beobachtungshütten, Aussichtsturm und Naturerlebnispfad.",
+   "url": "https://www.nabu.de/wir-ueber-uns/organisation/nabu-institute-und-zentren/nabu-wasservogelreservat-wallnau",
+   "price": "frei (Spenden willkommen)",
+   "season": "1. März bis 31. Oktober, 10–16 Uhr",
+   "source_url": "https://www.nabu.de/wir-ueber-uns/organisation/nabu-institute-und-zentren/nabu-wasservogelreservat-wallnau",
+   "photo": {
+    "file": "img/akt/wasservogelreservat-wallnau.jpg",
+    "commons_title": "File:Vogelreservat Wallnau Feuchtgebiet.jpg",
+    "author": "Heike meckelmann",
+    "license": "CC BY-SA 4.0",
+    "kind": "ort"
+   },
+   "web_photo": {
+    "src": "https://medienbibliothek.nabu.de/cdn/CWFPahDiamRj/o3FYzAbgE184/nabu-wallnau-infozentrum-norbert-schmell.jpg",
+    "page": "https://www.nabu.de/wir-ueber-uns/organisation/nabu-institute-und-zentren/nabu-wasservogelreservat-wallnau",
+    "w": 2592,
+    "h": 1458,
+    "ok": true
+   }
+  },
+  {
+   "slug": "gruener-brink",
+   "name": "Naturschutzgebiet Grüner Brink",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Natur",
+   "town": "Gammendorf",
+   "text": "Schutzgebiet zwischen Deich und Ostsee, rund 170 Vogelarten.",
+   "url": "https://www.fehmarn.de/fehmarn-erleben/natur?addressbaseId=204&cHash=42f639eee79d7e80ac239986e7623530",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/fehmarn-erleben/natur?addressbaseId=204&cHash=42f639eee79d7e80ac239986e7623530",
+   "photo": {
+    "file": "img/akt/gruener-brink.jpg",
+    "commons_title": "File:Vogelschutzgebiet Grüner Brink1.jpg",
+    "author": "Tine0902",
+    "license": "CC BY-SA 4.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "noerdliche-seeniederung",
+   "name": "Nördliche Seeniederung und Markelsdorfer Huk",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Natur",
+   "town": "Westermarkelsdorf",
+   "text": "Binnenseen im Nordwesten, Vogelblick vom Turm am Markelsdorfer Huk.",
+   "url": "https://www.fehmarn.de/fehmarn-erleben/natur?addressbaseId=293&cHash=e9bba39e3dc9c8c8582db4e3575a086f",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/fehmarn-erleben/natur?addressbaseId=293&cHash=e9bba39e3dc9c8c8582db4e3575a086f",
+   "photo": {
+    "file": "img/akt/noerdliche-seeniederung.jpg",
+    "commons_title": "File:Fehmarn 1990er (04) (51555719627).jpg",
+    "author": "Rüdiger Stehn from Kiel, Deutschland",
+    "license": "CC BY-SA 2.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://b.cdn-op.de/bilder/poimaps/0000000102/17316_1200h.jpg",
+    "page": "https://www.fehmarn.de/poi/noerdliche-seeniederung-fehmarn",
+    "w": 1200,
+    "h": 800,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "burger-binnensee",
+   "name": "Burger Binnensee",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Natur",
+   "town": "Burgtiefe",
+   "text": "Binnensee mit Vogelschutzgebiet zwischen Burgtiefe und Neue Tiefe.",
+   "url": "https://www.fehmarn.de/fehmarn-erleben/natur",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/fehmarn-erleben/natur",
+   "photo": {
+    "file": "img/akt/burger-binnensee.jpg",
+    "commons_title": "File:Burger Binnensee Fehmarn 2010-07-27.jpg",
+    "author": "Moritz Wickendorf",
+    "license": "CC BY-SA 3.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "aussichtsturm-utkieker",
+   "name": "Aussichtsturm Utkieker",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Aussicht",
+   "town": "Burgtiefe",
+   "text": "16,5 m hoher Turm am Yachthafen, Aufzug, Rundumblick.",
+   "url": "https://www.fehmarn.de/poi/aussichtsturm-utkieker",
+   "price": "frei",
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/aussichtsturm-utkieker",
+   "photo": {
+    "file": "img/akt/aussichtsturm-utkieker.jpg",
+    "commons_title": "File:Burgtiefe Yachthafen Aussichtsturm 03.jpg",
+    "author": "Unukorno",
+    "license": "CC BY 4.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "leuchtturm-fluegge",
+   "name": "Leuchtturm Flügge",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Leuchtturm",
+   "town": "Flügge",
+   "text": "Höchster Leuchtturm der Insel, 162 Stufen zur Aussichtsplattform.",
+   "url": "https://www.leuchtturmfluegge.de/",
+   "price": "Erwachsene 3 €, Kinder 1 €",
+   "season": "1. April bis 31. Oktober, Di–So",
+   "source_url": "https://www.leuchtturmfluegge.de/leuchtturm-besichtigen",
+   "photo": {
+    "file": "img/akt/leuchtturm-fluegge.jpg",
+    "commons_title": "File:Leuchtturm Fluegge-msu-0936.jpg",
+    "author": "Matthias Süßen",
+    "license": "CC BY-SA 4.0",
+    "kind": "ort"
+   },
+   "web_photo": {
+    "src": "https://images.squarespace-cdn.com/content/v1/699dbce2f3025069477892f8/ed3c2659-3a02-4884-b7b0-4bda05bdd608/Erlebnis-Fl%C3%BCgger-Leuchtturm-Fehmarn.jpg?format=2500w",
+    "page": "https://www.leuchtturmfluegge.de/",
+    "w": 2500,
+    "h": 1666,
+    "ok": true,
+    "rejected": [
+     "http://static1.squarespace.com/static/699dbce2f3025069477892f8/t/69baeedfc0ab603054d7be2a/1773858527888/ogimg_Erlebnis-Fl%C3%BCgger-Leuchtturm-Fehmarn.jpg?format=1500w"
+    ],
+    "recheck": true
+   }
+  },
+  {
+   "slug": "leuchtturm-marienleuchte",
+   "name": "Leuchtturm Marienleuchte",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Leuchtturm",
+   "town": "Marienleuchte",
+   "text": "Leuchtturm an der Nordostecke der Insel, Blick auf den Fehmarnbelt.",
+   "url": "https://www.fehmarn.de/poi/leuchtturm-marienleuchte",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/leuchtturm-marienleuchte",
+   "photo": {
+    "file": "img/akt/leuchtturm-marienleuchte.jpg",
+    "commons_title": "File:Fehmarn Marienleuchte lighthouse 03.jpg",
+    "author": "Arnoldius",
+    "license": "CC BY-SA 3.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "leuchtturm-staberhuk",
+   "name": "Leuchtturm Staberhuk",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Leuchtturm",
+   "town": "Staberdorf",
+   "text": "Leuchtturm an der Südostspitze, direkt an der Steilküste.",
+   "url": "https://www.fehmarn.de/poi/staberhuk-leuchtturm",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/staberhuk-leuchtturm",
+   "photo": {
+    "file": "img/akt/leuchtturm-staberhuk.jpg",
+    "commons_title": "File:Leuchtturm Staberhuk Fehmarn.jpg",
+    "author": "Unukorno",
+    "license": "CC BY 4.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "leuchtturm-westermarkelsdorf",
+   "name": "Leuchttürme Westermarkelsdorf",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Leuchtturm",
+   "town": "Westermarkelsdorf",
+   "text": "Zwei Leuchttürme hinter dem Deich an der Nordwestecke.",
+   "url": "https://www.fehmarn.de/poi/leuchtturm-westermarkelsdorf",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/leuchtturm-westermarkelsdorf",
+   "photo": {
+    "file": "img/akt/leuchtturm-westermarkelsdorf.jpg",
+    "commons_title": "File:Schleswig Holstein Leuchtturm Westermarkelsdorf, 23769 Fehmarn.jpg",
+    "author": "KultSchulz",
+    "license": "CC BY-SA 4.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "leuchtfeuer-strukkamphuk",
+   "name": "Leuchtfeuer Strukkamphuk",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Leuchtturm",
+   "town": "Strukkamp",
+   "text": "Kleines Leuchtfeuer am Fehmarnsund, seit 1872 in Betrieb.",
+   "url": "https://www.fehmarn.de/poi/leuchtfeuer-strukkamphuk",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/leuchtfeuer-strukkamphuk",
+   "photo": {
+    "file": "img/akt/leuchtfeuer-strukkamphuk.jpg",
+    "commons_title": "File:Leuchtturm Strukkamphuk 2013b.jpg",
+    "author": "Holger.Ellgaard",
+    "license": "CC BY-SA 3.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "wanderung-fehmarnsundbruecke",
+   "name": "Wanderung auf die Fehmarnsundbrücke",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Wandern",
+   "town": "Gold",
+   "text": "9 km von Gold über Strukkamphuk auf die Sundbrücke.",
+   "url": "https://www.fehmarn.de/tour/wanderung-auf-die-fehmarnsundbruecke",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/fehmarn-erleben/aktiv/wandern",
+   "photo": {
+    "file": "img/akt/wanderung-fehmarnsundbruecke.jpg",
+    "commons_title": "File:Fehmarnsundbrücke in Längsachse 1963 - E47 B 207 Straßenbrücke Eisenbahnbrücke Fußweg Westseite - Foto 2018 © Wolfgang Pehlemann P1270023.jpg",
+    "author": "Wolfgang Pehlemann",
+    "license": "CC BY-SA 3.0 de",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "familienwanderung-staberhuk",
+   "name": "Familienwanderung zum Leuchtturm Staberhuk",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Wandern",
+   "town": "Staberdorf",
+   "text": "4 km Familienwanderung entlang der Küste zum Leuchtturm.",
+   "url": "https://www.fehmarn.de/tour/familienwanderung-zum-leuchtturm-staberhuk",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/fehmarn-erleben/aktiv/wandern",
+   "photo": {
+    "file": "img/akt/familienwanderung-staberhuk.jpg",
+    "commons_title": "File:Staberhuk 0496.jpg",
+    "author": "Ein Dahmer",
+    "license": "CC BY-SA 4.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "kirchner-wanderung-staberhuk",
+   "name": "Auf den Spuren Kirchners: Wanderung Staberhuk",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Wandern",
+   "town": "Staberdorf",
+   "text": "5 km an der Steilküste, wo Ernst Ludwig Kirchner malte.",
+   "url": "https://www.fehmarn.de/tour/auf-den-spuren-kirchners-wanderung-staberhuk",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/fehmarn-erleben/aktiv/wandern",
+   "photo": {
+    "file": "img/akt/kirchner-wanderung-staberhuk.jpg",
+    "commons_title": "File:FFH Staberhuk-msu-2023-0I9a0323-0323.jpg",
+    "author": "Matthias Süßen",
+    "license": "CC BY-SA 4.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "wandertour-kids-gruener-brink",
+   "name": "Wandertour mit Kids am Grünen Brink",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Wandern",
+   "town": "Gammendorf",
+   "text": "2,5 km kurze Runde für Kinder am Naturschutzgebiet.",
+   "url": "https://www.fehmarn.de/tour/wandertour-mit-kids-am-gruenen-brink",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/fehmarn-erleben/aktiv/wandern",
+   "photo": {
+    "file": "img/akt/wandertour-kids-gruener-brink.jpg",
+    "commons_title": "File:Gruener Brink Fehmarn 02.jpg",
+    "author": "Unukorno",
+    "license": "CC BY 4.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "wanderung-neujellingsdorf-lemkenhafen",
+   "name": "Wanderung mit Kindern Neujellingsdorf–Lemkenhafen",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Wandern",
+   "town": "Lemkenhafen",
+   "text": "3,2 km Kinderwanderung von Neujellingsdorf nach Lemkenhafen.",
+   "url": "https://www.fehmarn.de/tour/wanderung-mit-kindern-neujellingsdorf-lemkenhafen",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/fehmarn-erleben/aktiv/wandern",
+   "photo": {
+    "file": "img/akt/wanderung-neujellingsdorf-lemkenhafen.jpg",
+    "commons_title": "File:Windmühle Lemkenhafen 2014c.jpg",
+    "author": "Holger.Ellgaard",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://www.fehmarn.de/images/6B497KVJqSE/rs:fill:2560:1000/dpr:1.5/cb:/g:ce/aHR0cHM6Ly9pbXhwbGF0Zm9ybS1jdXN0LXRhc2guZnNuMS55b3VyLW9iamVjdHN0b3JhZ2UuY29tL21lZGlhL211ZWhsZV9sZW1rZW5oYWZlbl90b3VyaXNtdXMtc2VydmljZV9mZWhtYXJuX3NpbmFfc2Nod2V5ZXItNC5qcGc",
+    "page": "https://www.fehmarn.de/tour/wanderung-mit-kindern-neujellingsdorf-lemkenhafen",
+    "w": 2000,
+    "h": 1000,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "via-scandinavica",
+   "name": "Pilgerweg Via Scandinavica",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Wandern",
+   "town": "Burg",
+   "text": "Jakobsweg-Abschnitt von der Sundbrücke über Burg nach Puttgarden.",
+   "url": "https://www.jakobswege-norddeutschland.de/43360.html",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/fehmarn-erleben/aktiv/wandern",
+   "photo": {
+    "file": "img/akt/via-scandinavica.jpg",
+    "commons_title": "File:Puttgarden-2008.jpg",
+    "author": "Frierock",
+    "license": "CC BY-SA 3.0",
+    "kind": "ort"
+   },
+   "web_photo": {
+    "src": "https://www.jakobswege-norddeutschland.de/media/41419b4e59c5241cffff8006fffffff1.jpg",
+    "page": "https://www.jakobswege-norddeutschland.de/43360.html",
+    "w": 26,
+    "h": 26,
+    "ok": false,
+    "rejected": [],
+    "recheck": false
+   }
+  },
+  {
+   "slug": "inselumrundung-fehmarn",
+   "name": "Inselumrundung Fehmarn",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Radfahren",
+   "town": "Lemkenhafen",
+   "text": "Rund 65 km um die ganze Insel, meist auf dem Deich.",
+   "url": "https://www.fehmarn.de/tour/inselumrundung-fehmarn",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/tour/inselumrundung-fehmarn",
+   "photo": {
+    "file": "img/akt/inselumrundung-fehmarn.jpg",
+    "commons_title": "File:Fehmarn 1665.jpg",
+    "author": "Ein Dahmer",
+    "license": "CC BY-SA 4.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "moenchsweg-fehmarn",
+   "name": "Mönchsweg, Abschnitt Fehmarn",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Radfahren",
+   "town": "Puttgarden",
+   "text": "34,9 km von der Sundbrücke über Burg nach Puttgarden.",
+   "url": "https://www.fehmarn.de/tour/moenchsweg-abschnitt-fehmarn",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/tour/moenchsweg-abschnitt-fehmarn",
+   "photo": {
+    "file": "img/akt/moenchsweg-fehmarn.jpg",
+    "commons_title": "File:St.-Johannis-Kirche (Bannesdorf).jpg",
+    "author": "Unukorno",
+    "license": "CC BY 4.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "kirchentour",
+   "name": "Kirchentour",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Radfahren",
+   "town": "Landkirchen",
+   "text": "41 km Rundtour zu den Inselkirchen, Start an St. Petri.",
+   "url": "https://www.fehmarn.de/tour/kirchentour",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/tour/kirchentour",
+   "photo": {
+    "file": "img/akt/kirchentour.jpg",
+    "commons_title": "File:Fehmarn - Landkirchen - Kirche.JPG",
+    "author": "Genet",
+    "license": "CC BY-SA 3.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "sundbrueckentour",
+   "name": "Sundbrückentour",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Radfahren",
+   "town": "Lemkenhafen",
+   "text": "42 km Rundtour über Deichwege, Strukkamphuk, Burgstaaken und Orth.",
+   "url": "https://www.fehmarn.de/tour/sundbrueckentour",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/tour/sundbrueckentour",
+   "photo": {
+    "file": "img/akt/sundbrueckentour.jpg",
+    "commons_title": "File:Dike between Orth and Flügge, Fehmarn 20140812 1.jpg",
+    "author": "DXR",
+    "license": "CC BY-SA 3.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "hafentour",
+   "name": "Hafentour",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Radfahren",
+   "town": "Burg",
+   "text": "Rund 40 km über Puttgarden, Steilküste und Burgstaaken.",
+   "url": "https://www.fehmarn.de/tour/hafentour",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/fehmarn-erleben/aktiv/radfahren",
+   "photo": {
+    "file": "img/akt/hafentour.jpg",
+    "commons_title": "File:Puttgarden Faehrhafen vom Leuchtturm Marienleuchte.jpg",
+    "author": "Wusel007",
+    "license": "CC BY-SA 3.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://www.fehmarn.de/images/qcphnZfpbjM/rs:fill:2560:1000/dpr:1.5/cb:/g:ce/aHR0cHM6Ly9pbXhwbGF0Zm9ybS1jdXN0LXRhc2guZnNuMS55b3VyLW9iamVjdHN0b3JhZ2UuY29tL21lZGlhL2hhZmVuX2J1cmdzdGFha2VuX3RvdXJpc211cy1zZXJ2aWNlY19mZWhtYXJuX3NpbmFfc2Nod2V5ZXItMS5qcGc",
+    "page": "https://www.fehmarn.de/tour/hafentour",
+    "w": 2000,
+    "h": 1000,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "gruener-brink-tour",
+   "name": "Grüner-Brink-Tour",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Radfahren",
+   "town": "Gammendorf",
+   "text": "Rund 31 km über Deich, Felder und Inseldörfer im Norden.",
+   "url": "https://www.fehmarn.de/tour/gruener-brink-tour",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/fehmarn-erleben/aktiv/radfahren",
+   "photo": {
+    "file": "img/akt/gruener-brink-tour.jpg",
+    "commons_title": "File:Niobe Fehmarn 4.jpg",
+    "author": "Olaf Piehl",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://www.fehmarn.de/images/Z2mqEWn0Bis/rs:fill:2560:1000/dpr:1.5/cb:/g:ce/aHR0cHM6Ly9pbXhwbGF0Zm9ybS1jdXN0LXRhc2guZnNuMS55b3VyLW9iamVjdHN0b3JhZ2UuY29tL21lZGlhL1Nhdm95LUtpbm8vMF80LmpwZw",
+    "page": "https://www.fehmarn.de/tour/gruener-brink-tour",
+    "w": 2048,
+    "h": 1000,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "e-bike-tour-sueden",
+   "name": "E-Bike-Tour Fehmarns Süden",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Radfahren",
+   "town": "Burg",
+   "text": "28,6 km Rundtour über Sundbrücke, Krummsteert und Burgstaaken.",
+   "url": "https://www.fehmarn.de/tour/e-bike-tour-fehmarns-sueden",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/tour/e-bike-tour-fehmarns-sueden",
+   "photo": {
+    "file": "img/akt/e-bike-tour-sueden.jpg",
+    "commons_title": "File:Westkapelle-Deich-06-Radfahrer-Moewen-2012-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://www.fehmarn.de/images/qvfD2e2j5Fk/rs:fill:1400:900/dpr:1.5/cb:/g:ce/aHR0cHM6Ly9pbXhwbGF0Zm9ybS1jdXN0LXRhc2guZnNuMS55b3VyLW9iamVjdHN0b3JhZ2UuY29tL21lZGlhL2xlbWtlbmhhZmVuX2hhZmVuX3RvdXJpc211cy1zZXJ2aWNlX2ZlaG1hcm5fc3ZlbmphX2xlbnotMTAuanBn",
+    "page": "https://www.fehmarn.de/tour/e-bike-tour-fehmarns-sueden",
+    "w": 2100,
+    "h": 1350,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "leuchtturmtour",
+   "name": "Leuchtturmtour",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Radfahren",
+   "town": "Orth",
+   "text": "12 km entlang der Orther Bucht mit Blick auf Leuchttürme.",
+   "url": "https://www.fehmarn.de/tour/leuchtturmtour",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/fehmarn-erleben/aktiv/rad-und-wanderrouten?page=2&uid=1596",
+   "photo": {
+    "file": "img/akt/leuchtturmtour.jpg",
+    "commons_title": "File:Flügge Lighthouse, Fehmarn 140810 1.jpg",
+    "author": "DXR",
+    "license": "CC BY-SA 4.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "2rad-fehmarn",
+   "name": "2Rad-Fehmarn",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Radverleih",
+   "town": "Landkirchen",
+   "text": "Verleih von City-, Trekking-, Mountain- und E-Bikes, Lieferservice.",
+   "url": "https://2rad-fehmarn.de/",
+   "price": "Cityrad 3 Tage 26,70 €, E-Bike 3 Tage 68,70 €",
+   "season": null,
+   "source_url": "https://2rad-fehmarn.de/preise/",
+   "photo": {
+    "file": "img/akt/2rad-fehmarn.jpg",
+    "commons_title": "File:Bike hire, Padstow - geograph.org.uk - 2832305.jpg",
+    "author": "David Hawgood",
+    "license": "CC BY-SA 2.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "note": "keine passende Aufnahme gefunden"
+   }
+  },
+  {
+   "slug": "connys-fahrradladen",
+   "name": "Connys Fahrradladen",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Radverleih",
+   "town": "Burg",
+   "text": "Fahrräder und E-Bikes, Filialen in Burg und am Südstrand.",
+   "url": "http://www.fehmarn-fahrrad.de",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/connys-fahrradladen-burg",
+   "photo": {
+    "file": "img/akt/connys-fahrradladen.jpg",
+    "commons_title": "File:Rental bikes by Bore hostel ship, Turku, Finland.jpg",
+    "author": "Kotivalo",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "rejected": [
+     "https://bidex.media/POPUP-17091-shop11988-w1500-h500-q90-f1.jpg",
+     "https://bidex.media/POPUP-21108-shop11988-w1500-h500-q90-f1.jpg",
+     "https://bidex.media/POPUP-16964-shop11988-w1500-h500-q90-f1.jpg"
+    ],
+    "note": "keine passende Aufnahme gefunden"
+   },
+   "lat": 54.4345176,
+   "lon": 11.1979426,
+   "loc_source": "Nominatim"
+  },
+  {
+   "slug": "sunny-bike",
+   "name": "Sunny Bike",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Radverleih",
+   "town": "Burg",
+   "text": "E-Bikes, Lastenräder und Kinderräder, Lieferung auf der ganzen Insel.",
+   "url": "https://sunny.bike/",
+   "price": "E-Bike ab 18 € pro Tag",
+   "season": "Ende März bis Ende Oktober",
+   "source_url": "https://sunny.bike/",
+   "photo": {
+    "file": "img/akt/sunny-bike.jpg",
+    "commons_title": "File:E - Bike - Verleih - Bad Krozingen - panoramio.jpg",
+    "author": "Baden de",
+    "license": "CC BY 3.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://sunny.bike/wp-content/uploads/2020/11/Sunny_Bike_Fehmarn_2019_1csgvH32-15-scaled.jpg",
+    "page": "https://sunny.bike/",
+    "w": 2560,
+    "h": 1707,
+    "ok": true
+   }
+  },
+  {
+   "slug": "fahrradverleih-becker",
+   "name": "Fahrradverleih Becker",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Radverleih",
+   "town": "Dänschendorf",
+   "text": "Fahrräder für Kinder und Erwachsene, auch E-Bikes, auf dem Ferienhof.",
+   "url": "http://www.bauernhof-becker.de",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/fahrradverleih-becker",
+   "photo": {
+    "file": "img/akt/fahrradverleih-becker.jpg",
+    "commons_title": "File:Bike hire on Lismore - geograph.org.uk - 6172175.jpg",
+    "author": "M J Richardson",
+    "license": "CC BY-SA 2.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "http://www.bauernhof-becker.de/images/_mg_4991_eyecatcher.jpg",
+    "page": "http://www.bauernhof-becker.de/fahrradverleih/index.php",
+    "w": 960,
+    "h": 300,
+    "ok": true,
+    "checked": "2026-11-15",
+    "rejected": [
+     "http://www.bauernhof-becker.de/images/456283a7870f7d801_eyecatcher.jpg"
+    ]
+   }
+  },
+  {
+   "slug": "fahrradverleih-struve",
+   "name": "Fahrradverleih Struve",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Radverleih",
+   "town": "Burg",
+   "text": "Familiengeführter Fahrradverleih in der Wilhelmstraße in Burg.",
+   "url": "http://www.struve-fehmarn.de/fahrradverleih",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/fahrradverleih-struve",
+   "photo": {
+    "file": "img/akt/fahrradverleih-struve.jpg",
+    "commons_title": "File:Wiener Zentralfriedhof - Leihfahrräder der Friedhöfe Wien.jpg",
+    "author": "Haeferl",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "note": "keine passende Aufnahme gefunden"
+   }
+  },
+  {
+   "slug": "bike-hof-bannesdorf",
+   "name": "Bike Hof Fehmarn",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Radverleih",
+   "town": "Bannesdorf",
+   "text": "Fahrradverleih mit Werkstatt, Pannen- und Lieferservice.",
+   "url": "http://www.bikehof-fehmarn.de",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/bike-hof-bannesdorf",
+   "photo": {
+    "file": "img/akt/bike-hof-bannesdorf.jpg",
+    "commons_title": "File:Bad Tatzmannsdorf - E-Bike-Verleih Stehachtl - 1.jpg",
+    "author": "Haeferl",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "note": "keine passende Aufnahme gefunden"
+   }
+  },
+  {
+   "slug": "gestuet-rueder",
+   "name": "Gestüt Rüder",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Reiten",
+   "town": "Blieschendorf",
+   "text": "Strandausritte, Reitstunden und Ponyführen für Kinder.",
+   "url": "https://www.gestuet-rueder.de/",
+   "price": "Strandausritt 90 Min. 50 €, Reitstunde 45 Min. 25 €",
+   "season": null,
+   "source_url": "https://www.gestuet-rueder.de/index.php/reitstunden-und-ausritt",
+   "photo": {
+    "file": "img/akt/gestuet-rueder.jpg",
+    "commons_title": "File:Horse riding on the beach.jpg",
+    "author": "Anna.Massini",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://www.gestuet-rueder.de//images/os_touchslider_145/original/rueder-1522-ute-goedecke-720x381DB24CB9C-577E-C0ED-CD61-F287A6C6CCC3.jpg",
+    "page": "https://www.gestuet-rueder.de/",
+    "w": 720,
+    "h": 381,
+    "ok": true
+   }
+  },
+  {
+   "slug": "sunset-farm-reiten",
+   "name": "Sunset Farm: Pferde & Ponys",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Reiten",
+   "town": "Wallnau",
+   "text": "Reitstunden, Miniausritte und Dünenausritte zum Naturstrand, nur mit Termin.",
+   "url": "https://sunset-farm.de/pferde-ponys/",
+   "price": "Miniausritt 45 Min. 20 €, Dünenausritt 80 Min. 55 €",
+   "season": null,
+   "source_url": "https://sunset-farm.de/pferde-ponys/",
+   "photo": {
+    "file": "img/akt/sunset-farm-reiten.jpg",
+    "commons_title": "File:Horse-riding on Formby Beach - geograph.org.uk - 5408050.jpg",
+    "author": "Jonathan Hutchins",
+    "license": "CC BY-SA 2.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://sunset-farm.de/wp-content/uploads/2022/07/aussenbereich.jpg",
+    "page": "https://sunset-farm.de/pferde-ponys/",
+    "w": 800,
+    "h": 533,
+    "ok": true
+   }
+  },
+  {
+   "slug": "sunset-farm-alpakas",
+   "name": "Sunset Farm: Alpakas & Lamas",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Tiere",
+   "town": "Wallnau",
+   "text": "Alpaka- und Lamawanderungen am Strand oder durch Felder, mit Termin.",
+   "url": "https://sunset-farm.de/alpakas-und-lamas/",
+   "price": "Wanderung ab 13 Jahren 39 € pro Person",
+   "season": null,
+   "source_url": "https://sunset-farm.de/alpakas-und-lamas/",
+   "photo": {
+    "file": "img/akt/sunset-farm-alpakas.jpg",
+    "commons_title": "File:Smile for the camera (2960598069).jpg",
+    "author": "Chadica from Jerusalem, Israel",
+    "license": "CC BY 2.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://sunset-farm.de/wp-content/uploads/2022/04/closeup.jpg",
+    "page": "https://sunset-farm.de/alpakas-und-lamas/",
+    "w": 800,
+    "h": 640,
+    "ok": true
+   }
+  },
+  {
+   "slug": "schmetterlingspark-fehmarn",
+   "name": "Schmetterlingspark Fehmarn",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Tiere",
+   "town": "Burg",
+   "text": "Tropenhalle mit frei fliegenden Schmetterlingen, Leguanen und Vögeln.",
+   "url": "https://www.schmetterlingspark-fehmarn.de/",
+   "price": null,
+   "season": "Osterferien bis Oktober",
+   "source_url": "https://www.schmetterlingspark-fehmarn.de/",
+   "photo": {
+    "file": "img/akt/schmetterlingspark-fehmarn.jpg",
+    "commons_title": "File:Schmetterlingspark Fehmarn.jpg",
+    "author": "Thomas Kroemer",
+    "license": "CC BY-SA 4.0",
+    "kind": "ort"
+   }
+  },
+  {
+   "slug": "hofcafe-klausdorf",
+   "name": "Hofcafé Klausdorf",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Bauernhof",
+   "town": "Klausdorf",
+   "text": "Hofcafé mit Hofladen und Streichelzoo für Kinder.",
+   "url": "http://hofcafe-klausdorf.de/",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/hofcafe-klausdorf",
+   "photo": {
+    "file": "img/akt/hofcafe-klausdorf.jpg",
+    "commons_title": "File:Ziegen Streichelzoo Neunkircher Zoo.jpg",
+    "author": "Kajumabe",
+    "license": "CC BY 3.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "note": "keine passende Aufnahme gefunden"
+   },
+   "lat": 54.4630334,
+   "lon": 11.2429646,
+   "loc_source": "Nominatim"
+  },
+  {
+   "slug": "osterhof-fehmarn",
+   "name": "Hofladen Osterhof",
+   "category": "Natur & Ausflüge",
+   "subcategory": "Bauernhof",
+   "town": "Dänschendorf",
+   "text": "Hofladen mit regionalen und saisonalen Produkten.",
+   "url": "https://www.osterhof-fehmarn.de",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.osterhof-fehmarn.de",
+   "photo": {
+    "file": "img/akt/osterhof-fehmarn.jpg",
+    "commons_title": "File:Bistofter Hofladen.jpg",
+    "author": "Christian Alexander Otto",
+    "license": "CC BY 4.0",
+    "kind": "symbol"
+   },
+   "lat": 54.4960347,
+   "lon": 11.0917463,
+   "loc_source": "Nominatim",
+   "web_photo": {
+    "src": "https://images.squarespace-cdn.com/content/v1/5d7b4708a9847c47f25c168f/1747847085916-IJMJKID4KVM40MEBOVCR/Osterhof_1418.jpg",
+    "page": "https://www.osterhof-fehmarn.de",
+    "w": 2500,
+    "h": 1494,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  }
+ ]
+}

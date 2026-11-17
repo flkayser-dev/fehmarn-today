@@ -1,0 +1,685 @@
+{
+ "generated": "2026-11-15",
+ "items": [
+  {
+   "slug": "kiteboarding-fehmarn",
+   "name": "KiteBoarding Fehmarn",
+   "category": "Wasser",
+   "subcategory": "Kiten",
+   "town": "Gold",
+   "text": "Kitekurse zu zweit, betreutes Kiten, Foil, SUP und Materialmiete am Spot Gold.",
+   "url": "https://www.kiteboardingfehmarn.de/",
+   "price": null,
+   "season": "Mai bis Oktober",
+   "source_url": "https://www.kiteboardingfehmarn.de/",
+   "photo": {
+    "file": "img/akt/kiteboarding-fehmarn.jpg",
+    "commons_title": "File:2017-08-20-Kitesurf Fehmarn-3980.jpg",
+    "author": "Superbass",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "lat": 54.4274601,
+   "lon": 11.2283404,
+   "loc_source": "Nominatim",
+   "web_photo": {
+    "src": "https://www.kiteboardingfehmarn.de/wp-content/uploads/2017/03/06_wetter_weather_bg_1920x600.jpg",
+    "page": "https://www.kiteboardingfehmarn.de/",
+    "w": 1920,
+    "h": 600,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "kitebro",
+   "name": "Kiteschule Kitebro",
+   "category": "Wasser",
+   "subcategory": "Kiten",
+   "town": "Katharinenhof",
+   "text": "Kite-, Wing- und SUP-Kurse am Campingplatz Katharinenhof, auch für Kinder.",
+   "url": "http://www.kitebro.de",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/kiteschule-kitebro",
+   "photo": {
+    "file": "img/akt/kitebro.jpg",
+    "commons_title": "File:Kitesurfing near Prasonisi. Rhodes, Greece.jpg",
+    "author": "Ввласенко",
+    "license": "CC BY-SA 3.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "note": "keine passende Aufnahme gefunden"
+   }
+  },
+  {
+   "slug": "gold-kiteacademy",
+   "name": "Gold Kiteacademy",
+   "category": "Wasser",
+   "subcategory": "Kiten",
+   "town": "Gold",
+   "text": "Kite-, Wingfoil- und Kitefoilkurse am großen Stehrevier in Gold.",
+   "url": "https://www.goldkiteacademy.de",
+   "price": "Anfängerkurs 3 Std. 165 €",
+   "season": "April bis Oktober",
+   "source_url": "https://goldkiteacademy.de/kurse",
+   "photo": {
+    "file": "img/akt/gold-kiteacademy.jpg",
+    "commons_title": "File:Kitesurfer Hythe.jpg",
+    "author": "Kmtextor",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "note": "keine passende Aufnahme gefunden"
+   }
+  },
+  {
+   "slug": "boardflash",
+   "name": "Kiteschule Boardflash",
+   "category": "Wasser",
+   "subcategory": "Kiten",
+   "town": "Lemkenhafen",
+   "text": "Kiteschule am Seglerhafen Lemkenhafen, Kurse einzeln buchbar.",
+   "url": "https://boardflash.de/",
+   "price": "Anfängerkurs ab 125 € pro Einheit",
+   "season": null,
+   "source_url": "https://boardflash.de/kitekurse/",
+   "photo": {
+    "file": "img/akt/boardflash.jpg",
+    "commons_title": "File:Vietnam, Mui Ne beach, Kitesurfing, kiteboarding.jpg",
+    "author": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://boardflash.de/wp-content/uploads/2020/04/Station_Spot_Fehmarn_640.jpg",
+    "page": "https://boardflash.de/",
+    "w": 640,
+    "h": 360,
+    "ok": true
+   }
+  },
+  {
+   "slug": "kite-passion",
+   "name": "Kite-Passion Fehmarn",
+   "category": "Wasser",
+   "subcategory": "Kiten",
+   "town": "Puttgarden",
+   "text": "Kite-, Wing- und SUP-Kurse und Verleih am Campingplatz Puttgarden.",
+   "url": "https://kite-passion.de",
+   "price": "Anfängerkurs 3 Std. 149 €",
+   "season": "April bis Oktober",
+   "source_url": "https://kite-passion.de/preise",
+   "photo": {
+    "file": "img/akt/kite-passion.jpg",
+    "commons_title": "File:Kitesurfing in Sweden.jpg",
+    "author": "Da.Informator",
+    "license": "CC0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://kite-passion.de/images/kurse/wing/wing_2.webp",
+    "page": "https://kite-passion.de",
+    "w": 2047,
+    "h": 1365,
+    "ok": true
+   }
+  },
+  {
+   "slug": "kitesplash",
+   "name": "Kitesplash Kiteschule",
+   "category": "Wasser",
+   "subcategory": "Kiten",
+   "town": "Wallnau",
+   "text": "Kitekurse, Privatstunden und SUP-Verleih auf dem Strandcamping Wallnau.",
+   "url": "http://www.kitesplash.com",
+   "price": "Anfängerkurs ca. 7 Std. 299 €",
+   "season": null,
+   "source_url": "https://www.kitesplash.com/preise",
+   "photo": {
+    "file": "img/akt/kitesplash.jpg",
+    "commons_title": "File:Kitesurfer at sunset, Workum, may 2017.jpg",
+    "author": "Villy Fink Isaksen",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "rejected": [],
+    "note": "keine passende Aufnahme gefunden"
+   }
+  },
+  {
+   "slug": "kitemonkey",
+   "name": "Kitemonkey Kiteschule",
+   "category": "Wasser",
+   "subcategory": "Kiten",
+   "town": "Fehmarnsund",
+   "text": "Kitekurse, SUP und Wingfoil auf dem Campingplatz Miramar am Sund.",
+   "url": "https://www.kitemonkey.de",
+   "price": "Anfängerkurs 2 Tage (6 Std.) 297 €",
+   "season": "April bis Oktober",
+   "source_url": "https://kitemonkey.de/kitesurfen-lernen-fehmarn/",
+   "photo": {
+    "file": "img/akt/kitemonkey.jpg",
+    "commons_title": "File:Fehmarn-Sund (26218388389).jpg",
+    "author": "Freddy Fehmarn",
+    "license": "CC BY 2.0",
+    "kind": "ort"
+   },
+   "web_photo": {
+    "src": "https://kitemonkey.de/wp-content/uploads/2021/02/Kitemonkey-Kiteschule-Fehmarn-Kitesurfschule-Gollendorf-buchen-e1613035326671.jpg",
+    "page": "https://kitemonkey.de/",
+    "w": 600,
+    "h": 450,
+    "ok": true
+   }
+  },
+  {
+   "slug": "primesurf",
+   "name": "Primesurf Fehmarn",
+   "category": "Wasser",
+   "subcategory": "Kiten",
+   "town": "Gollendorf",
+   "text": "Kitekurse und Kite- und Wingfoil-Camps, Hauptspot Lemkenhafen.",
+   "url": "https://primesurf.com/de/locations/fehmarn/",
+   "price": "Kitekurs 3 Std. zu zweit 145 € p. P.",
+   "season": null,
+   "source_url": "https://primesurf.com/de/locations/fehmarn/kurse/",
+   "photo": {
+    "file": "img/akt/primesurf.jpg",
+    "commons_title": "File:Seagull and kitesurfer at büsum north sea.jpg",
+    "author": "Dirk Ingo Franke",
+    "license": "CC BY 3.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://primesurf.com/wp-content/uploads/2024/01/Rental.jpg",
+    "page": "https://primesurf.com/de/locations/fehmarn/verleih/",
+    "w": 2000,
+    "h": 1336,
+    "ok": true,
+    "checked": "2026-11-15"
+   },
+   "lat": 54.4534623,
+   "lon": 11.0686184,
+   "loc_source": "Nominatim"
+  },
+  {
+   "slug": "windsurfing-wulfen",
+   "name": "Windsurfing Wulfen",
+   "category": "Wasser",
+   "subcategory": "Surfen",
+   "town": "Wulfen",
+   "text": "Windsurf-, SUP- und Kitestation am flachen Burger Binnensee.",
+   "url": "http://www.windsurfing-wulfen.de",
+   "price": "Anfängerkurs 12 Std. 200 €",
+   "season": "April bis Oktober",
+   "source_url": "http://www.windsurfing-wulfen.de/index.php/windsurfen.html",
+   "photo": {
+    "file": "img/akt/windsurfing-wulfen.jpg",
+    "commons_title": "File:Wulfener Hals (Fehmarn), der Strand.JPG",
+    "author": "Dguendel",
+    "license": "CC BY 4.0",
+    "kind": "ort"
+   },
+   "web_photo": {
+    "src": "https://www.windsurfing-wulfen.de/assets/images/b/Pfingstcamp%202018-382-d8918305.jpg",
+    "page": "https://www.windsurfing-wulfen.de/",
+    "w": 1680,
+    "h": 700,
+    "ok": true
+   }
+  },
+  {
+   "slug": "wassersport-charchulla",
+   "name": "Wassersport Charchulla",
+   "category": "Wasser",
+   "subcategory": "Surfen",
+   "town": "Burgtiefe",
+   "text": "Kurse und Verleih für Windsurfen, Segeln und SUP am Yachthafen.",
+   "url": "https://wassersport-charchulla.de/",
+   "price": "Windsurf-Schnupperkurs 3 Std. 69 €",
+   "season": "ab 22. März 2027",
+   "source_url": "https://wassersport-charchulla.de/kurse-preise/",
+   "photo": {
+    "file": "img/akt/wassersport-charchulla.jpg",
+    "commons_title": "File:Windsurfing school.JPG",
+    "author": "Windsurf ro",
+    "license": "CC BY-SA 3.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://wassersport-charchulla.de/wp-content/uploads/2018/02/slider_kurse_buchen_2000x860.jpg",
+    "page": "https://wassersport-charchulla.de/",
+    "w": 2000,
+    "h": 860,
+    "ok": true
+   }
+  },
+  {
+   "slug": "charchulla-strukkamp",
+   "name": "Windsurfing- und Segelschule Charchulla",
+   "category": "Wasser",
+   "subcategory": "Surfen",
+   "town": "Strukkamp",
+   "text": "Windsurf-, Segel- und Wingkurse und Verleih am Strukkamper Huk.",
+   "url": "http://www.surfschule-charchulla.de/Charchulla",
+   "price": null,
+   "season": null,
+   "source_url": "https://www.fehmarn.de/poi/windsurfing-und-segelschule-charchulla",
+   "photo": {
+    "file": "img/akt/charchulla-strukkamp.jpg",
+    "commons_title": "File:Windsurfers near Orth, Fehmarn 20140812 1.jpg",
+    "author": "DXR",
+    "license": "CC BY-SA 3.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "note": "keine passende Aufnahme gefunden"
+   }
+  },
+  {
+   "slug": "tims-beach",
+   "name": "Tim's Beach",
+   "category": "Wasser",
+   "subcategory": "Segeln",
+   "town": "Gold",
+   "text": "Katamaran- und Jollensegeln, Windsurfen, Wing und SUP in Gold.",
+   "url": "http://www.timsbeach-fehmarngold.de",
+   "price": "Katamaran-Sundowner 1,5 Std. 39,95 €",
+   "season": null,
+   "source_url": "http://www.timsbeach-fehmarngold.de",
+   "photo": {
+    "file": "img/akt/tims-beach.jpg",
+    "commons_title": "File:Hobie Cat Segel Katamarane am Strand Sarigerme, Türkei (49070976142).jpg",
+    "author": "dronepicr",
+    "license": "CC BY 2.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://www.timsbeach-fehmarngold.de/wp-content/uploads/go-x/u/2df7332b-258b-45ba-9eef-865bcbe908f6/image.jpg",
+    "page": "https://www.timsbeach-fehmarngold.de/kurse/stand-up-paddeling/",
+    "w": 1600,
+    "h": 900,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "wingding-fehmarn",
+   "name": "WingDing-Fehmarn",
+   "category": "Wasser",
+   "subcategory": "Wingfoil",
+   "town": "Strukkamp",
+   "text": "Wingsurf- und Wingfoilkurse in kleinen Gruppen am Strukkamper Huk.",
+   "url": "https://wingding-fehmarn.de/",
+   "price": "Einsteigerkurs 2 Tage 290 €",
+   "season": "15. April bis 14. Oktober",
+   "source_url": "https://wingding-fehmarn.de/kurse/einsteigerkurs",
+   "photo": {
+    "file": "img/akt/wingding-fehmarn.jpg",
+    "commons_title": "File:Wingsurfen Attersee 1.jpg",
+    "author": "AtterseeMM",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "note": "keine passende Aufnahme gefunden"
+   }
+  },
+  {
+   "slug": "wingfoil-fehmarn",
+   "name": "Wingfoil Surfschule Fehmarn",
+   "category": "Wasser",
+   "subcategory": "Wingfoil",
+   "town": "Burgstaaken",
+   "text": "Wingfoilkurse, Anfahrt zum Spot per Boot ab Burgtiefe.",
+   "url": "https://wingfoil-fehmarn.de/",
+   "price": "Schnupperkurs 2 Std. 159 €",
+   "season": null,
+   "source_url": "https://wingfoil-fehmarn.de/wingfoilkurse/",
+   "photo": {
+    "file": "img/akt/wingfoil-fehmarn.jpg",
+    "commons_title": "File:2022-10-16-Wingfoiling1.jpg",
+    "author": "Fabian Horst",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://wingfoil-fehmarn.de/wp-content/uploads/2025/06/Z06_1490-optimized.jpeg",
+    "page": "https://wingfoil-fehmarn.de/",
+    "w": 1280,
+    "h": 769,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "sup-fehmarn",
+   "name": "SUP Fehmarn / Surfshop Fehmarn",
+   "category": "Wasser",
+   "subcategory": "SUP",
+   "town": "Landkirchen",
+   "text": "SUP-Kurse, Touren und Verleih, Stationen Strukkamp und Südstrand.",
+   "url": "https://www.sup-fehmarn.de/",
+   "price": "Einsteigerkurs ca. 2 Std. 39 €",
+   "season": null,
+   "source_url": "https://www.sup-fehmarn.de/stand-up-paddling/sup-kurse-touren-und-events/",
+   "photo": {
+    "file": "img/akt/sup-fehmarn.jpg",
+    "commons_title": "File:Stand up paddling Malmö augusti 2015.jpg",
+    "author": "Jorchr",
+    "license": "CC BY-SA 3.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://www.sup-fehmarn.de/wp-content/uploads/2022/01/20210813_091743246_iOS-scaled.jpg",
+    "page": "https://www.sup-fehmarn.de/",
+    "w": 2560,
+    "h": 1920,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "wasserspass-fehmarn",
+   "name": "Wasserspaß Fehmarn",
+   "category": "Wasser",
+   "subcategory": "Tretboot",
+   "town": "Burgtiefe",
+   "text": "Tretboote und SUP-Verleih in der Badezone am Südstrand.",
+   "url": "https://www.wasserspassfehmarn.de/",
+   "price": "Tretboot ½ Std. ab 6 €",
+   "season": "Mai bis August, bei gutem Wetter",
+   "source_url": "https://www.wasserspassfehmarn.de/",
+   "photo": {
+    "file": "img/akt/wasserspass-fehmarn.jpg",
+    "commons_title": "File:Heringsdorf, Usedom, Tretboote am Strand -- 2010 -- 2619.jpg",
+    "author": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://www.wasserspassfehmarn.de/wp-content/uploads/2017/05/treetboote-am-suedstrand-auf-fehmarn.jpg",
+    "page": "https://www.wasserspassfehmarn.de/",
+    "w": 1920,
+    "h": 850,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "wakepark-fehmarn",
+   "name": "Wakepark Fehmarn",
+   "category": "Wasser",
+   "subcategory": "Wakeboard",
+   "town": "Wulfen",
+   "text": "Wakeboard-Liftanlage am Wulfener Hals, Kurse und freies Fahren.",
+   "url": "https://wakeparkfehmarn.de/",
+   "price": "Schnupperkurs ca. 1 Std. 29 €",
+   "season": "April bis Oktober",
+   "source_url": "https://wakeparkfehmarn.wakesys.com/browser/index.php",
+   "photo": {
+    "file": "img/akt/wakepark-fehmarn.jpg",
+    "commons_title": "File:Wakeboarding im Seepark Niederweimar (2).jpg",
+    "author": "Hydro",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "lat": 54.4101203,
+   "lon": 11.1649795,
+   "loc_source": "Nominatim",
+   "web_photo": {
+    "src": "https://wakeparkfehmarn.de/wp-content/uploads/2022/09/19-9-min-1024x683.jpg",
+    "page": "https://wakeparkfehmarn.de/",
+    "w": 1024,
+    "h": 683,
+    "ok": true,
+    "checked": "2026-11-15"
+   }
+  },
+  {
+   "slug": "ostseebasis-fehmarn",
+   "name": "Ostseebasis Fehmarn",
+   "category": "Wasser",
+   "subcategory": "Tauchen",
+   "town": "Wulfen",
+   "text": "Tauchbasis am Wulfener Hals mit Kursen, Schnuppertauchen und Bootstauchgängen.",
+   "url": "https://www.ostseebasis-fehmarn.de/",
+   "price": "Tauchgang mit Guide 35 €",
+   "season": "1. Mai bis 20. September",
+   "source_url": "https://www.ostseebasis-fehmarn.de/preise/c-207.html",
+   "photo": {
+    "file": "img/akt/ostseebasis-fehmarn.jpg",
+    "commons_title": "File:Sea Survival and Scuba Diving (33975834202).jpg",
+    "author": "astro_matt",
+    "license": "CC BY-SA 2.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "note": "keine passende Aufnahme gefunden"
+   }
+  },
+  {
+   "slug": "tauchen-suedstrand",
+   "name": "Tauchen Südstrand",
+   "category": "Wasser",
+   "subcategory": "Tauchen",
+   "town": "Burgtiefe",
+   "text": "Schnuppertauchen im Pool und in der Ostsee am Südstrand.",
+   "url": "http://www.tauchen-suedstrand.de",
+   "price": "Schnuppertauchen im Pool ab 25 €",
+   "season": null,
+   "source_url": "http://www.tauchen-suedstrand.de/tauchkurse/schnuppertauchen/",
+   "photo": {
+    "file": "img/akt/tauchen-suedstrand.jpg",
+    "commons_title": "File:Taucher in Strande.jpg",
+    "author": "Wusel007",
+    "license": "CC BY-SA 3.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "rejected": [
+     "http://www.tauchen-suedstrand.de/fileadmin/Bilder/header/header_start_sunddrift.jpg"
+    ],
+    "note": "keine passende Aufnahme gefunden"
+   },
+   "lat": 54.4120738,
+   "lon": 11.2518677,
+   "loc_source": "Nominatim"
+  },
+  {
+   "slug": "ms-karoline-angeln",
+   "name": "MS Karoline Hochseeangeln",
+   "category": "Wasser",
+   "subcategory": "Angeln",
+   "town": "Burgstaaken",
+   "text": "Angelkutter ab Burgstaaken, Abfahrt 7 Uhr, rund vier Stunden Angelzeit.",
+   "url": "https://www.hochseeangeln.com/",
+   "price": "Erwachsene 50 €, Leihangel 12 €",
+   "season": null,
+   "source_url": "https://www.hochseeangeln.com/index.php/hochseeangeln",
+   "photo": {
+    "file": "img/akt/ms-karoline-angeln.jpg",
+    "commons_title": "File:Burgstaaken Fischereihafen (1).JPG",
+    "author": "Hajotthu",
+    "license": "CC BY-SA 3.0",
+    "kind": "ort"
+   },
+   "web_photo": {
+    "src": "https://www.hochseeangeln.com/images/speasyimagegallery/albums/1/images/wolken-bearb-60_thumb.jpg",
+    "page": "https://www.hochseeangeln.com/",
+    "w": 400,
+    "h": 400,
+    "ok": false,
+    "rejected": [
+     "https://www.hochseeangeln.com/images/2025/01/02/ms_karoline_tau_oval_adobestock_223826456_vetra_kori_3.png"
+    ],
+    "recheck": true
+   }
+  },
+  {
+   "slug": "af-raubfischguiding",
+   "name": "AF Raubfischguiding",
+   "category": "Wasser",
+   "subcategory": "Angeln",
+   "town": "Fehmarn",
+   "text": "Geführtes Watangeln auf Meerforelle an der Fehmarner Küste, Leihausrüstung.",
+   "url": "https://www.af-raubfischguiding.de/",
+   "price": null,
+   "season": "ganzjährig",
+   "source_url": "https://www.af-raubfischguiding.de/",
+   "photo": {
+    "file": "img/akt/af-raubfischguiding.jpg",
+    "commons_title": "File:Sunset sea fishing in Asilah (Unsplash).jpg",
+    "author": "Aziz Acharki acharki95",
+    "license": "CC0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://le-cdn.website-editor.net/s/4805a43f89bc43f4976493530b4c32fc/dms3rep/multi/opt/20240304_172827-1920w.jpg?Expires=1797086253&Signature=Xs2uC-ZuxGw8W5HLeZbh5wT5x3oUDj0OibeBQhU1vP1HaYiV20LMGtrWBWWxN4~TfV5-ieJtLVT0jiDVqmFySj0Eqrt2IDpf8~rQI5IJC1goAOrnZeJYx3nPWXNT4qqpfnQ4jqFjK0DWipWiJ4p44bI1XiMvbw7V8xtxlGjdi25mZdbO47kWKq~gAN~ef7pPscm0yLo1kkOFSedbScPEfbmDWIewclzpH0Mn9ADWuoNalXkEnQB38f2ucfQarD6g4l1Ii-w50-Du7KDYIRk8nxijmljED7ENf-zYmLdu3o4uIUnAC-W7HbdwVzNNvdHTflgHh40iK798ORXgxtXXcw__&Key-Pair-Id=K2NXBXLF010TJW",
+    "page": "https://www.af-raubfischguiding.de/",
+    "w": 1920,
+    "h": 1081,
+    "ok": true,
+    "rejected": [
+     "https://le-cdn.website-editor.net/s/4805a43f89bc43f4976493530b4c32fc/dms3rep/multi/opt/file_0000000049c072089ba21c247c1e5131-1920w.png?Expires=1797086253&Signature=kUjwwcC-rtE~bOvhVAmUGXl8aq-KP460jzPog2CQ6zLWhzTeXzPqrz9jtKhp9PzxUENW1DpfepPTyxcPxbrAShZU0x1TRx9WNqQryHIxmHt-NHWpwfcgIvk7FinbY4iJE9ubwz5x8AAxV8Pt0Yp1Q7N76BUDTvnSCvyyReZFmQj-l0pG11LilPSXZFf~vlk3jMW25pASvhtQa~soZ4ULVumxCUt6fRYgT3M4w3B51IS8BrJFdBikHUQFwvtFEdw6efCfKoGdlrRszAweCvDVewY3QTSz4j5WBSiPRWQ9P2hRm6N0amnGaYuoPyQmewEPEhPiiqCWsMiHJ1bCjWQphw__&Key-Pair-Id=K2NXBXLF010TJW"
+    ],
+    "recheck": true
+   }
+  },
+  {
+   "slug": "ms-karoline-sundbruecke",
+   "name": "MS Karoline Ausflugsfahrten",
+   "category": "Wasser",
+   "subcategory": "Bootsausflug",
+   "town": "Burgstaaken",
+   "text": "Sundbrückentouren, Küstentouren und Inselrundfahrten ab Hafen Burgstaaken.",
+   "url": "https://www.hochseeangeln.com/index.php/termine-aktuelles",
+   "price": "Sundbrückentour 20 €, Inselrundfahrt 60 €",
+   "season": null,
+   "source_url": "https://www.hochseeangeln.com/index.php/termine-aktuelles",
+   "photo": {
+    "file": "img/akt/ms-karoline-sundbruecke.jpg",
+    "commons_title": "File:Fehmarnsund bridge (19643450194).jpg",
+    "author": "Freddy Fehmarn",
+    "license": "CC BY 2.0",
+    "kind": "ort"
+   },
+   "web_photo": {
+    "note": "Stock-, Team- oder unpassendes Motiv",
+    "rejected": [
+     "https://www.hochseeangeln.com/images/2025/01/04/tau_lang_1400px.png",
+     "https://www.hochseeangeln.com/images/2024/12/17/werft_karoline_c26060f70.jpg"
+    ]
+   }
+  },
+  {
+   "slug": "baltic-pirates",
+   "name": "Baltic Pirates",
+   "category": "Wasser",
+   "subcategory": "Bootsausflug",
+   "town": "Burgstaaken",
+   "text": "Speedboot-Touren im Schlauchboot ab Burgstaaken, ab 10 Personen.",
+   "url": "https://www.baltic-pirates.de/de/touren/fehmarn",
+   "price": "Südstrand-Tour 25 Min. 39 €",
+   "season": "Ende Juni bis Ende August",
+   "source_url": "https://www.baltic-pirates.de/de/touren/fehmarn",
+   "photo": {
+    "file": "img/akt/baltic-pirates.jpg",
+    "commons_title": "File:Burgstaaken und U 11.JPG",
+    "author": "Hajotthu",
+    "license": "CC BY-SA 3.0",
+    "kind": "ort"
+   },
+   "web_photo": {
+    "src": "https://www.baltic-pirates.de/images/kundenbewertungen.jpg",
+    "page": "https://www.baltic-pirates.de/de/touren/fehmarn",
+    "w": 1920,
+    "h": 650,
+    "ok": true
+   }
+  },
+  {
+   "slug": "scandlines-puttgarden",
+   "name": "Fähre Puttgarden–Rødby",
+   "category": "Wasser",
+   "subcategory": "Fähre",
+   "town": "Puttgarden",
+   "text": "Scandlines-Fähre nach Rødby in Dänemark, auch für Fußgänger.",
+   "url": "https://www.scandlines.de/tickets/puttgarden-rodby/",
+   "price": "Fußgänger-Tagesticket 11 €",
+   "season": null,
+   "source_url": "https://www.scandlines.de/tickets/puttgarden-rodby/",
+   "photo": {
+    "file": "img/akt/scandlines-puttgarden.jpg",
+    "commons_title": "File:Fährverkehr vor Fehmarn.jpg",
+    "author": "JoachimKohler-HB",
+    "license": "CC BY-SA 4.0",
+    "kind": "ort"
+   },
+   "web_photo": {
+    "note": "nur Logo, Text, Stockfoto oder leer",
+    "rejected": [
+     "https://www.scandlines.de/_next/image/?url=https%3A%2F%2Fcomplete-harmony-41d693229b.media.strapiapp.com%2Fkanal_mit_booten_im_nyhavn_kopenhagen_daenemark_mdietz_32acc35ab6.jpg&w=3840&q=75",
+     "https://www.scandlines.de/scandlines_opengraph.png",
+     "https://www.scandlines.de/_next/image/?url=https%3A%2F%2Fcomplete-harmony-41d693229b.media.strapiapp.com%2FWoman_sitting_in_a_window_in_Scandlines_ferry_using_her_phone_54ef690924.jpg&w=3840&q=75"
+    ]
+   }
+  },
+  {
+   "slug": "neumann-motorboote",
+   "name": "Neumann Motorboote",
+   "category": "Wasser",
+   "subcategory": "Bootsverleih",
+   "town": "Burgtiefe",
+   "text": "Führerscheinfreie Motorboote bis 8 Personen, Start am Yachthafen Burgtiefe.",
+   "url": "https://www.fehmarnboote.de/",
+   "price": "Motorboot 1 Std. 95 € inkl. Benzin",
+   "season": null,
+   "source_url": "https://www.fehmarnboote.de/",
+   "photo": {
+    "file": "img/akt/neumann-motorboote.jpg",
+    "commons_title": "File:Marina Fred Cooper 1934 June 8 2024 01.jpg",
+    "author": "Sinikka Halme",
+    "license": "CC BY-SA 4.0",
+    "kind": "symbol"
+   },
+   "web_photo": {
+    "src": "https://www.fehmarnboote.de/images/start_2.jpg",
+    "page": "https://www.fehmarnboote.de/",
+    "w": 700,
+    "h": 525,
+    "ok": true
+   }
+  },
+  {
+   "slug": "taro-charterboote",
+   "name": "Taro Charterboote",
+   "category": "Wasser",
+   "subcategory": "Bootsverleih",
+   "town": "Fehmarnsund",
+   "text": "Motorboote mit und ohne Führerschein am Campingplatz Miramar.",
+   "url": "https://fehmarn-bootsverleih.de/",
+   "price": null,
+   "season": null,
+   "source_url": "https://fehmarn-bootsverleih.de/",
+   "photo": {
+    "file": "img/akt/taro-charterboote.jpg",
+    "commons_title": "File:Fehmarn, Blick über den Fehmarnsund zum Hafen Großenbrode.JPG",
+    "author": "Dguendel",
+    "license": "CC BY 4.0",
+    "kind": "ort"
+   },
+   "web_photo": {
+    "src": "https://fehmarn-bootsverleih.de/wp-content/uploads/2021/06/startseite07-scaled.jpg",
+    "page": "https://fehmarn-bootsverleih.de/",
+    "w": 2560,
+    "h": 1920,
+    "ok": true
+   }
+  }
+ ]
+}

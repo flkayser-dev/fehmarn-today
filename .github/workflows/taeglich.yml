@@ -1,0 +1,53 @@
+name: Täglich aktualisieren
+
+on:
+  schedule:
+    - cron: "30 3 * * *"   # 4:30 Uhr (Winter) / 5:30 Uhr (Sommer) deutscher Zeit
+  workflow_dispatch:        # von Hand starten
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: taeglich
+  cancel-in-progress: false
+
+jobs:
+  bauen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install beautifulsoup4 lxml certifi pillow
+      - name: Termine holen
+        if: github.event_name != 'push'
+        run: cd prototype_scraper && python scrape.py
+      - name: Seite bauen
+        run: cd site && python build.py
+      - name: Neue Daten speichern
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "Fehmarn Today Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add prototype_scraper/PROTOTYPE_events.json prototype_scraper/laufprotokoll.csv
+          git diff --cached --quiet || git commit -m "Termine vom $(TZ=Europe/Berlin date +%d.%m.%Y)"
+          git push
+      - name: Veröffentlichen vorbereiten
+        run: |
+          mkdir -p _site
+          cp -r site/index.html site/*.css site/*.js site/*.svg site/img _site/
+          printf "User-agent: *\nDisallow: /\n" > _site/robots.txt
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}

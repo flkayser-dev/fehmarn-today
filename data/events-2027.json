@@ -1,0 +1,711 @@
+{
+  "generated": "2026-11-15",
+  "events": [
+    {
+      "title": "Winterstrandpark Timmendorfer Strand",
+      "date_start": "2026-10-31",
+      "date_end": "2027-02-28",
+      "town": "Timmendorfer Strand",
+      "category": "Draußen & Führungen",
+      "status": "bestätigt",
+      "source_url": "https://www.der-reporter.de/tdf-strand/artikel/winterstrandpark-timmendorfer-strand-macht-winter-zur-erlebniswelt",
+      "note": "Lichtinszenierungen im Strandpark. Quelle nennt nur 'Ende Februar 2027' als Saisonende."
+    },
+    {
+      "title": "Eiswelt Scharbeutz (Saison 2026/27, Saisonfinale)",
+      "date_start": "2026-11-14",
+      "date_end": "2027-02-14",
+      "town": "Scharbeutz",
+      "category": "Sport",
+      "status": "bestätigt",
+      "source_url": "https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/eiswelt-scharbeutz-saisonfinale-1/",
+      "note": "Eisbahn im Kurpark, presented by Holiday on Ice. Saisonfinale So 14.2.2027 ab 10 Uhr. Saisonstart 14.11.2026 laut Anbieter-Listing."
+    },
+    {
+      "title": "Grömitzer Eiszeit 2026/27",
+      "date_start": "2026-11-27",
+      "date_end": "2027-01-06",
+      "town": "Grömitz",
+      "category": "Draußen & Führungen",
+      "status": "bestätigt",
+      "source_url": "https://groemitzereiszeit.de/",
+      "note": "Wintersaison an der Promenade; Ende 6.1.2027."
+    },
+    {
+      "title": "Kellenhusener Winterbummel",
+      "date_start": "2026-12-27",
+      "date_end": "2027-01-01",
+      "town": "Kellenhusen",
+      "category": "Märkte",
+      "status": "bestätigt",
+      "source_url": "https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/kellenhusener-winterbummel-38/",
+      "note": "Winterbummel im Kurpark, läuft über den Jahreswechsel."
+    },
+    {
+      "title": "Neujahrsbaden / Anbaden 2027",
+      "date_start": "2027-01-01",
+      "date_end": "2027-01-01",
+      "town": "Großenbrode",
+      "category": "Feste",
+      "status": "bestätigt",
+      "source_url": "https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/anbaden-2027/",
+      "note": "15 Uhr am MeerHuus, Südstrand 10. Anmeldung telefonisch. Quelle: Veranstaltungsdatenbank Metropolregion Hamburg."
+    },
+    {
+      "title": "Ausstellungseröffnung Ralf Haun: „Gegenüber ist Lolland“",
+      "date_start": "2027-01-02",
+      "date_end": "2027-01-02",
+      "town": "Fehmarn (Burg)",
+      "category": "Sonstiges",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/ralf-haun-ausstellungseroeffnung-gegenueber-ist-lolland-pa-den-anden-side-ligger-lolland",
+      "note": "19–21 Uhr, deutsch-dänische Ausstellung."
+    },
+    {
+      "title": "Neujahrskonzert: Duo „Sing Your Soul“",
+      "date_start": "2027-01-02",
+      "date_end": "2027-01-02",
+      "town": "Heiligenhafen",
+      "category": "Musik & Bühne",
+      "status": "bestätigt",
+      "source_url": "https://www.ostsee.de/heiligenhafen/veranstaltungen.php",
+      "note": "19 Uhr, Stadtkirche Heiligenhafen."
+    },
+    {
+      "title": "Anbaden der Landjugend Fehmarn",
+      "date_start": "2027-01-03",
+      "date_end": "2027-01-03",
+      "town": "Fehmarn (Burgtiefe)",
+      "category": "Feste",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/anbaden-der-landjugend-fehmarn",
+      "note": "14–16 Uhr am Südstrand / Fehmare."
+    },
+    {
+      "title": "Ostholsteinmeisterschaft im Tischfußball (BYP-Turnier)",
+      "date_start": "2027-01-09",
+      "date_end": "2027-01-09",
+      "town": "Fehmarn (Burg)",
+      "category": "Sport",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/ostholsteinmeisterschaft-im-tischfussball-byp-turnier",
+      "note": "19:30 Uhr."
+    },
+    {
+      "title": "40 Jahre Jubiläumskonzert: Georg Schroeter, Marc Breitfelder & Kalle Reuter",
+      "date_start": "2027-01-16",
+      "date_end": "2027-01-16",
+      "town": "Fehmarn (Burg)",
+      "category": "Musik & Bühne",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/40-jahre-jubilaeumskonzert-georg-schroeter-marc-breitfelder-kalle-reuter",
+      "note": "20 Uhr, Blues/Boogie."
+    },
+    {
+      "title": "Sterehoecave – Duo an zwei Klavieren",
+      "date_start": "2027-01-23",
+      "date_end": "2027-01-23",
+      "town": "Fehmarn (Burg)",
+      "category": "Musik & Bühne",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/sterehoecave-grandioses-duo",
+      "note": "20 Uhr."
+    },
+    {
+      "title": "Jan Logemann Zaubershow",
+      "date_start": "2027-01-31",
+      "date_end": "2027-01-31",
+      "town": "Fehmarn (Burg)",
+      "category": "Kinder & Familie",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/jan-logemann-zaubershow",
+      "note": "15 Uhr; laut Listing ein weiterer Termin."
+    },
+    {
+      "title": "Fake Plastic, Vorband „Hazey Shades“",
+      "date_start": "2027-02-06",
+      "date_end": "2027-02-06",
+      "town": "Fehmarn (Burg)",
+      "category": "Musik & Bühne",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/fake-plastic-konzert-vorband-hazey-shades",
+      "note": "20 Uhr, Rock."
+    },
+    {
+      "title": "Inselkarneval FF Burg",
+      "date_start": "2027-02-06",
+      "date_end": "2027-02-06",
+      "town": "Fehmarn (Burg)",
+      "category": "Feste",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/inselkarneval-ff-burg-1",
+      "note": "21–3:30 Uhr, ab 16 Jahren, 15 €."
+    },
+    {
+      "title": "Kinderkarneval FF Burg",
+      "date_start": "2027-02-06",
+      "date_end": "2027-02-06",
+      "town": "Fehmarn (Burg)",
+      "category": "Kinder & Familie",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/kinderkarneval-ff-burg",
+      "note": "14–18 Uhr, Feuerwehr Burg."
+    },
+    {
+      "title": "„Alles Liebe“ – Musik und Texte",
+      "date_start": "2027-02-14",
+      "date_end": "2027-02-14",
+      "town": "Fehmarn (Burg)",
+      "category": "Musik & Bühne",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/alles-liebe-musik-und-texte",
+      "note": "Valentinstag, 16 Uhr, mit Kirchenmusiker Henning Rasch."
+    },
+    {
+      "title": "Serhat Dogan – Kabarett",
+      "date_start": "2027-02-20",
+      "date_end": "2027-02-20",
+      "town": "Fehmarn (Burg)",
+      "category": "Musik & Bühne",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/serhat-dogan-kabarett",
+      "note": "20 Uhr."
+    },
+    {
+      "title": "Ausstellung Heidrun Cassube „Berlin goes Fehmarn“",
+      "date_start": "2027-03-06",
+      "date_end": "2027-03-06",
+      "town": "Fehmarn (Burg)",
+      "category": "Sonstiges",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/heidrun-cassube-berlin-goes-fehmarn",
+      "note": "Eröffnung 19–22 Uhr."
+    },
+    {
+      "title": "„Grömitz genießt“",
+      "date_start": "2027-03-09",
+      "date_end": "2027-03-09",
+      "town": "Grömitz",
+      "category": "Märkte",
+      "status": "bestätigt",
+      "source_url": "https://www.der-reporter.de/neustadt/artikel/tourismus-auf-kurs-gastgeber-unter-druck",
+      "note": "Erstmals, in den Dünenwelten; regionale Gastronomie-Betriebe. Laut der reporter 'soll stattfinden'."
+    },
+    {
+      "title": "Musik und Kinonacht Burg",
+      "date_start": "2027-03-20",
+      "date_end": "2027-03-20",
+      "town": "Fehmarn (Burg)",
+      "category": "Musik & Bühne",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/musik-und-kinonacht-burg",
+      "note": "3. Ausgabe; ein Ticket für alle teilnehmenden Lokale in der Altstadt."
+    },
+    {
+      "title": "Sparkassen-Ostseelauf",
+      "date_start": "2027-03-21",
+      "date_end": "2027-03-21",
+      "town": "Timmendorfer Strand",
+      "category": "Sport",
+      "status": "bestätigt",
+      "source_url": "http://www.ostseelauf.com/",
+      "note": "Halbmarathon, 10 km, 5 km; Veranstalter NTSV Strand 08."
+    },
+    {
+      "title": "Osterfeuer am Galgenberg",
+      "date_start": "2027-03-27",
+      "date_end": "2027-03-27",
+      "town": "Fehmarn (Petersdorf)",
+      "category": "Feste",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/osterfeuer",
+      "note": "Karsamstag 17:30–19:30 Uhr, Stockbrot; Osterhase um 19 Uhr."
+    },
+    {
+      "title": "Grabenspringen der Landjugend",
+      "date_start": "2027-03-28",
+      "date_end": "2027-03-28",
+      "town": "Fehmarn",
+      "category": "Sport",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/grabenspringen-der-landjugend",
+      "note": "Ostersonntag, 14–16 Uhr."
+    },
+    {
+      "title": "Megamarsch 50/12 Ostsee 2027",
+      "date_start": "2027-04-24",
+      "date_end": "2027-04-24",
+      "town": "Scharbeutz / Grömitz",
+      "category": "Sport",
+      "status": "bestätigt",
+      "source_url": "https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/megamarsch-ostsee-schleswig-holstein-2027/",
+      "note": "50 km in 12 Std., Start ab 7:30 Uhr Kurpark Scharbeutz oder Grömitz."
+    },
+    {
+      "title": "Ausstellungseröffnung Miriam Lange „Menschen“",
+      "date_start": "2027-04-30",
+      "date_end": "2027-04-30",
+      "town": "Fehmarn (Burg)",
+      "category": "Sonstiges",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/miriam-lange-ausstellungseroeffnung-menschen",
+      "note": "19 Uhr."
+    },
+    {
+      "title": "Maifeuerfete der Landjugend",
+      "date_start": "2027-04-30",
+      "date_end": "2027-04-30",
+      "town": "Fehmarn (Westermarkelsdorf)",
+      "category": "Feste",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/maifeuerfete-der-landjugend",
+      "note": "20–4 Uhr, ab 8 €."
+    },
+    {
+      "title": "„Weiße Nacht“ – Bauchladentheater mit Pauline Drünert",
+      "date_start": "2027-04-30",
+      "date_end": "2027-04-30",
+      "town": "Fehmarn (Burg)",
+      "category": "Musik & Bühne",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/weisse-nacht-bauchladentheater-mit-pauline-druenert",
+      "note": "19 Uhr; laut Listing ein weiterer Termin."
+    },
+    {
+      "title": "Surf-Festival Fehmarn",
+      "date_start": "2027-05-06",
+      "date_end": "2027-05-09",
+      "town": "Fehmarn (Burgtiefe, Südstrand)",
+      "category": "Sport",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/surf-festival-fehmarn-1",
+      "note": "Himmelfahrtswochenende; Test-Material der Surf-Industrie, Eintritt frei."
+    },
+    {
+      "title": "PfingsTON Festival",
+      "date_start": "2027-05-14",
+      "date_end": "2027-05-17",
+      "town": "Scharbeutz",
+      "category": "Musik & Bühne",
+      "status": "erwartet",
+      "source_url": "https://www.festivalsindeutschland.de/festival/pfingston-festival-scharbeutz",
+      "note": "Regel: findet über das Pfingstwochenende statt (2025: 7.–9.6., 2026: 22.–25.5.). Pfingsten 2027 = 16.5.; Beginn Fr oder Sa noch offen."
+    },
+    {
+      "title": "Pfingstfete der Landjugend",
+      "date_start": "2027-05-16",
+      "date_end": "2027-05-16",
+      "town": "Fehmarn",
+      "category": "Feste",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/pfingstfete-der-landjugend",
+      "note": "Pfingstsonntag 21–5 Uhr."
+    },
+    {
+      "title": "Rapsblütenfest 2027",
+      "date_start": "2027-05-21",
+      "date_end": "2027-05-23",
+      "town": "Fehmarn (Petersdorf)",
+      "category": "Feste",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/rapsbluetenfest-2027",
+      "note": "Rund um den Dorfteich, Festumzug, Eintritt frei."
+    },
+    {
+      "title": "Sun-Run Grömitz",
+      "date_start": "2027-05-23",
+      "date_end": "2027-05-23",
+      "town": "Grömitz",
+      "category": "Sport",
+      "status": "bestätigt",
+      "source_url": "https://www.groemitz.de/sun-run",
+      "note": "Alljährlicher Lauf."
+    },
+    {
+      "title": "ancora YACHTFESTIVAL",
+      "date_start": "2027-05-28",
+      "date_end": "2027-05-30",
+      "town": "Neustadt in Holstein",
+      "category": "Sonstiges",
+      "status": "bestätigt",
+      "source_url": "https://www.yachtfestival.de/en/ancora-yachtfestival/aussteller/",
+      "note": "In-Water-Bootsmesse in der ancora Marina."
+    },
+    {
+      "title": "Midsummer Bulli Festival",
+      "date_start": "2027-06-24",
+      "date_end": "2027-06-27",
+      "town": "Fehmarn (Sahrensdorf)",
+      "category": "Feste",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/midsummer-bulli-festival-1",
+      "note": "VW-Bus-Festival mit Konvoi um die Insel, >50.000 Besucher."
+    },
+    {
+      "title": "Sonne, Strand & Sterne",
+      "date_start": "2027-06-30",
+      "date_end": "2027-07-04",
+      "town": "Grömitz",
+      "category": "Musik & Bühne",
+      "status": "bestätigt",
+      "source_url": "https://www.groemitz.de/sonne-strand-sterne",
+      "note": "Mi–Fr freies Programm; Sa 3.7. 'Best of Schlager' (DJ Ötzi u.a.), So 4.7. Sportfreunde Stiller (Tickets)."
+    },
+    {
+      "title": "Schleswig-Holstein Musik Festival 2027",
+      "date_start": "2027-07-03",
+      "date_end": "2027-08-29",
+      "town": "Schleswig-Holstein (auch Spielorte in Ostholstein)",
+      "category": "Musik & Bühne",
+      "status": "bestätigt",
+      "source_url": "https://www.shmf.de/",
+      "note": "Festivalzeitraum offiziell; Programm und Ostholstein-Spielorte noch nicht veröffentlicht."
+    },
+    {
+      "title": "Schlank & Rank – Klassikertreffen",
+      "date_start": "2027-07-09",
+      "date_end": "2027-07-11",
+      "town": "Fehmarn (Lemkenhafen)",
+      "category": "Sport",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/schlank-rank",
+      "note": "10. Ausgabe, historische Segelyachten; 60 Jahre SVLF."
+    },
+    {
+      "title": "50. Hafenfesttage Heiligenhafen",
+      "date_start": "2027-07-16",
+      "date_end": "2027-07-25",
+      "town": "Heiligenhafen",
+      "category": "Feste",
+      "status": "bestätigt",
+      "source_url": "https://www.heiligenhafen-touristik.de/hafenfesttage",
+      "note": "Jubiläumsausgabe am Kommunalhafen; Programm folgt."
+    },
+    {
+      "title": "Yachthafenfest",
+      "date_start": "2027-07-16",
+      "date_end": "2027-07-18",
+      "town": "Fehmarn (Burgtiefe)",
+      "category": "Feste",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/yachthafenfest",
+      "note": "Live-Musik, Food-Meile, Familienprogramm, Eintritt frei."
+    },
+    {
+      "title": "Weinfest Fehmarn",
+      "date_start": "2027-07-22",
+      "date_end": "2027-07-25",
+      "town": "Fehmarn (Burg)",
+      "category": "Feste",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/weinfest-fehmarn-1",
+      "note": "Marktplatz Burg, Live-Musik, Eintritt frei."
+    },
+    {
+      "title": "Promenadenfest Kellenhusen",
+      "date_start": "2027-07-23",
+      "date_end": "2027-07-25",
+      "town": "Kellenhusen",
+      "category": "Feste",
+      "status": "bestätigt",
+      "source_url": "https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/promenadenfest-2027/",
+      "note": "Seebrückenvorplatz/Strandpromenade. Quelle: Veranstaltungsdatenbank Metropolregion Hamburg."
+    },
+    {
+      "title": "Super Sail Regatta 2027",
+      "date_start": "2027-07-30",
+      "date_end": "2027-08-01",
+      "town": "Kellenhusen",
+      "category": "Sport",
+      "status": "bestätigt",
+      "source_url": "https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/super-sail-regatta-2027/",
+      "note": "Fr Welcome-Party, Sa/So Regatta, Moderation vom Seebrückenkopf."
+    },
+    {
+      "title": "Stadtfest Eutin mit Großflohmarkt",
+      "date_start": "2027-08-13",
+      "date_end": "2027-08-15",
+      "town": "Eutin",
+      "category": "Märkte",
+      "status": "bestätigt",
+      "source_url": "https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/stadtfest-eutin-mit-grossflohmarkt/",
+      "note": "Termine 13.–15.8.2027 im Datenbankeintrag; Beschreibungstext dort noch von 2026. Vor Veröffentlichung gegenprüfen."
+    },
+    {
+      "title": "Fehmarnsches Kröpelfest",
+      "date_start": "2027-08-25",
+      "date_end": "2027-08-25",
+      "town": "Fehmarn (Petersdorf)",
+      "category": "Feste",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/fehmarnsches-kroepelfest-1",
+      "note": "14:30–18 Uhr am Dorfteich, frische Kröpel, Livemusik."
+    },
+    {
+      "title": "Internationale Deutsche Meisterschaft im Speedsurfen",
+      "date_start": "2027-08-28",
+      "date_end": "2027-09-04",
+      "town": "Fehmarn (Orth)",
+      "category": "Sport",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/internationale-deutsche-meisterschaft-im-speedsurfen",
+      "note": "Orther Reede, wetterabhängig, Zuschauen kostenlos."
+    },
+    {
+      "title": "Nico Santos – POV: Summer Tour 2027",
+      "date_start": "2027-09-04",
+      "date_end": "2027-09-04",
+      "town": "Timmendorfer Strand",
+      "category": "Musik & Bühne",
+      "status": "bestätigt",
+      "source_url": "https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/nico-santos-pov-summer-tour-2027/",
+      "note": "19:30 Uhr, Strand-Arena Timmendorf."
+    },
+    {
+      "title": "Drachenfest Fehmarn",
+      "date_start": "2027-10-15",
+      "date_end": "2027-10-17",
+      "town": "Fehmarn (Burgtiefe, Südstrand)",
+      "category": "Kinder & Familie",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/drachenfest-fehmarn-1",
+      "note": "Eintritt frei, Drachenshows, Nachtflugshow."
+    },
+    {
+      "title": "Halloween-Laternenumzug der Jugendfeuerwehr Burg",
+      "date_start": "2027-10-31",
+      "date_end": "2027-10-31",
+      "town": "Fehmarn (Burg)",
+      "category": "Kinder & Familie",
+      "status": "bestätigt",
+      "source_url": "https://www.fehmarn.de/event/halloween-laternenumzug-der-jugendfeuerwehr-burg",
+      "note": "Ab 15:30 Uhr Feuerwehrhof, Umzug 17:30 Uhr."
+    }
+  ],
+  "holidays": [
+    {
+      "title": "Neujahr",
+      "date_start": "2027-01-01",
+      "date_end": "2027-01-01",
+      "kind": "Feiertag",
+      "source_url": "https://www.kalenderpedia.de/feiertage/feiertage-schleswig-holstein-2027.html"
+    },
+    {
+      "title": "Karfreitag",
+      "date_start": "2027-03-26",
+      "date_end": "2027-03-26",
+      "kind": "Feiertag",
+      "source_url": "https://www.kalenderpedia.de/feiertage/feiertage-schleswig-holstein-2027.html"
+    },
+    {
+      "title": "Ostermontag",
+      "date_start": "2027-03-29",
+      "date_end": "2027-03-29",
+      "kind": "Feiertag",
+      "source_url": "https://www.kalenderpedia.de/feiertage/feiertage-schleswig-holstein-2027.html"
+    },
+    {
+      "title": "Tag der Arbeit",
+      "date_start": "2027-05-01",
+      "date_end": "2027-05-01",
+      "kind": "Feiertag",
+      "source_url": "https://www.kalenderpedia.de/feiertage/feiertage-schleswig-holstein-2027.html"
+    },
+    {
+      "title": "Christi Himmelfahrt",
+      "date_start": "2027-05-06",
+      "date_end": "2027-05-06",
+      "kind": "Feiertag",
+      "source_url": "https://www.kalenderpedia.de/feiertage/feiertage-schleswig-holstein-2027.html"
+    },
+    {
+      "title": "Pfingstmontag",
+      "date_start": "2027-05-17",
+      "date_end": "2027-05-17",
+      "kind": "Feiertag",
+      "source_url": "https://www.kalenderpedia.de/feiertage/feiertage-schleswig-holstein-2027.html"
+    },
+    {
+      "title": "Tag der Deutschen Einheit",
+      "date_start": "2027-10-03",
+      "date_end": "2027-10-03",
+      "kind": "Feiertag",
+      "source_url": "https://www.kalenderpedia.de/feiertage/feiertage-schleswig-holstein-2027.html"
+    },
+    {
+      "title": "Reformationstag",
+      "date_start": "2027-10-31",
+      "date_end": "2027-10-31",
+      "kind": "Feiertag",
+      "source_url": "https://www.kalenderpedia.de/feiertage/feiertage-schleswig-holstein-2027.html"
+    },
+    {
+      "title": "1. Weihnachtstag",
+      "date_start": "2027-12-25",
+      "date_end": "2027-12-25",
+      "kind": "Feiertag",
+      "source_url": "https://www.kalenderpedia.de/feiertage/feiertage-schleswig-holstein-2027.html"
+    },
+    {
+      "title": "2. Weihnachtstag",
+      "date_start": "2027-12-26",
+      "date_end": "2027-12-26",
+      "kind": "Feiertag",
+      "source_url": "https://www.kalenderpedia.de/feiertage/feiertage-schleswig-holstein-2027.html"
+    },
+    {
+      "title": "Weihnachtsferien 2026/27",
+      "date_start": "2026-12-21",
+      "date_end": "2027-01-06",
+      "kind": "Schulferien SH",
+      "source_url": "https://www.kalenderpedia.de/ferien/ferien-schleswig-holstein-2027.html"
+    },
+    {
+      "title": "Osterferien",
+      "date_start": "2027-03-30",
+      "date_end": "2027-04-10",
+      "kind": "Schulferien SH",
+      "source_url": "https://www.kalenderpedia.de/ferien/ferien-schleswig-holstein-2027.html"
+    },
+    {
+      "title": "Ferientag nach Himmelfahrt",
+      "date_start": "2027-05-07",
+      "date_end": "2027-05-07",
+      "kind": "Schulferien SH",
+      "source_url": "https://www.kalenderpedia.de/ferien/ferien-schleswig-holstein-2027.html"
+    },
+    {
+      "title": "Sommerferien",
+      "date_start": "2027-07-03",
+      "date_end": "2027-08-14",
+      "kind": "Schulferien SH",
+      "source_url": "https://www.kalenderpedia.de/ferien/ferien-schleswig-holstein-2027.html"
+    },
+    {
+      "title": "Herbstferien",
+      "date_start": "2027-10-11",
+      "date_end": "2027-10-23",
+      "kind": "Schulferien SH",
+      "source_url": "https://www.kalenderpedia.de/ferien/ferien-schleswig-holstein-2027.html"
+    },
+    {
+      "title": "Weihnachtsferien 2027/28",
+      "date_start": "2027-12-23",
+      "date_end": "2028-01-08",
+      "kind": "Schulferien SH",
+      "source_url": "https://www.kalenderpedia.de/ferien/ferien-schleswig-holstein-2027.html"
+    },
+    {
+      "title": "Weihnachtsferien 2026/27",
+      "date_start": "2026-12-21",
+      "date_end": "2027-01-01",
+      "kind": "Schulferien HH",
+      "source_url": "https://www.kalenderpedia.de/ferien/ferien-hamburg-2027.html"
+    },
+    {
+      "title": "Halbjahrespause",
+      "date_start": "2027-01-29",
+      "date_end": "2027-01-29",
+      "kind": "Schulferien HH",
+      "source_url": "https://www.kalenderpedia.de/ferien/ferien-hamburg-2027.html"
+    },
+    {
+      "title": "Frühjahrsferien",
+      "date_start": "2027-03-01",
+      "date_end": "2027-03-12",
+      "kind": "Schulferien HH",
+      "source_url": "https://www.kalenderpedia.de/ferien/ferien-hamburg-2027.html"
+    },
+    {
+      "title": "Maiferien",
+      "date_start": "2027-05-07",
+      "date_end": "2027-05-14",
+      "kind": "Schulferien HH",
+      "source_url": "https://www.kalenderpedia.de/ferien/ferien-hamburg-2027.html"
+    },
+    {
+      "title": "Sommerferien",
+      "date_start": "2027-07-01",
+      "date_end": "2027-08-11",
+      "kind": "Schulferien HH",
+      "source_url": "https://www.kalenderpedia.de/ferien/ferien-hamburg-2027.html"
+    },
+    {
+      "title": "Herbstferien",
+      "date_start": "2027-10-11",
+      "date_end": "2027-10-22",
+      "kind": "Schulferien HH",
+      "source_url": "https://www.kalenderpedia.de/ferien/ferien-hamburg-2027.html"
+    },
+    {
+      "title": "Weihnachtsferien 2027/28",
+      "date_start": "2027-12-20",
+      "date_end": "2027-12-31",
+      "kind": "Schulferien HH",
+      "source_url": "https://www.kalenderpedia.de/ferien/ferien-hamburg-2027.html"
+    },
+    {
+      "title": "Juleferie 2026/27 (København, vejledende)",
+      "date_start": "2026-12-21",
+      "date_end": "2027-01-01",
+      "kind": "Skoleferie DK",
+      "source_url": "https://www.kk.dk/borger/pasning-og-skole/skole-og-fritid/vejledende-ferieplan-for-skoleaaret-i-koebenhavns-kommune"
+    },
+    {
+      "title": "Vinterferie uge 7 (København u.a.; Aalborg/Odense: 22.–26.2.)",
+      "date_start": "2027-02-15",
+      "date_end": "2027-02-19",
+      "kind": "Skoleferie DK",
+      "source_url": "https://www.kk.dk/borger/pasning-og-skole/skole-og-fritid/vejledende-ferieplan-for-skoleaaret-i-koebenhavns-kommune"
+    },
+    {
+      "title": "Påskeferie",
+      "date_start": "2027-03-22",
+      "date_end": "2027-03-29",
+      "kind": "Skoleferie DK",
+      "source_url": "https://www.kk.dk/borger/pasning-og-skole/skole-og-fritid/vejledende-ferieplan-for-skoleaaret-i-koebenhavns-kommune"
+    },
+    {
+      "title": "Kristi himmelfartsferie",
+      "date_start": "2027-05-06",
+      "date_end": "2027-05-07",
+      "kind": "Skoleferie DK",
+      "source_url": "https://www.kk.dk/borger/pasning-og-skole/skole-og-fritid/vejledende-ferieplan-for-skoleaaret-i-koebenhavns-kommune"
+    },
+    {
+      "title": "Pinse",
+      "date_start": "2027-05-16",
+      "date_end": "2027-05-17",
+      "kind": "Skoleferie DK",
+      "source_url": "https://www.kk.dk/borger/pasning-og-skole/skole-og-fritid/vejledende-ferieplan-for-skoleaaret-i-koebenhavns-kommune"
+    },
+    {
+      "title": "Grundlovsdag",
+      "date_start": "2027-06-05",
+      "date_end": "2027-06-05",
+      "kind": "Skoleferie DK",
+      "source_url": "https://www.kk.dk/borger/pasning-og-skole/skole-og-fritid/vejledende-ferieplan-for-skoleaaret-i-koebenhavns-kommune"
+    },
+    {
+      "title": "Sommerferie (København, vejledende)",
+      "date_start": "2027-06-26",
+      "date_end": "2027-08-06",
+      "kind": "Skoleferie DK",
+      "source_url": "https://www.kk.dk/borger/pasning-og-skole/skole-og-fritid/vejledende-ferieplan-for-skoleaaret-i-koebenhavns-kommune"
+    },
+    {
+      "title": "Efterårsferie uge 42 (København, vejledende)",
+      "date_start": "2027-10-18",
+      "date_end": "2027-10-22",
+      "kind": "Skoleferie DK",
+      "source_url": "https://www.kk.dk/borger/pasning-og-skole/skole-og-fritid/vejledende-ferieplan-for-skoleaaret-i-koebenhavns-kommune"
+    },
+    {
+      "title": "Juleferie 2027/28 (København, vejledende)",
+      "date_start": "2027-12-20",
+      "date_end": "2027-12-31",
+      "kind": "Skoleferie DK",
+      "source_url": "https://www.kk.dk/borger/pasning-og-skole/skole-og-fritid/vejledende-ferieplan-for-skoleaaret-i-koebenhavns-kommune"
+    }
+  ]
+}

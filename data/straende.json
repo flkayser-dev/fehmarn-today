@@ -1,0 +1,15 @@
+{
+  "generated": "2026-11-15",
+  "beaches": [
+    {"name": "Südstrand Burgtiefe", "side": "Süd", "text": "Weitläufiger, feinsandiger Badestrand mit Strandbar, im Sommer bewacht und belebt.", "tags": ["Sand", "Familien", "Strandkörbe", "Parkplatz", "Toiletten"], "lat": 54.4111, "lon": 11.2112, "source_url": "https://www.fehmarn.de/poi/suedstrand-burgtiefe"},
+    {"name": "Wulfener Hals", "side": "Süd", "text": "Feinsandiger Strand am Campingplatz, mit FKK-Abschnitt und Windsurfschule.", "tags": ["Sand", "FKK", "Kiten/Surfen"], "lat": 54.4077, "lon": 11.1851, "source_url": "https://www.fehmarn.de/poi/fkk-baden-wulfen"},
+    {"name": "Meeschendorfer Strand", "side": "Süd", "text": "Kinderfreundlicher Sandstrand, im Sommer bewacht, mit zwei Hundeabschnitten.", "tags": ["Sand", "Familien", "Hundestrand", "Strandkörbe", "Parkplatz", "Toiletten"], "lat": 54.4121, "lon": 11.2431, "source_url": "https://www.fehmarn.de/poi/meeschendorfer-strand"},
+    {"name": "Fehmarnsund", "side": "Süd", "text": "Unbewachter Naturstrand, meist sandig, mit Blick auf die Fehmarnsundbrücke.", "tags": ["Sand", "Parkplatz"], "lat": 54.4032, "lon": 11.1261, "source_url": "https://www.fehmarn.de/poi/fehmarnsund-strand"},
+    {"name": "Gold", "side": "Süd", "text": "Sandstrand mit flachem Einstieg, großes Stehrevier für Kiter und Surfer.", "tags": ["Sand", "Familien", "Kiten/Surfen", "Parkplatz"], "lat": 54.4249, "lon": 11.0971, "source_url": "https://www.fehmarn.de/fehmarn-erleben/aktiv/surfen"},
+    {"name": "Grüner Brink", "side": "Nord", "text": "Flacher Sandstrand am Naturschutzgebiet, ruhig, bewacht, Blick auf die Fähren.", "tags": ["Sand", "Familien", "Hundestrand", "Kiten/Surfen", "Naturschutz", "Strandkörbe", "Parkplatz", "Toiletten"], "lat": 54.5091, "lon": 11.1957, "source_url": "https://www.fehmarn.de/poi/gruener-brink-strand"},
+    {"name": "Altenteil", "side": "Nord", "text": "Wilder Kieselstrand an der Nordwestspitze, windig, beliebt bei Kitern.", "tags": ["Steine", "Kiten/Surfen", "Naturschutz", "Parkplatz", "Toiletten"], "lat": 54.5310, "lon": 11.0808, "source_url": "https://www.beachatlas.com/de/altenteil"},
+    {"name": "Bojendorf", "side": "West", "text": "Ruhiger Naturstrand an der Westküste, im Sommer bewacht, mit Strandbistro.", "tags": ["Hundestrand", "FKK", "Strandkörbe", "Parkplatz"], "lat": 54.4927, "lon": 11.0167, "source_url": "https://www.fehmarn.de/poi/hundestrand-bojendorf"},
+    {"name": "Wallnau", "side": "West", "text": "Feinsandiger FKK-Abschnitt beim Campingplatz, nahe dem NABU-Wasservogelreservat.", "tags": ["Sand", "FKK"], "lat": 54.4889, "lon": 11.0143, "source_url": "https://www.fehmarn.de/poi/fkk-baden-wallnau"},
+    {"name": "Katharinenhof", "side": "Ost", "text": "Ruhiger Naturstrand unter der Steilküste, Steine und große Felsen.", "tags": ["Steine"], "lat": 54.4365, "lon": 11.2902, "source_url": "https://www.urlaubsguru.de/deutschlandliebe/fehmarn-straende/"}
+  ]
+}

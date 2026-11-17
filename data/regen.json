@@ -1,0 +1,173 @@
+{
+ "generated": "2026-11-15",
+ "items": [
+  {
+   "name": "Meereszentrum Fehmarn",
+   "text": "Großes Aquarium mit Haien, Korallenriff und tropischen Fischen.",
+   "town": "Burg auf Fehmarn",
+   "address": "Gertrudenthaler Str. 12, 23769 Fehmarn / OT Burg",
+   "url": "https://www.meereszentrum.de/",
+   "price_adult": "12,00 €",
+   "price_child": "8,00 €",
+   "price_note": "Wortlaut: \"Erwachsene – Standardtarif\" 12,00 €; \"Ermäßigte – Senioren, Schüler, Studenten, Schwerbehinderte\" 10,00 €; \"Kinder 4-15 Jahre\" 8,00 €. \"Irrtum und Änderung vorbehalten.\" Kein Gültigkeitszeitraum angegeben; abgerufen 15.11.2026.",
+   "opening": "2.11.–1.3.: Mi–So 11–16 Uhr (letzter Einlass 14:30); 27.12.26–10.1.27 täglich 10–17 Uhr; 24.–26.12. und 1.1. geschlossen.",
+   "source_url": "https://www.meereszentrum.de/meereszentrum-fehmarn/",
+   "photo": {
+    "file": "File:Meereszentrum Fehmarn.jpg",
+    "author": "Thomas Kroemer",
+    "license": "CC BY-SA 4.0"
+   },
+   "slug": "meereszentrum-fehmarn",
+   "web_photo": {
+    "note": "kein Bild auf der Website"
+   }
+  },
+  {
+   "name": "FehMare – Die Badewelt am Südstrand",
+   "text": "Erlebnisbad mit Meerwasser-Wellenbecken und Saunawelt direkt am Südstrand.",
+   "town": "Burgtiefe",
+   "address": "Zur Strandpromenade 6, 23769 Fehmarn (Burgtiefe)",
+   "url": "https://www.fehmare.de/",
+   "price_adult": "16,00 € (bis zu 3 Stunden)",
+   "price_child": "8,00 € (bis zu 3 Stunden, Kinder 4–16 Jahre)",
+   "price_note": "Badewelt, Wortlaut \"bis zu 3 Stunden\": Erwachsene 16,00 € (mit Ostseecard 15,00 €); \"Kinder 4 - 16 Jahre\" 8,00 €. Tageskarte Erwachsene 21,00 €, Kinder 11,00 €. \"Kurzbaden bis 1,5 Stunden\": Erwachsene 12,00 €, Kinder 6,00 €. Kein Gültigkeitszeitraum angegeben, \"Änderungen und Irrtümer vorbehalten\"; abgerufen 15.11.2026.",
+   "opening": "Nebensaison Badewelt: Mo–Fr 13–19 Uhr, Sa/So 10–19 Uhr (Einlass bis 17:30). 21.–23.12. Hauptsaison. Ab 11.01.2027 wegen Revision geschlossen.",
+   "source_url": "https://www.fehmare.de/preise",
+   "photo": {
+    "file": "File:Burgtiefe-Fehmarn-msu-2023-0I9A-0542-.jpg",
+    "author": "Matthias Süßen",
+    "license": "CC BY-SA 4.0"
+   },
+   "slug": "fehmare-die-badewelt-am",
+   "web_photo": {
+    "src": "https://www.fehmare.de/upload/large/bg-header-2-1_847_large_cMnTHs7BEO.jpg",
+    "page": "https://www.fehmare.de/",
+    "w": 1920,
+    "h": 864,
+    "ok": true
+   }
+  },
+  {
+   "name": "U-Boot-Museum U 11",
+   "text": "Ausgemustertes Bundeswehr-U-Boot zum Begehen, dazu Museum zum Kalten Krieg.",
+   "town": "Burgstaaken",
+   "address": "Burgstaaken 89, 23769 Fehmarn / OT Burg",
+   "url": "https://www.ostsee-u-boot.de/",
+   "price_adult": "9,50 €",
+   "price_child": "6,20 €",
+   "price_note": "Wortlaut: \"Erwachsene € 9.50\"; \"Kinder (4 bis 14 Jahre) € 6.20\"; \"Jugendliche ab 15/Studenten/Wehrpflichtige € 7.35\"; \"Familienkarte (2 Erw. + 2 Kinder) € 26.50\". Nur Kartenzahlung. Stand der Seite mit Öffnungszeiten 2026/27; abgerufen 15.11.2026.",
+   "opening": "9.11.–19.12.2026 geschlossen; 20.12.2026–3.1.2027 täglich 10–15 Uhr.",
+   "source_url": "https://www.ostsee-u-boot.de/service/",
+   "photo": {
+    "file": "File:Burgstaaken U11 U-Boot-Museum.JPG",
+    "author": "Hajotthu",
+    "license": "CC BY-SA 3.0"
+   },
+   "slug": "u-boot-museum-u-11",
+   "web_photo": {
+    "src": "https://www.ostsee-u-boot.de/wp-content/uploads/2022/12/boot2.jpg",
+    "page": "https://www.ostsee-u-boot.de/",
+    "w": 772,
+    "h": 270,
+    "ok": true,
+    "rejected": [
+     "https://www.ostsee-u-boot.de/wp-content/uploads/2022/12/boot1.jpg"
+    ],
+    "recheck": true
+   }
+  },
+  {
+   "name": "Galileo Wissenswelt",
+   "text": "Mitmach-Museum zu Technik, Naturkunde und Urzeit mit vielen Exponaten.",
+   "town": "Burg auf Fehmarn",
+   "address": "Mummendorferweg 11 b, 23769 Burg auf Fehmarn",
+   "url": "https://www.galileo-fehmarn.de/",
+   "price_adult": "16,00 € (Einzelpreis je Museum)",
+   "price_child": "14,50 € (Einzelpreis je Museum, Kind ab 4 J.)",
+   "price_note": "Preisliste \"Preisliste-2026-1 Winter\" (Bild): \"Einzelpreis Erw. 16,00 €, Kind ab 4 J. 14,50 €\" je Museum. Kombi: \"2er-Ticket 19,50 € pro Pers.\", \"4er-Ticket 28,- € pro Pers.\" (bis zu 3 Jahre gültig). \"Nur Barzahlung\". Unter 16 Jahre nur in Begleitung Erwachsener.",
+   "opening": "Nov./Dez.: Sa & So 10–16 Uhr; 27.12. bis erster Sonntag im Januar täglich 10–17 Uhr; 24.12. geschlossen. \"Übersee\" und \"Dunkelexperiment\" 1.11.–1.4. geschlossen.",
+   "source_url": "https://www.galileo-fehmarn.de/eintrittspreise",
+   "photo": {
+    "file": "File:Galileo Front.jpg",
+    "author": "Fembi",
+    "license": "CC BY-SA 4.0"
+   },
+   "slug": "galileo-wissenswelt"
+  },
+  {
+   "name": "Mühlen- und Landwirtschaftsmuseum „Jachen Flünk“",
+   "text": "Museum in der ältesten erhaltenen Windmühle Schleswig-Holsteins, mit Landwirtschaftsgeschichte.",
+   "town": "Lemkenhafen",
+   "address": "Mühlenweg 45, 23769 Fehmarn / OT Lemkenhafen",
+   "url": "https://www.museum-fehmarn.de/muehlenmuseum.html",
+   "price_adult": "5,50 €",
+   "price_child": "frei (Kinder bis 14 Jahre)",
+   "price_note": "Wortlaut: \"Erwachsene €5,50\"; \"Erwachsene mit Ostseecard €5,00\"; \"Kinder bis 14 Jahre: frei\"; \"Schüler/Studenten €2,50\". Angaben zur Saison 2026 (13.05.–15.10.2026).",
+   "opening": "Saison 2026 beendet (13.05.–15.10.2026, täglich 10–17 Uhr). Im Winter geschlossen.",
+   "source_url": "https://www.museum-fehmarn.de/muehlenmuseum.html",
+   "photo": {
+    "file": "File:Windmühle Lemkenhafen 2014.jpg",
+    "author": "Holger.Ellgaard",
+    "license": "CC BY-SA 4.0"
+   },
+   "slug": "muehlen-und-landwirtscha"
+  },
+  {
+   "name": "Fehmarn-Museum",
+   "text": "Heimatmuseum zur Inselgeschichte, Geologie und Alltagskultur neben St. Nikolai.",
+   "town": "Burg auf Fehmarn",
+   "address": "Breite Straße 49, 23769 Fehmarn / OT Burg",
+   "url": "https://www.stadtfehmarn.de/Leben-auf-Fehmarn/Fehmarn-Museum",
+   "price_adult": "4,00 € (mit Ostseecard 3,00 €)",
+   "price_child": "frei (bis 18 Jahre)",
+   "price_note": "Wortlaut: \"bis 18 Jahre: freier Eintritt\"; \"Schüler/Studenten: 2,50 €\"; \"Erwachsene mit OC: 3,00 € (ohne Ostseecard 4,00 €)\". Kein Gültigkeitszeitraum; Seite nennt \"Öffnungszeiten ab Ostern 2026\". Seite der Stadt Fehmarn (Träger).",
+   "opening": "Ab Ostern 2026: Di, Do, Fr, Sa 11–16 Uhr. Winterpause 2026/27 auf der Seite nicht genannt – vorher prüfen.",
+   "source_url": "https://www.stadtfehmarn.de/Leben-auf-Fehmarn/Fehmarn-Museum",
+   "photo": {
+    "file": "File:Fehmarn-Museum Burg auf Fehmarn.jpg",
+    "author": "Unukorno",
+    "license": "CC BY 4.0"
+   },
+   "slug": "fehmarn-museum"
+  },
+  {
+   "name": "Burg Filmtheater",
+   "text": "Klassisches Kino im Stil der 70er Jahre in der Altstadt.",
+   "town": "Burg auf Fehmarn",
+   "address": "Breite Straße 13a, 23769 Burg auf Fehmarn",
+   "url": "https://www.burgfilmtheater.de/",
+   "price_adult": "12,00 €",
+   "price_child": "7,00 € (Kinderkino, bis 14 Jahre)",
+   "price_note": "Wortlaut \"Reguläre Vorstellungen\": \"Normal: 12,00€\", \"Ermäßigt*: 10,00€\". Kinderkino: \"Personen bis 14 Jahre: 7,00€\", \"Personen ab 14 Jahre: 9,00€\". Überlänge ab 121 Min. +0,50 €, ab 151 Min. +1,00 €. Kein Gültigkeitszeitraum angegeben; abgerufen 15.11.2026.",
+   "opening": "Reguläre Vorstellungen Do–So, Programm wöchentlich auf der Website.",
+   "source_url": "https://www.burgfilmtheater.de/haus-service/preise-tickets/",
+   "photo": null,
+   "slug": "burg-filmtheater",
+   "web_photo": {
+    "src": "https://www.burgfilmtheater.de/media/images/Janosch_Komm_wir_finden_eine_Schat_5HoVvdH.2e16d0ba.fill-640x512.jpg",
+    "page": "https://www.burgfilmtheater.de/",
+    "w": 640,
+    "h": 512,
+    "ok": false,
+    "rejected": [
+     "https://www.burgfilmtheater.de/media/images/Der_Regenb.sharing-8-f3584763.format-jpeg.jpegquality-85.jpg"
+    ],
+    "recheck": true
+   }
+  },
+  {
+   "name": "Salzinsel Fehmarn",
+   "text": "Salzgrotte zum Entspannen, 45-minütige Sitzungen zur vollen Stunde.",
+   "town": "Petersdorf",
+   "address": "Bojendorfer Weg 1a, 23769 Fehmarn / OT Petersdorf",
+   "url": "https://www.salzinsel-fehmarn.de/",
+   "price_adult": "14 € (Einzelkarte)",
+   "price_child": "10 € (Einzelkarte, Kinder unter 8 Jahre)",
+   "price_note": "Wortlaut: Erwachsene \"Einzelkarte: 14 EUR\"; \"Kinder unter 8 Jahre\" \"Einzelkarte: 10 EUR\"; Kinder unter 1 Jahr in Begleitung frei. Kein Gültigkeitszeitraum angegeben; abgerufen 15.11.2026.",
+   "opening": "Winterpause (Nebensaison Anfang Nov. bis Mitte April): nur nach Terminabsprache.",
+   "source_url": "https://www.salzinsel-fehmarn.de/preise.html",
+   "photo": null,
+   "slug": "salzinsel-fehmarn"
+  }
+ ]
+}
