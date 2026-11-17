@@ -531,3 +531,15 @@ h2 { font-size: var(--text-section); line-height: 1; text-transform: uppercase; 
 
 .upload-err:empty { display: none; }
 .form .upload { margin-bottom: 0; }
+
+/* Orts-Auswahl neben den Filtern (Aktivitäten, Nightlife) */
+.akt-tools { display: flex; align-items: flex-start; gap: var(--space-sm); margin-bottom: var(--space-lg); }
+.akt-tools .akt-filter { margin-bottom: 0; flex: 1 1 auto; min-width: 0; }
+.town-select { flex: none; margin-left: auto; min-height: 44px; max-width: 13rem; padding: 0 var(--space-xl) 0 var(--space-sm); border: var(--rule-hair) solid var(--color-rule); border-radius: var(--radius-card); background: var(--color-paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%233E6F94' stroke-width='1.6'/%3E%3C/svg%3E") no-repeat right var(--space-sm) center; color: var(--color-ink-2); font: inherit; font-size: var(--text-sm); appearance: none; cursor: pointer; transition: border-color var(--dur-micro) var(--ease-out); }
+.town-select:hover { border-color: var(--color-ink-2); }
+.town-select:focus-visible { outline: 2px solid var(--color-ink); outline-offset: 2px; }
+.akt-list[data-empty="1"]::before { content: "Hier gibt es dazu noch nichts. Anderen Ort oder Filter wählen."; display: block; color: var(--color-stone-ink); font-size: var(--text-sm); padding: var(--space-md) 0; }
+@media (max-width: 40rem) {
+  .akt-tools { flex-direction: column; gap: var(--space-xs); }
+  .town-select { margin-left: 0; align-self: flex-end; }
+}

@@ -256,6 +256,12 @@ REGEN_FILE = ROOT / "data" / "regen.json"
 REGEN_CREDITS = json.loads((HERE / "img" / "regen" / "credits.json").read_text()) if (HERE / "img" / "regen" / "credits.json").exists() else {}
 def short_town(t):
     return t.replace(" auf Fehmarn", "")
+FEHMARN_X = FEHMARN | {"Wallnau", "Flügge", "Marienleuchte", "Blieschendorf", "Gollendorf", "Johannisberg", "Sahrensdorf", "Staberhuk", "Grüner Brink"}
+def town_attrs(a):
+    """Ort für den Orts-Filter: Klammerzusätze und 'in Holstein' weg, Region dazu."""
+    t = re.sub(r"\s*\(.*\)", "", a.get("town") or "Fehmarn").replace(" in Holstein", "").replace(" auf Fehmarn", "").strip()
+    reg = "Fehmarn" if t in FEHMARN_X else "Ostholstein"
+    return f' data-town="{esc(t)}" data-region="{reg}"'
 def nodash(s):
     return re.sub(r"\s*–\s*", " bis ", re.sub(r"\s+–\s+", ": ", s or ""))
 def rain_html():
@@ -329,7 +335,7 @@ def akt_html():
         price = nodash(a.get("price") or "")
         season = nodash(a.get("season") or "")
         out.append(
-            f'<li class="rcard akt-item" data-cat="{esc(a.get("category", ""))}" data-sub="{esc(a.get("subcategory") or "")}" data-kids="{"1" if for_kids(a) else ""}"><a class="rcard-link" href="{esc(a["url"])}" rel="noopener" target="_blank">'
+            f'<li class="rcard akt-item" data-cat="{esc(a.get("category", ""))}" data-sub="{esc(a.get("subcategory") or "")}" data-kids="{"1" if for_kids(a) else ""}"{town_attrs(a)}><a class="rcard-link" href="{esc(a["url"])}" rel="noopener" target="_blank">'
             f'<span class="rcard-photo card-photo"><img src="{esc(src)}" alt="{esc(a["name"])}{sym}" loading="lazy" width="900" height="600" referrerpolicy="no-referrer">'
             f'<span class="card-cat">{esc(a.get("subcategory") or a.get("category", ""))}</span>{credit}</span>'
             f'<span class="rcard-body"><span class="rcard-title">{esc(nodash(a["name"]))}</span>'
@@ -397,7 +403,7 @@ def venue_card(a, folder, cat_attr, label, extra_attrs=""):
     addr = fmt_addr(a.get("address") or short_town(a.get("town") or "Fehmarn"))
     status = f'<span class="oh-status" data-oh="{esc(oh)}" hidden></span>' if oh else '<span class="oh-status" hidden></span>'
     gq = f'{a["name"]}, {a.get("address") or a.get("town") or "Fehmarn"}'
-    return (f'<li class="rcard akt-item" data-cat="{esc(cat_attr)}" data-sub="{esc(a.get("subcategory") or a.get("town") or "")}" data-gq="{esc(gq)}"{extra_attrs}>'
+    return (f'<li class="rcard akt-item" data-cat="{esc(cat_attr)}" data-sub="{esc(a.get("subcategory") or a.get("town") or "")}" data-gq="{esc(gq)}"{extra_attrs}{town_attrs(a)}>'
             f'<a class="rcard-link" href="{esc(a.get("url") or a.get("source_url") or "#")}" rel="noopener" target="_blank">'
             f'<span class="rcard-photo card-photo{" is-map" if "karte" in src else ""}"><img src="{esc(src)}" alt="{alt}" loading="lazy" width="900" height="560" referrerpolicy="no-referrer">'
             f'<span class="card-cat">{esc(label)}</span>{credit}</span>'
