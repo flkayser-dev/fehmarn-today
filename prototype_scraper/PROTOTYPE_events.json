@@ -1,17 +1,9 @@
 {
- "generated": "2026-11-17T10:30:41",
- "dupes_removed": 1,
+ "generated": "2026-11-18T12:09:29",
+ "dupes_removed": 2,
  "errors": {},
- "new": 0,
+ "new": 11,
  "stats": {
-  "der reporter": {
-   "events": 75,
-   "date": 97,
-   "time": 95,
-   "town": 100,
-   "venue": 64,
-   "url": 100
-  },
   "fehmarn.de": {
    "events": 107,
    "date": 100,
@@ -26,6 +18,14 @@
    "time": 0,
    "town": 100,
    "venue": 100,
+   "url": 100
+  },
+  "der reporter": {
+   "events": 76,
+   "date": 97,
+   "time": 93,
+   "town": 100,
+   "venue": 62,
    "url": 100
   }
  },
@@ -69,34 +69,6 @@
    "url": "https://www.der-reporter.de/tdf-strand/artikel/ab-30-oktober-die-trelche-sind-zurueck-in-travemuende",
    "recurring": null,
    "description": "Travemünde. Wenn die Tage kürzer werden, beginnt in Travemünde mit der Zeitumstellung nicht nur die Winterzeit, sondern auch wieder die Zeit der #TRelche: Am 30. Oktober 2026 beziehen Linus, Kalli und Lumi ihr Winterquartier im Seebad und bringen ihr Nordlicht an die Ostsee. Lieblingsplatz Strandter",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
-   "title": "Wolfgang Knorr setzt Friedhofsführungen fort",
-   "date": "2026-11-01",
-   "dates_found": 2,
-   "time": "15:00",
-   "town": "Heiligenhafen",
-   "venue": "Gildeältester",
-   "url": "https://www.der-reporter.de/fehmarn/artikel/wolfgang-knorr-setzt-friedhofsfuehrungen-fort",
-   "recurring": null,
-   "description": "Heiligenhafen. Die erste Frau, die selbstfahrend Opfer eines Verkehrsunfalls wurde. Ein Gildeältester, der auf kreative Weise verhindert, sich mit den Nationalsozialisten treffen zu müssen - wenn Wolfgang Knorr Geschichten aus dem alten Heiligenhafen erzählt, hören alle zu. Der Friedhof ist sein zwe",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
-   "title": "Hubertusritt",
-   "date": "2026-11-01",
-   "dates_found": 1,
-   "time": "12:00",
-   "town": "Kellenhusen",
-   "venue": "Kellenhusen",
-   "url": "https://www.der-reporter.de/neustadt/artikel/hoher-besuch-zum-hubertusritt",
-   "recurring": null,
-   "description": "Kellenhusen. Am Sonntag, 1. November, findet in Kellenhusen der Hubertusritt statt. Die Strecke führt durch die malerische Herbstverfärbung des Kellenhusener Waldes in Richtung Klostersee-Lenste. Dort stehen großflächige Wiesen für einen Gruppengalopp zur Verfügung. Anschließend erfolgt ein Stopp mi",
    "lnglat": null,
    "first_seen": "2026-11-17"
   },
@@ -200,17 +172,17 @@
   },
   {
    "source": "der reporter",
-   "title": "Kinder- und Jugendnetzwerk feiert 15-jähriges Bestehen",
-   "date": "2026-11-07",
+   "title": "450 Gäste feiern das CLASSICAL BEAT-Festivalfinale in Travemünde",
+   "date": "2026-11-08",
    "dates_found": 1,
-   "time": "14:00–16:30",
-   "town": "Neustadt in Holstein",
-   "venue": "Neustadt",
-   "url": "https://www.der-reporter.de/neustadt/artikel/kinder-und-jugendnetzwerk-feiert-15-jaehriges-bestehen",
+   "time": null,
+   "town": "Travemünde",
+   "venue": null,
+   "url": "https://www.der-reporter.de/tdf-strand/artikel/450-gaeste-feiern-das-classical-beat-festivalfinale-in-travemuende",
    "recurring": null,
-   "description": "Neustadt in Holstein. Vor 15 Jahren wurde das Kinder- und Jugendnetzwerk (KJN) in Neustadt gegründet. Seitdem steht es für Jugendarbeit und Vernetzung in der Stadt. Mittlerweile bietet das KJN nicht nur ein breit aufgestelltes Kursangebot für Kinder und Jugendliche, sondern hat durch die Zusammenarb",
+   "description": "Travemünde. Das Abschlusskonzert „CHAMPAGNER! – Das prickelnde Finale“ am Sonntag, dem 8. November 2026, im Maritim Strandhotel Travemünde setzte einen festlichen Schlusspunkt unter das Festivaljahr 2026. Zu Beginn des Konzerts erinnerte Hans-Wilhelm Hagen, Leiter des CLASSICAL BEAT Festivals, an di",
    "lnglat": null,
-   "first_seen": "2026-11-17"
+   "first_seen": "2026-11-18"
   },
   {
    "source": "der reporter",
@@ -267,6 +239,20 @@
    "description": "Lensahn. Am Mittwoch, dem 11. November findet von 16 bis 17.30 Uhr das Digitalcafé Lensahn erstmals im Raum der AWO, Dr.-Julius-Stinde-Straße 11a, statt. Thema ist „Betrügerische Nachrichten erkennen“. Gemeinsam schauen die Teilnehmenden auf verdächtige SMS, E-Mails und Messenger-Nachrichten und übe",
    "lnglat": null,
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "der reporter",
+   "title": "Deutschlands größte mobile Eisbahn: Eiswelt Scharbeutz ist eröffnet",
+   "date": "2026-11-13",
+   "dates_found": 1,
+   "time": "12:00–18:00",
+   "town": "Scharbeutz",
+   "venue": null,
+   "url": "https://www.der-reporter.de/tdf-strand/artikel/deutschlands-groesste-mobile-eisbahn-eiswelt-scharbeutz-ist-eroeffnet",
+   "recurring": null,
+   "description": "Scharbeutz. Mit einem Pre-Opening für geladene Gäste hat die Eiswelt Scharbeutz am Freitag, dem 13. November 2026, im Kurpark den Auftakt zur Saison 2026/27 gefeiert. Die nach Angaben der Tourismus-Agentur Lübecker Bucht größte mobile Eisbahn Deutschlands geht damit in ihre dritte Saison in dieser G",
+   "lnglat": null,
+   "first_seen": "2026-11-18"
   },
   {
    "source": "der reporter",
@@ -382,20 +368,6 @@
   },
   {
    "source": "der reporter",
-   "title": "Volkstrauertag",
-   "date": "2026-11-15",
-   "dates_found": 1,
-   "time": "10:30",
-   "town": "Am 15",
-   "venue": "Deutschland",
-   "url": "https://www.der-reporter.de/fehmarn/artikel/volkstrauertag-13",
-   "recurring": null,
-   "description": "Am 15. November 2026 erinnern die Menschen in Deutschland mit dem \"stillen Feiertag\" an alle Kriegstoten und die Opfer von Gewaltherrschaft aller Nationen. Es werden bundesweit in zahlreichen Orten verschiedene Gedenkveranstaltungen auf Friedhöfen oder an Gedenkorten sowie Gottesdienste abgehalten. ",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
    "title": "Kirche und Grundschüler laden zum Erlebnistag ein",
    "date": "2026-11-15",
    "dates_found": 1,
@@ -405,34 +377,6 @@
    "url": "https://www.der-reporter.de/tdf-strand/artikel/kirche-und-grundschueler-laden-zum-erlebnistag-ein",
    "recurring": null,
    "description": "Ratekau. Am Sonntag, dem 15. November 2026, von 15 bis 17 Uhr laden Célestine Czapnik, Vikarin der Ev.-luth. Kirchengemeinde Ratekau, und die Kinder der Klasse 4b der Grundschule Ratekau zu einem „Tag der offenen Tür“ in die Feldsteinkirche ein. In den vergangenen Wochen haben die Kinder gemeinsam d",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
-   "title": "Sanddorn: Umwelt-AG erforscht die Küstenpflanze vor dem Umwelthaus",
-   "date": "2026-11-17",
-   "dates_found": 1,
-   "time": "15:30–17:30",
-   "town": "Neustadt in Holstein",
-   "venue": "Sanddorn",
-   "url": "https://www.der-reporter.de/neustadt/artikel/sanddorn-umwelt-ag-erforscht-die-kuestenpflanze-vor-dem-umwelthaus",
-   "recurring": null,
-   "description": "Neustadt in Holstein. Warum trägt nicht jeder Sanddornstrauch Beeren? Wie sauer sind die Beeren wirklich? Und was genau ist am Sanddorn gesund? Diesen und weiteren Fragen gehen die Arten-Scouts am Dienstag, 17. November, von 15.30 bis 17.30 Uhr, am BUND-Umwelthaus in Neustadt nach. Eingeladen sind a",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
-   "title": "Vortrag “Vorsorgen für Krisen und Katastrophen“",
-   "date": "2026-11-17",
-   "dates_found": 1,
-   "time": "14:00",
-   "town": "Grömitz",
-   "venue": null,
-   "url": "https://www.der-reporter.de/neustadt/artikel/vortrag-vorsorgen-fuer-krisen-und-katastrophen",
-   "recurring": null,
-   "description": "Grömitz. Der Seniorenbeirat der Gemeinde Grömitz lädt am Dienstag, dem 17. November, um 14 Uhr im Klönschnack an der Gildehalle, Gildestraße 4, zu einem Vortrag unter der Überschrift „Vorsorgen für Krisen und Katastrophen“ ein. Extreme Wetterereignisse, Cyberattacken, Desinformation bedürfen der Vor",
    "lnglat": null,
    "first_seen": "2026-11-17"
   },
@@ -448,62 +392,6 @@
    "recurring": null,
    "description": "Ratekau. Gemeinsam ist es schöner: Ein Abend in der Bücherei für Frauen, die mit anderen Frauen ins Gespräch kommen möchten. Ein Monat für mehr Miteinander, dass ist das Motto des Deutschen Bibliotheksverband (dbv) und des Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ",
    "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Führung durch das Infocenter zum Fehmarnbelt-Tunnel",
-   "date": "2026-11-17",
-   "dates_found": 1,
-   "time": "11:00–11:30",
-   "town": "Fehmarn OT Burg",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/fuehrung-durch-das-infocenter-zum-fehmarnbelt-tunnel-5",
-   "recurring": "10 weitere Termine",
-   "description": "Erfahren Sie bei einer Führung durch das Infocenter Wissenswertes über den Fehmarnbelt-Tunnel, dem längsten Absenktunnel der Welt.",
-   "lnglat": "11.1944988,54.4362296",
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Digitale Krimi-Tour auf Fehmarn – Werden Sie zum Detektiv!",
-   "date": "2026-11-17",
-   "dates_found": 1,
-   "time": "14:00–16:00",
-   "town": "Fehmarn OT Burg",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/digitale-krimi-tour-auf-fehmarn-werden-sie-zum-detektiv",
-   "recurring": "10 weitere Termine",
-   "description": "Lust auf ein echtes Detektiv-Abenteuer? Beim Krimi-Trail Fehmarn übernehmen Sie selbst die Ermittlungen in einem spannenden Kunstdiebstahl rund um ein Kirchner-Gemälde. Mit dem Smartphone in der Hand folgen Sie Hinweisen, befragen virtuelle Verdächtige und kombinieren Beweise, bis der Täter überführ",
-   "lnglat": "11.19187653,54.441412836",
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Perlenzauber LemkenHafen KreativWerk",
-   "date": "2026-11-17",
-   "dates_found": 1,
-   "time": "14:00–17:00",
-   "town": "Fehmarn OT Lemkenhafen",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/perlenzauber-lemkenhafen-kreativwerk",
-   "recurring": "9 weitere Termine",
-   "description": "Du suchst nach einer besonderen Urlaubserinnerung oder einem persönlichen Mitbringsel für Familie und Freunde? Dann bist du bei uns genau richtig!\n\nIn LemkenHafen kannst du während unserer Öffnungszeiten ganz ohne Anmeldung kreativ werden. Gestalte dein eigenes Armband, eine Kette, einen Schlüsselan",
-   "lnglat": "11.0890163,54.4464411",
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Damensauna",
-   "date": "2026-11-17",
-   "dates_found": 1,
-   "time": "15:00–21:00",
-   "town": "Fehmarn",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/damensauna",
-   "recurring": "5 weitere Termine",
-   "description": "Doppelt entspannt: Sauna genießen, Massage geschenkt!",
-   "lnglat": "11.0179389,54.4901715",
    "first_seen": "2026-11-17"
   },
   {
@@ -760,6 +648,34 @@
   },
   {
    "source": "fehmarn.de",
+   "title": "Führung durch das Infocenter zum Fehmarnbelt-Tunnel",
+   "date": "2026-11-19",
+   "dates_found": 1,
+   "time": "11:00–11:30",
+   "town": "Fehmarn OT Burg",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/fuehrung-durch-das-infocenter-zum-fehmarnbelt-tunnel-5",
+   "recurring": "9 weitere Termine",
+   "description": "Erfahren Sie bei einer Führung durch das Infocenter Wissenswertes über den Fehmarnbelt-Tunnel, dem längsten Absenktunnel der Welt.",
+   "lnglat": "11.1944988,54.4362296",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Perlenzauber LemkenHafen KreativWerk",
+   "date": "2026-11-19",
+   "dates_found": 1,
+   "time": "14:00–17:00",
+   "town": "Fehmarn OT Lemkenhafen",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/perlenzauber-lemkenhafen-kreativwerk",
+   "recurring": "8 weitere Termine",
+   "description": "Du suchst nach einer besonderen Urlaubserinnerung oder einem persönlichen Mitbringsel für Familie und Freunde? Dann bist du bei uns genau richtig!\n\nIn LemkenHafen kannst du während unserer Öffnungszeiten ganz ohne Anmeldung kreativ werden. Gestalte dein eigenes Armband, eine Kette, einen Schlüsselan",
+   "lnglat": "11.0890163,54.4464411",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "source": "fehmarn.de",
    "title": "Keramik bemalen bei Pott und Pinsel",
    "date": "2026-11-19",
    "dates_found": 1,
@@ -799,6 +715,34 @@
    "description": "Charity-Bingo im Everyday Sunday: Spielen, gewinnen und Gutes tun – mit tollen Preisen von Fehmarner Unternehmen. Alle Erlöse gehen in den Meeresschutz.",
    "lnglat": "11.19705,54.43699",
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "der reporter",
+   "title": "AnzeigeKneipenquiz in Ewa’s Sandbar geht in die zweite Runde",
+   "date": "2026-11-20",
+   "dates_found": 3,
+   "time": "18:00",
+   "town": "Kellenhusen",
+   "venue": "Großbritannien",
+   "url": "https://www.der-reporter.de/neustadt/artikel/anzeigekneipenquiz-in-ewas-sandbar-geht-in-die-zweite-runde",
+   "recurring": null,
+   "description": "Kellenhusen. Eigentlich in Großbritannien und Irland zuhause, inzwischen aber auch in vielen deutschen Kneipen und Bars beliebt: Das Kneipenquiz kehrt nach Kellenhusen zurück. Nach dem gelungenen Auftakt im vergangenen Jahr lädt Ewa’s Sandbar am Freitag, 20. November, um 18 Uhr zur zweiten Runde ein",
+   "lnglat": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "source": "der reporter",
+   "title": "„Punsch am Milchbock“",
+   "date": "2026-11-20",
+   "dates_found": 1,
+   "time": "18:00",
+   "town": "Kasseedorf",
+   "venue": null,
+   "url": "https://www.der-reporter.de/neustadt/artikel/punsch-am-milchbock",
+   "recurring": null,
+   "description": "Kasseedorf. Nach dem Erfolg im letzten Jahr lädt Bürgermeister Mario Bielarz am Freitag, dem 20. November ab 18 Uhr wieder zu „Punsch am Milchbock“ ein. Auf dem Dorfplatz möchte man sich bei Punsch und Bier auf die bevorstehende Adventszeit einstimmen. Unterstützung kommt von den Schwentine-Schützen",
+   "lnglat": null,
+   "first_seen": "2026-11-18"
   },
   {
    "source": "der reporter",
@@ -900,15 +844,29 @@
   },
   {
    "source": "der reporter",
+   "title": "Schönwalder Budenzauber",
+   "date": "2026-11-21",
+   "dates_found": 1,
+   "time": "13:00–18:00",
+   "town": "Schönwalde ",
+   "venue": "Schönwalde",
+   "url": "https://www.der-reporter.de/neustadt/artikel/schoenwalder-budenzauber",
+   "recurring": null,
+   "description": "Schönwalde . Mit seiner fünften Auflage feiert der Budenzauber Ende November in Schönwalde in diesem Jahr ein kleines Jubiläum. Nach dem Umzug auf den historischen Pfarrhof im vergangenen Jahr laden Gemeindebeirat Schönwalde und die Kirchengemeinde erneut zur vorweihnachtlichen Zusammenkunft im Herz",
+   "lnglat": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "source": "der reporter",
    "title": "Adventsbasar",
    "date": "2026-11-21",
    "dates_found": 1,
-   "time": "10:00–17:00",
-   "town": "Ottendorf",
-   "venue": null,
-   "url": "https://www.der-reporter.de/neustadt/artikel/adventsbasar-10",
+   "time": "11:00–17:00",
+   "town": "Lensahn",
+   "venue": "Waldorfschule",
+   "url": "https://www.der-reporter.de/neustadt/artikel/adventsbasar-9",
    "recurring": null,
-   "description": "Ottendorf. Der DGV Ottendorf lädt am Samstag, 21. November, von 10 bis 17 Uhr zum traditionellen Adventsbasar ins Dörfergemeinschaftshaus, Holmkamp 4, ein. Seit rund 40 Jahren präsentieren Hobbykünstler aus der Region ihre liebevoll gefertigten Arbeiten, darunter weihnachtliche Dekorationen, Florist",
+   "description": "Lensahn. Am Samstag, dem 21. November von 11 bis 17 Uhr findet in der Waldorfschule in Ostholstein ein Adventsbasar statt. An zahlreichen Ständen gibt es liebevoll gefertigte Unikate, Schmuck, Dekorationen und besondere Geschenkideen zu entdecken. Vielfältige Bastelangebote und Mitmachaktionen für G",
    "lnglat": null,
    "first_seen": "2026-11-17"
   },
@@ -1009,6 +967,20 @@
    "description": "Ausdrucksmalen hilft dabei sich neu zu erleben, es bringt bestärkende Erfahrungen!",
    "lnglat": "11.2406222,54.4353836",
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Digitale Krimi-Tour auf Fehmarn – Werden Sie zum Detektiv!",
+   "date": "2026-11-21",
+   "dates_found": 1,
+   "time": "14:00–16:00",
+   "town": "Fehmarn OT Burg",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/digitale-krimi-tour-auf-fehmarn-werden-sie-zum-detektiv",
+   "recurring": "9 weitere Termine",
+   "description": "Lust auf ein echtes Detektiv-Abenteuer? Beim Krimi-Trail Fehmarn übernehmen Sie selbst die Ermittlungen in einem spannenden Kunstdiebstahl rund um ein Kirchner-Gemälde. Mit dem Smartphone in der Hand folgen Sie Hinweisen, befragen virtuelle Verdächtige und kombinieren Beweise, bis der Täter überführ",
+   "lnglat": "11.19187653,54.441412836",
+   "first_seen": "2026-11-18"
   },
   {
    "source": "fehmarn.de",
@@ -1151,6 +1123,20 @@
    "first_seen": "2026-11-17"
   },
   {
+   "source": "fehmarn.de",
+   "title": "Damensauna",
+   "date": "2026-11-24",
+   "dates_found": 1,
+   "time": "15:00–21:00",
+   "town": "Fehmarn",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/damensauna",
+   "recurring": "4 weitere Termine",
+   "description": "Doppelt entspannt: Sauna genießen, Massage geschenkt!",
+   "lnglat": "11.0179389,54.4901715",
+   "first_seen": "2026-11-18"
+  },
+  {
    "source": "der reporter",
    "title": "Vortrag „Gewalt ist eine Lösung“",
    "date": "2026-11-25",
@@ -1205,6 +1191,20 @@
    "description": "Kreative Auszeit – Musselintuch nähen Tauche ein in die wunderbare Welt des Musselinstoffs und gestalte dir dein ganz persönliches Lieblingsstück.\nMit Voranmeldung",
    "lnglat": "11.08905,54.44644",
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "der reporter",
+   "title": "Knusperhausbacken",
+   "date": "2026-11-26",
+   "dates_found": 2,
+   "time": "15:00",
+   "town": "Grube",
+   "venue": "Ostseebäcker Kinder",
+   "url": "https://www.der-reporter.de/neustadt/artikel/knusperhausbacken-2",
+   "recurring": null,
+   "description": "Grube. Am Donnerstag, 26. November um 15 Uhr, lädt der CDU Ortsverband Grube mit Unterstützung von Puck Mein Ostseebäcker Kinder zum traditionellen Knusperhausbauen in der Backstube ein. Unter Anleitung bauen und gestalten die kleinen Künstler ihr eigenes Knusperhaus. Die Kosten betragen 6 Euro und ",
+   "lnglat": null,
+   "first_seen": "2026-11-18"
   },
   {
    "source": "der reporter",
@@ -1613,6 +1613,20 @@
    "description": "Das Pete Struck Duo sorgt mit souligen Stimmen und einem ganz eigenen Mix aus R&B, Funk, Soul und Nu-Disco für den passenden Sound auf dem Weihnachtsmarkt Fehmarn.",
    "lnglat": "11.19694,54.43929",
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "der reporter",
+   "title": "Adventsnachmittag bei der AWO",
+   "date": "2026-12-05",
+   "dates_found": 2,
+   "time": "14:00",
+   "town": "Lensahn",
+   "venue": null,
+   "url": "https://www.der-reporter.de/neustadt/artikel/adventsnachmittag-bei-der-awo",
+   "recurring": null,
+   "description": "Lensahn. Die AWO Lensahn lädt zum Adventsnachmittag bei Kaffee und Kuchen am Samstag, 5. Dezember, um 14 Uhr im AWO Raum in der Dr.-Julius-Stinde-Straße 11a, ein. Auch Nichtmitglieder sind ausdrücklich eingeladen. Anmeldung bis zum 30. November bei Ute Estermann unter Tel. 0170/7736343. (red)",
+   "lnglat": null,
+   "first_seen": "2026-11-18"
   },
   {
    "source": "der reporter",
