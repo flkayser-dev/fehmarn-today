@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-19T12:02:56",
+ "generated": "2026-11-20T12:05:12",
  "dupes_removed": 2,
  "errors": {},
- "new": 10,
+ "new": 5,
  "stats": {
   "Hochberg Flohmarkt": {
    "events": 6,
@@ -13,15 +13,15 @@
    "url": 100
   },
   "der reporter": {
-   "events": 75,
+   "events": 73,
    "date": 97,
    "time": 93,
    "town": 100,
-   "venue": 67,
+   "venue": 70,
    "url": 100
   },
   "fehmarn.de": {
-   "events": 105,
+   "events": 103,
    "date": 100,
    "time": 99,
    "town": 100,
@@ -382,48 +382,6 @@
   },
   {
    "source": "der reporter",
-   "title": "Gemeindevertretung",
-   "date": "2026-11-19",
-   "dates_found": 1,
-   "time": "19:30",
-   "town": "Grömitz",
-   "venue": null,
-   "url": "https://www.der-reporter.de/neustadt/artikel/gemeindevertretung-100",
-   "recurring": null,
-   "description": "Grömitz. Eine öffentliche Sitzung der Gemeindevertretung der Gemeinde Grömitz findet am Donnerstag, 19. November, um 19.30 Uhr, im „Restaurant Eagle“ - Golfclub Grömitz, Am Schoor 46, statt. Tagesordnungspunkte sind unter anderem eine Einwohnerfragestunde, ein Bericht des Bürgermeisters, der Jahresa",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
-   "title": "Stadtverordnetenversammlung",
-   "date": "2026-11-19",
-   "dates_found": 1,
-   "time": "19:30",
-   "town": "Neustadt in Holstein",
-   "venue": null,
-   "url": "https://www.der-reporter.de/neustadt/artikel/stadtverordnetenversammlung-33",
-   "recurring": null,
-   "description": "Neustadt in Holstein. Die Stadtverordnetenversammlung tagt am Donnerstag, 19. November, ab 19.30 Uhr, im Sitzungssaal des Rathauses. Im öffentlichen Teil der Sitzung erfolgen unter anderem die Beschlussfassung über die Nachwahl eines Mitglieds des Rettiner Ortsbeirats, die 1. Änderung der Entschädig",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
-   "title": "Offener Bürgerrat",
-   "date": "2026-11-19",
-   "dates_found": 1,
-   "time": "19:30",
-   "town": "Sierksdorf",
-   "venue": null,
-   "url": "https://www.der-reporter.de/neustadt/artikel/offener-buergerrat-5",
-   "recurring": null,
-   "description": "Sierksdorf. Die Initiatoren des Offenen Bürgerates Roge/Sierksdorf, Christian Leichtfuß und Bodo Gehrke, laden zum zweiten Abend der Veranstaltungsreihe „Krieg und Frieden“ am Donnerstag, 19. November, um 19.30 Uhr im Haus des Gastes, Vogelsang 1, ein. Vorgetragen werden Texte, die den Gegensatz von",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
    "title": "„Up to Dad“ - Digitale Vätergruppe in Ostholstein",
    "date": "2026-11-19",
    "dates_found": 2,
@@ -448,90 +406,6 @@
    "recurring": null,
    "description": "Neustadt in Holstein. Hoher Leistungsdruck, ständige Erreichbarkeit und wachsende Anforderungen gehören für viele Menschen längst zum Berufsalltag. Doch wann wird aus anhaltender Belastung eine echte Gefahr für die mentale Gesundheit? Und woran erkennt man, dass man auf dem Weg in einen Burnout ist?",
    "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Morgenmeditation Suprabatham",
-   "date": "2026-11-19",
-   "dates_found": 1,
-   "time": "08:30–09:00",
-   "town": "Fehmarn",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/morgenmeditation-suprabatham",
-   "recurring": "6 weitere Termine",
-   "description": "Diese Morgenmeditation ist eine wunderbare Möglichkeit , den Tag bewusst, achtsam und voller positiver Energie zu beginnen. Sie schenkt einen klaren Geist, ein offenes Herz und tiefen inneren Frieden.",
-   "lnglat": "11.132927,54.4700537",
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Führung durch das Infocenter zum Fehmarnbelt-Tunnel",
-   "date": "2026-11-19",
-   "dates_found": 1,
-   "time": "11:00–11:30",
-   "town": "Fehmarn OT Burg",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/fuehrung-durch-das-infocenter-zum-fehmarnbelt-tunnel-5",
-   "recurring": "9 weitere Termine",
-   "description": "Erfahren Sie bei einer Führung durch das Infocenter Wissenswertes über den Fehmarnbelt-Tunnel, dem längsten Absenktunnel der Welt.",
-   "lnglat": "11.1944988,54.4362296",
-   "first_seen": "2026-11-18"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Perlenzauber LemkenHafen KreativWerk",
-   "date": "2026-11-19",
-   "dates_found": 1,
-   "time": "14:00–17:00",
-   "town": "Fehmarn OT Lemkenhafen",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/perlenzauber-lemkenhafen-kreativwerk",
-   "recurring": "8 weitere Termine",
-   "description": "Du suchst nach einer besonderen Urlaubserinnerung oder einem persönlichen Mitbringsel für Familie und Freunde? Dann bist du bei uns genau richtig!\n\nIn LemkenHafen kannst du während unserer Öffnungszeiten ganz ohne Anmeldung kreativ werden. Gestalte dein eigenes Armband, eine Kette, einen Schlüsselan",
-   "lnglat": "11.0890163,54.4464411",
-   "first_seen": "2026-11-18"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Keramik bemalen bei Pott und Pinsel",
-   "date": "2026-11-19",
-   "dates_found": 1,
-   "time": "15:00–17:30",
-   "town": "Fehmarn",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/keramik-bemalen-bei-pott-und-pinsel-3",
-   "recurring": "1 weiterer Termin",
-   "description": "Herein in die gute Stube! Gestalte bei uns in gemütlicher und kuscheliger Atmosphäre deine Wunschkeramik.",
-   "lnglat": "11.22810795,54.42646185",
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Qigong",
-   "date": "2026-11-19",
-   "dates_found": 1,
-   "time": "18:00–19:15",
-   "town": "Fehmarn",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/qigong",
-   "recurring": "4 weitere Termine",
-   "description": "Du möchtest eine Auszeit vom Alltag, Zeit nur für dich, zum Fühlen, Spüren, ganz bei dir selbst sein.\n\nEs ist eine Einladung, ein Geschenk, dir selbst zu begegnen.",
-   "lnglat": "11.0913506,54.4962621",
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Charity-Bingo im Everyday Sunday",
-   "date": "2026-11-19",
-   "dates_found": 1,
-   "time": "19:00–23:00",
-   "town": "Fehmarn OT Burg",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/charity-bingo-im-everyday-sunday",
-   "recurring": null,
-   "description": "Charity-Bingo im Everyday Sunday: Spielen, gewinnen und Gutes tun – mit tollen Preisen von Fehmarner Unternehmen. Alle Erlöse gehen in den Meeresschutz.",
-   "lnglat": "11.19705,54.43699",
    "first_seen": "2026-11-17"
   },
   {
@@ -589,6 +463,20 @@
    "description": "Lensahn. Wenn der November Einzug hält und die Vorfreude auf Weihnachten wächst, wird es auf dem Museumshof Lensahn wieder stimmungsvoll: Am Freitag, 20. November, und Samstag, 21. November, öffnet der Martinsmarkt jeweils von 13 bis 19 Uhr seine Türen. Wer auf der Suche nach besonderen Weihnachtsge",
    "lnglat": null,
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Perlenzauber LemkenHafen KreativWerk",
+   "date": "2026-11-20",
+   "dates_found": 1,
+   "time": "11:00–15:00",
+   "town": "Fehmarn OT Lemkenhafen",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/perlenzauber-lemkenhafen-kreativwerk",
+   "recurring": "7 weitere Termine",
+   "description": "Du suchst nach einer besonderen Urlaubserinnerung oder einem persönlichen Mitbringsel für Familie und Freunde? Dann bist du bei uns genau richtig!\n\nIn LemkenHafen kannst du während unserer Öffnungszeiten ganz ohne Anmeldung kreativ werden. Gestalte dein eigenes Armband, eine Kette, einen Schlüsselan",
+   "lnglat": "11.0890163,54.4464411",
+   "first_seen": "2026-11-20"
   },
   {
    "source": "fehmarn.de",
@@ -927,6 +815,20 @@
    "first_seen": "2026-11-17"
   },
   {
+   "source": "der reporter",
+   "title": "Eröffnung der Weihnachtsmärkte",
+   "date": "2026-11-23",
+   "dates_found": 7,
+   "time": "15:00",
+   "town": "Heiligenhafen",
+   "venue": "Eisstockbahn",
+   "url": "https://www.der-reporter.de/fehmarn/artikel/eroeffnung-der-weihnachtsmaerkte-1",
+   "recurring": null,
+   "description": "Heiligenhafen. Ab Montag, dem 23. November locken tausende LED-Lichter, verschiedene Stände, Kulinarik, Kinderattraktionen und Livemusik Besucher auf den Marktplatz von Heiligenhafen. Bis zum 31. Dezember findet hier wieder der Weihnachtstreff „Lichterglanz“ statt. Außer am 24. November und 29. Deze",
+   "lnglat": null,
+   "first_seen": "2026-11-20"
+  },
+  {
    "source": "fehmarn.de",
    "title": "Achtsamkeitsmeditation",
    "date": "2026-11-23",
@@ -967,6 +869,20 @@
    "description": "Neustadt in Holstein. Am Dienstag, 24. November, kommen um 15.30 Uhr in der Stadtbücherei Neustadt wieder die Bücherzwerge ab drei Jahren zusammen. Nach der halbstündigen Vorlesezeit wird es für alle Teilnehmenden im Rahmen des bundesweiten Aktionsmonats „Gemeinsam in der Bibliothek“ ein Bastelangeb",
    "lnglat": null,
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Führung durch das Infocenter zum Fehmarnbelt-Tunnel",
+   "date": "2026-11-24",
+   "dates_found": 1,
+   "time": "11:00–11:30",
+   "town": "Fehmarn OT Burg",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/fuehrung-durch-das-infocenter-zum-fehmarnbelt-tunnel-5",
+   "recurring": "8 weitere Termine",
+   "description": "Erfahren Sie bei einer Führung durch das Infocenter Wissenswertes über den Fehmarnbelt-Tunnel, dem längsten Absenktunnel der Welt.",
+   "lnglat": "11.1944988,54.4362296",
+   "first_seen": "2026-11-20"
   },
   {
    "source": "fehmarn.de",
@@ -1124,6 +1040,20 @@
   },
   {
    "source": "fehmarn.de",
+   "title": "Morgenmeditation Suprabatham",
+   "date": "2026-11-26",
+   "dates_found": 1,
+   "time": "08:30–09:00",
+   "town": "Fehmarn",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/morgenmeditation-suprabatham",
+   "recurring": "5 weitere Termine",
+   "description": "Diese Morgenmeditation ist eine wunderbare Möglichkeit , den Tag bewusst, achtsam und voller positiver Energie zu beginnen. Sie schenkt einen klaren Geist, ein offenes Herz und tiefen inneren Frieden.",
+   "lnglat": "11.132927,54.4700537",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "source": "fehmarn.de",
    "title": "Weihnachtsmarkt Fehmarn",
    "date": "2026-11-26",
    "dates_found": 1,
@@ -1135,6 +1065,20 @@
    "description": "Moin vom muggeligsten Weihnachtsmarkt am Meer! Willkommen auf dem Weihnachtsmarkt Fehmarn.",
    "lnglat": "11.19716,54.43894",
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Qigong",
+   "date": "2026-11-26",
+   "dates_found": 1,
+   "time": "18:00–19:15",
+   "town": "Fehmarn",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/qigong",
+   "recurring": "3 weitere Termine",
+   "description": "Du möchtest eine Auszeit vom Alltag, Zeit nur für dich, zum Fühlen, Spüren, ganz bei dir selbst sein.\n\nEs ist eine Einladung, ein Geschenk, dir selbst zu begegnen.",
+   "lnglat": "11.0913506,54.4962621",
+   "first_seen": "2026-11-20"
   },
   {
    "source": "der reporter",
