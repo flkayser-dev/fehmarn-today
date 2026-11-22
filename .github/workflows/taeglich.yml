@@ -4,13 +4,9 @@ on:
   schedule:
     - cron: "30 3 * * *"   # 4:30 Uhr (Winter) / 5:30 Uhr (Sommer) deutscher Zeit
   workflow_dispatch:        # von Hand starten
-  push:
-    branches: [main]
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: taeglich
@@ -38,16 +34,3 @@ jobs:
           git add prototype_scraper/PROTOTYPE_events.json prototype_scraper/laufprotokoll.csv
           git diff --cached --quiet || git commit -m "Termine vom $(TZ=Europe/Berlin date +%d.%m.%Y)"
           git push
-      - name: Veröffentlichen vorbereiten
-        run: |
-          mkdir -p _site
-          cp -r site/*.html site/*.css site/*.js site/*.svg site/img site/fonts site/vendor _site/ && rm -f _site/index.template.html
-          printf "User-agent: *\nDisallow: /\n" > _site/robots.txt
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-      - id: deploy
-        uses: actions/deploy-pages@v4
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
