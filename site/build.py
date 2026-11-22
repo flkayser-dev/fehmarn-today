@@ -486,3 +486,41 @@ page = re.sub(r"(\d) €", "\\1\u00a0€", page)
 (HERE / "index.html").write_text(page)
 print(f"{len(events)} Events · heute {n_on(TODAY, TODAY)} · Wochenende {n_on(sat, sun)} · frei {sum(e['free'] for e in events)} · "
       f"Kategorien {dict(Counter(e['cat'] for e in events))}")
+
+# --- Rechtsseiten (Texte aus eRecht24, Projekt "Fehmarn Today", in legal/*.frag.html)
+LEGAL = """<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{title} · Fehmarn Today</title>
+<meta name="theme-color" content="#F6F8FA">
+<link href="fonts.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v={v}">
+</head>
+<body>
+<header class="nav">
+  <div class="container">
+    <a class="wordmark" href="./" aria-label="Fehmarn Today, zur Startseite">
+      <svg viewBox="0 0 48 30" aria-hidden="true" fill="none" stroke-linecap="round"><path d="M3 24H45" stroke-width="3.5" style="stroke: var(--color-signal)"/><path d="M7 24C11 7 37 7 41 24" stroke-width="3.5" style="stroke: var(--color-signal)"/></svg>
+      <span>Fehmarn <span class="wm-2">Today</span></span>
+    </a>
+    <a class="legal-back" href="./">Zur Startseite</a>
+  </div>
+</header>
+<main class="legal container">
+{body}
+</main>
+<footer class="foot legal-foot">
+  <div class="container">
+    <ul class="legal-links"><li><a href="./">Startseite</a></li><li><a href="impressum.html">Impressum</a></li><li><a href="datenschutz.html">Datenschutz</a></li></ul>
+  </div>
+</footer>
+</body>
+</html>
+"""
+for slug, title in (("impressum", "Impressum"), ("datenschutz", "Datenschutz")):
+    frag = HERE / "legal" / f"{slug}.frag.html"
+    if frag.exists():
+        (HERE / f"{slug}.html").write_text(LEGAL.format(title=title, body=frag.read_text(), v=_v))

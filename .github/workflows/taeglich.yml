@@ -41,7 +41,7 @@ jobs:
       - name: Veröffentlichen vorbereiten
         run: |
           mkdir -p _site
-          cp -r site/index.html site/*.css site/*.js site/*.svg site/img _site/
+          cp -r site/*.html site/*.css site/*.js site/*.svg site/img site/fonts site/vendor _site/ && rm -f _site/index.template.html
           printf "User-agent: *\nDisallow: /\n" > _site/robots.txt
       - uses: actions/upload-pages-artifact@v3
         with:

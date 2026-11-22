@@ -7,10 +7,8 @@
 <title>Fehmarn Today · Was heute auf Fehmarn los ist</title>
 <meta name="description" content="Termine auf Fehmarn und in Ostholstein: Märkte, Konzerte, Kurse und Führungen, nach Tag und Ort.">
 <meta name="theme-color" content="#F6F8FA">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Hanken+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link href="fonts.css" rel="stylesheet">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -249,9 +247,10 @@
       <div>
         <h2>Seite</h2>
         <ul>
-          <li><a href="#kalender">Kalender</a></li>
+          <li><a href="#kalender">Events</a></li>
           <li><a href="#melden">Termin melden</a></li>
-          <li><span class="fill" data-fill="impressum">Impressum folgt</span></li>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
         </ul>
       </div>
     </div>
@@ -260,7 +259,7 @@
 </footer>
 
 <script type="application/json" id="events-data">{{EVENTS_JSON}}</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="vendor/leaflet/leaflet.min.js"></script>
 <script src="app.js"></script>
 <script src="strand.js"></script>
 <script src="aktiv.js"></script>
