@@ -754,6 +754,14 @@
     "ok": true,
     "rejected": [],
     "recheck": false
+   },
+   "open_photo": {
+    "file": "img/open/vogelpark-niendorf.jpg",
+    "author": "TSNT GmbH",
+    "license": "CC-BY-SA",
+    "source": "Touristische Landesdatenbank Schleswig-Holstein (TA.SH), Open Data",
+    "source_url": "https://resc.deskline.net/images/DE4/1/7d3d2478-ebd8-40d0-923d-61374c7fef93/99/image.jpg",
+    "poi_id": 65860
    }
   },
   {
@@ -911,6 +919,14 @@
     "ok": true,
     "rejected": [],
     "recheck": false
+   },
+   "open_photo": {
+    "file": "img/open/schloss-eutin.jpg",
+    "author": "Anne Weise / Eutin Tourismus",
+    "license": "CC-BY-SA",
+    "source": "Touristische Landesdatenbank Schleswig-Holstein (TA.SH), Open Data",
+    "source_url": "https://dam.destination.one/664086/22ac9767cd7b9d7122fc9d8f18342002874bd9b09419afc329bfc83d510fc49f/eutin-schloss-stadtbucht.jpg",
+    "poi_id": 67233
    }
   },
   {
@@ -942,6 +958,14 @@
     "rejected": [
      "https://museum.kreis-oh.de/media/custom/4278_104_1_g.JPG?1788165058"
     ]
+   },
+   "open_photo": {
+    "file": "img/open/ostholstein-museum-eutin.jpg",
+    "author": "Fokusweite / Eutin Tourismus",
+    "license": "CC-BY-SA",
+    "source": "Touristische Landesdatenbank Schleswig-Holstein (TA.SH), Open Data",
+    "source_url": "https://dam.destination.one/3689470/95c6f8a96070cd446ca0da18ef27dacdb4ec36762836eeb68d2a8e6267af3b4e/eutin-ostholstein-museum-kunst-jpg.jpg",
+    "poi_id": 67245
    }
   },
   {
@@ -965,6 +989,14 @@
    "web_photo": {
     "rejected": [],
     "note": "keine passende Aufnahme gefunden"
+   },
+   "open_photo": {
+    "file": "img/open/kirsten-bruhn-bad-eutin.jpg",
+    "author": "P. Hermans",
+    "license": "CC-BY-SA",
+    "source": "Touristische Landesdatenbank Schleswig-Holstein (TA.SH), Open Data",
+    "source_url": "https://dam.destination.one/659038/bb6134e4fb9cc216661dbdaa5c6c785dde2af37591933b2affa8cbdb3f458f48/eutin-baden-schwimmhalle-kirsten-bruhn-bad-jpg.jpg",
+    "poi_id": 144682
    }
   },
   {
@@ -1045,6 +1077,14 @@
     "ok": true,
     "rejected": [],
     "recheck": false
+   },
+   "open_photo": {
+    "file": "img/open/wildpark-malente.jpg",
+    "author": "Malente, MaTS GmbH - Anne Weise",
+    "license": "CC-BY-SA",
+    "source": "Touristische Landesdatenbank Schleswig-Holstein (TA.SH), Open Data",
+    "source_url": "https://dam.destination.one/4329720/fdc11e6c4e69d3c165e57dd1551c167f026c505af4bdef07ae8d15ba8387d1bd/malente-wildpark-reh-detail.jpg",
+    "poi_id": 144534
    }
   },
   {
@@ -1076,6 +1116,14 @@
     "rejected": [
      "https://www.wildpark-malente.de/assets/pics/holzbergturm/holzbergturm-header.jpg"
     ]
+   },
+   "open_photo": {
+    "file": "img/open/holzbergturm-malente.jpg",
+    "author": "MaTS GmbH/ Anne Weise",
+    "license": "CC-BY-SA",
+    "source": "Touristische Landesdatenbank Schleswig-Holstein (TA.SH), Open Data",
+    "source_url": "https://dam.destination.one/636244/48eef5923bcbd2d084805f1ebf10550b2adc3f3ee945bf7ddcc8165ae988062f/holzbergturm-in-neversfelde.jpg",
+    "poi_id": 164610
    }
   },
   {
@@ -1137,6 +1185,14 @@
     "h": 630,
     "ok": true,
     "checked": "2026-11-15"
+   },
+   "open_photo": {
+    "file": "img/open/wunderwelt-wasser-malente.jpg",
+    "author": "fineart Fotografie",
+    "license": "CC-BY-SA",
+    "source": "Touristische Landesdatenbank Schleswig-Holstein (TA.SH), Open Data",
+    "source_url": "https://dam.destination.one/1460318/86e63c47bbea909c191db320e79ef54cf5f1130f86b3d3c624b919003b04c50f/wunderwelt-wasser.jpg",
+    "poi_id": 121363
    }
   }
  ]

@@ -213,7 +213,8 @@ def credits_html():
         l = f'<a href="{CC[lic]}">CC {lic}</a>' if lic in CC else lic
         parts.append(f"{esc(alt)}: {esc(who)} ({l})")
     rc = rain_credits()
-    return "Fotos über Wikimedia Commons. " + "; ".join(parts) + (". Regen-Ziele: " + rc if rc else "") + ((". Aktivitäten: " + akt_credits()) if akt_credits() else "") + ((". Strände: " + beach_credits()) if beach_credits() else "") + ((". Nightlife: " + night_credits()) if night_credits() else "") + ((". Wellness: " + well_credits()) if well_credits() else "") + "."
+    op = open_credits()
+    return (("Fotos aus der Touristischen Landesdatenbank Schleswig-Holstein (TA.SH, Open Data), verkleinert: " + op + ". ") if op else "") + "Fotos über Wikimedia Commons. " + "; ".join(parts) + (". Regen-Ziele: " + rc if rc else "") + ((". Aktivitäten: " + akt_credits()) if akt_credits() else "") + ((". Strände: " + beach_credits()) if beach_credits() else "") + ((". Nightlife: " + night_credits()) if night_credits() else "") + ((". Wellness: " + well_credits()) if well_credits() else "") + "."
 
 # --- Orte: Fehmarn und Umgebung getrennt
 def towns_html(fehmarn):
@@ -362,8 +363,28 @@ NIGHT.sort(key=lambda a: (NIGHT_ORDER.index(a.get("subcategory")) if a.get("subc
 
 from urllib.parse import urlparse
 USED_IMG = set()
+OPEN_LIC = {"CC-BY-SA": "https://creativecommons.org/licenses/by-sa/4.0/", "CC-BY": "https://creativecommons.org/licenses/by/4.0/", "CC0": "https://creativecommons.org/publicdomain/zero/1.0/"}
+def open_credits():
+    seen, parts = set(), []
+    for f in sorted((ROOT / "data").glob("*.json")):
+        try:
+            items = json.loads(f.read_text()).get("items", [])
+        except Exception:
+            continue
+        for a in items:
+            o = a.get("open_photo") or {}
+            if o.get("file") and o["file"] not in seen and (HERE / o["file"]).exists():
+                seen.add(o["file"])
+                lic = o.get("license", "")
+                l = f'<a href="{OPEN_LIC[lic]}">{esc(lic)}</a>' if lic in OPEN_LIC else esc(lic)
+                parts.append(f'{esc(nodash(a["name"]))}: {esc(o.get("author") or "TA.SH")} ({l})')
+    return "; ".join(parts)
 def web_pic(a):
     """Bild von der Website des Anbieters oder seiner Portalseite: nur eingebunden (nicht kopiert), mit Quelle."""
+    o = a.get("open_photo") or {}  # offen lizenziert (Touristische Landesdatenbank SH), lokal gespeichert
+    if o.get("file") and (HERE / o["file"]).exists() and o["file"] not in USED_IMG:
+        USED_IMG.add(o["file"])
+        return o["file"], f'{o.get("author") or "TA.SH"} ({o.get("license", "")})'
     w = a.get("web_photo") or {}
     if not w.get("ok") or not w.get("src") or w["src"] in USED_IMG:
         return None

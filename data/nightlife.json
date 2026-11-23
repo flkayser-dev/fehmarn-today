@@ -175,6 +175,14 @@
     "h": 774,
     "ok": true,
     "checked": "2026-11-15"
+   },
+   "open_photo": {
+    "file": "img/open/vino-mare.jpg",
+    "author": "Simon Kosog",
+    "license": "CC-BY-SA",
+    "source": "Touristische Landesdatenbank Schleswig-Holstein (TA.SH), Open Data",
+    "source_url": "https://imxplatform-cust-tash.fsn1.your-objectstorage.com/media/vinomare_binnensee_burgtiefe_simon_kosog-2.jpeg",
+    "poi_id": 165468
    }
   },
   {
@@ -297,6 +305,14 @@
     "h": 900,
     "ok": true,
     "checked": "2026-11-15"
+   },
+   "open_photo": {
+    "file": "img/open/everyday-sunday.jpg",
+    "author": "Nemo Weber",
+    "license": "CC-BY-SA",
+    "source": "Touristische Landesdatenbank Schleswig-Holstein (TA.SH), Open Data",
+    "source_url": "https://imxplatform-cust-tash.fsn1.your-objectstorage.com/media/Everyday_sunday_Caf%C3%A9_Bar_Nemo_Weber%20%282%29.jpg",
+    "poi_id": 159941
    }
   },
   {
@@ -326,6 +342,14 @@
     "h": 900,
     "ok": true,
     "checked": "2026-11-15"
+   },
+   "open_photo": {
+    "file": "img/open/caf-liebevoll-kulturlabor.jpg",
+    "author": "Café liebevoll & KULTurlabor",
+    "license": "CC-BY-SA",
+    "source": "Touristische Landesdatenbank Schleswig-Holstein (TA.SH), Open Data",
+    "source_url": "https://imxplatform-cust-tash.fsn1.your-objectstorage.com/media/cafe-innen-spiegel.jpg",
+    "poi_id": 127142
    }
   },
   {
@@ -526,6 +550,14 @@
     "w": 2500,
     "h": 1691,
     "ok": true
+   },
+   "open_photo": {
+    "file": "img/open/fehmarn-destillerie.jpg",
+    "author": "Fehmarn Destillerie",
+    "license": "CC-BY-SA",
+    "source": "Touristische Landesdatenbank Schleswig-Holstein (TA.SH), Open Data",
+    "source_url": "https://imxplatform-cust-tash.fsn1.your-objectstorage.com/media/Titelbild.png",
+    "poi_id": 151816
    }
   },
   {

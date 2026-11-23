@@ -826,6 +826,14 @@
     "h": 1494,
     "ok": true,
     "checked": "2026-11-15"
+   },
+   "open_photo": {
+    "file": "img/open/hofladen-osterhof.jpg",
+    "author": "Grit Lichtenstein",
+    "license": "CC-BY-SA",
+    "source": "Touristische Landesdatenbank Schleswig-Holstein (TA.SH), Open Data",
+    "source_url": "https://imxplatform-cust-tash.fsn1.your-objectstorage.com/media/osterhof_fehmarn_grit_lichtenstein_osterhof_fehmarn_gbr-5.jpg",
+    "poi_id": 130563
    }
   }
  ]

@@ -1005,6 +1005,14 @@
    "photo": null,
    "web_photo": {
     "note": "keine passende Aufnahme gefunden"
+   },
+   "open_photo": {
+    "file": "img/open/sunari-thai-massage.jpg",
+    "author": "Malente, MaTS GmbH - Anne Weise",
+    "license": "CC-BY-SA",
+    "source": "Touristische Landesdatenbank Schleswig-Holstein (TA.SH), Open Data",
+    "source_url": "https://dam.destination.one/3709947/299e5d611869b23a5ab293831bbf7d5867b471a1ce0fb214bd690caf0b164aa8/bl-tterherz-im-wald-in-malente.jpg",
+    "poi_id": 144618
    }
   },
   {
