@@ -200,7 +200,7 @@ def caption_woche(days, evs):
             f"Dein Termin fehlt? Auf {URL} kostenlos eintragen.\n\n{hashtags([e for x in evs for e in x])}")
 
 
-def render(pages, out, jpg=False):
+def render(pages, out, jpg=False, size=(W, H)):
     out.mkdir(parents=True, exist_ok=True)
     for old in list(out.glob("*.png")) + list(out.glob("*.jpg")):
         old.unlink()
@@ -209,8 +209,8 @@ def render(pages, out, jpg=False):
         f = out / f"{i:02d}.html"
         f.write_text(p)
         png = out / f"{i:02d}.png"
-        subprocess.run([CHROME, "--headless=new", "--hide-scrollbars", "--allow-file-access-from-files",
-                        f"--window-size={W},{H}", f"--screenshot={png}", f.as_uri()],
+        subprocess.run([CHROME, "--headless=new", "--hide-scrollbars", "--allow-file-access-from-files", "--virtual-time-budget=5000",
+                        f"--window-size={size[0]},{size[1]}", f"--screenshot={png}", f.as_uri()],
                        capture_output=True, check=True)
         f.unlink()
         if jpg:  # Instagram nimmt über die Schnittstelle nur JPEG
@@ -222,6 +222,123 @@ def render(pages, out, jpg=False):
             files.append(png.name)
     print(out, len(pages), "Bilder")
     return files
+
+
+# --- Reel (9:16 Video, ohne Ton: den Sound wählt man in der App)
+RW, RH = 1080, 1920
+REEL_FOTOS = [  # Datei in site/img, Fotograf, Lizenz
+    ("moewe-strandkorb", "Superbass", "CC BY-SA 4.0"), ("strand-bruecke", "Dguendel", "CC BY 4.0"),
+    ("kites-sund", "Superbass", "CC BY-SA 4.0"), ("fluegge-behrens", "Torsten Behrens", "CC BY 2.0"),
+    ("orth-superbass", "Superbass", "CC BY-SA 4.0"), ("burgtiefe-luft", "Fabian Horst", "CC BY-SA 4.0"),
+    ("bruecke-korn", "Superbass", "CC BY-SA 4.0")]
+REEL_MAX = 5
+# Unten (~380 px) und rechts (~140 px) liegen bei Instagram und TikTok Knöpfe und Text: dort nichts Wichtiges.
+RCSS = f"body{{width:{RW}px;height:{RH}px;padding:150px 150px 380px 80px}}"
+
+
+def rpage(body, cls=""):
+    return page(f"<style>{RCSS}</style>{body}", cls)
+
+
+def reel_cover(d, n, foto):
+    f, who, lic = foto
+    bg = (ROOT / "site" / "img" / f"{f}.jpg").as_uri()
+    return rpage(f"""<style>body.dark{{background:linear-gradient(180deg,rgba(3,32,61,.15) 0%,rgba(3,32,61,.55) 38%,rgba(3,32,61,.92) 70%),url('{bg}') center/cover;color:var(--white)}}</style>
+{sign()}
+<div style="margin-top:auto">
+<p style="font-size:44px;font-weight:700;color:var(--white);opacity:.9">{datum(d)}</p>
+<h1 class=A style="font-size:210px;margin-top:18px">Heute auf<br>Fehmarn</h1>
+<p style="margin-top:44px;display:flex;align-items:center;gap:26px;font-size:46px;font-weight:700">
+<span class=A style="background:var(--red);color:var(--white);font-size:110px;padding:.06em .28em .02em">{n}</span>Tipps für deinen Tag</p>
+</div>
+<p style="position:absolute;left:80px;bottom:60px;font-size:20px;opacity:.7">Foto: {e_(who)}, {lic}</p>""", "dark")
+
+
+def reel_event(e, i, n, d):
+    t = (e.get("time") or "ganztags").replace("–", " bis ")
+    where = ", ".join(x for x in [e_(e.get("venue")), e_(town(e.get("town")))] if x)
+    title = e_(e.get("title"))
+    fs = 108 if len(title) < 40 else 88 if len(title) < 70 else 70
+    return rpage(f"""<div style="display:flex;justify-content:space-between;align-items:center">{sign()}<span class=A style="font-size:52px;color:var(--sink)">{i}/{n}</span></div>
+<div style="margin-top:auto;margin-bottom:auto">
+<p style="font-size:46px;font-weight:700;color:var(--red)">{"Fehmarn" if on_fehmarn(e) else "Ostholstein"}</p>
+<p class=A style="font-size:{180 if len(t) < 12 else 130}px;margin-top:16px">{e_(t)}{" Uhr" if t[:1].isdigit() else ""}</p>
+<h2 style="font-size:{fs}px;line-height:1.08;margin-top:40px;font-weight:800;letter-spacing:-.01em">{title}</h2>
+<p style="font-size:52px;font-weight:600;color:var(--sink);margin-top:32px">{where}</p>
+</div>""")
+
+
+def reel_cta(n_all):
+    more = f"Alle {n_all} Termine von heute" if n_all > REEL_MAX else "Alle Termine, jeden Tag neu"
+    return rpage(f"""{sign()}
+<div style="margin-top:auto;margin-bottom:auto">
+<h1 class=A style="font-size:150px">{more.split(",")[0]}</h1>
+<p style="margin-top:56px;align-self:flex-start;display:inline-block;background:var(--red);color:var(--white);font-size:64px;font-weight:800;padding:.4em .6em">{URL}</p>
+<p style="font-size:42px;font-weight:600;color:var(--stone);margin-top:40px">Folgen für den Tagesplan jeden Morgen</p>
+</div>""", "dark")
+
+
+def reel(d, out, fps=30):
+    """Reel für einen Tag als MP4 (ohne Ton). Gibt den Pfad zurück oder None bei zu wenig Terminen."""
+    ev = load(d)
+    if len(ev) < MIN_TAG:
+        return None
+    top = ev[:REEL_MAX]
+    foto = REEL_FOTOS[d.toordinal() % len(REEL_FOTOS)]
+    pages = [reel_cover(d, len(top), foto)] + [reel_event(e, i, len(top), d) for i, e in enumerate(top, 1)] + [reel_cta(len(ev))]
+    return video(pages, [2.6] + [2.2] * len(top) + [2.8], out, fps)
+
+
+def hochkant(p):
+    """Eine 4:5-Seite als 9:16-Seite (Sicherheitsabstände für die App-Knöpfe, kein 'Wischen'-Hinweis)."""
+    for s in ("Nach rechts wischen", "Wischen für jeden Tag"):
+        p = p.replace(s, "")
+    z = 1.22  # alles größer: auf dem Handy im Hochformat sonst zu klein
+    css = (f"body{{zoom:{z};width:{RW / z:.0f}px;height:{RH / z:.0f}px;"
+           f"padding:{150 / z:.0f}px {130 / z:.0f}px {400 / z:.0f}px {70 / z:.0f}px}}")
+    return p.replace("<body", f"<style>{css}</style><body", 1)
+
+
+def reel_woche(start, out, fps=30):
+    """Reel: erst die Wochenübersicht (start + 6 Tage), dann jeder Tag mit Terminen einzeln."""
+    days = [start + dt.timedelta(days=i) for i in range(7)]
+    evs = [load(x, fehmarn_first=False) for x in days]
+    voll = [(x, ev) for x, ev in zip(days, evs) if ev]
+    if len(voll) < 2:
+        return None
+    pages = [hochkant(slide_week_overview(days, evs))] + [hochkant(slide_day(x, ev)) for x, ev in voll] + [reel_cta(0)]
+    return video(pages, [4.0] + [2.6] * len(voll) + [2.8], out, fps)
+
+
+def video(pages, durs, out, fps=30):
+    tmp = out / "_reel"
+    files = render(pages, tmp, size=(RW, RH))
+    X = 0.35  # Überblendung
+    cmd = ["ffmpeg", "-y", "-loglevel", "error"]
+    for f, s in zip(files, durs):
+        cmd += ["-loop", "1", "-t", f"{s + X:.2f}", "-i", str(tmp / f)]
+    flt = []
+    for i, s in enumerate(durs):  # langsamer Zoom auf jedem Bild
+        z = 0.04 if i == 0 else 0.02
+        flt.append(f"[{i}:v]scale=w='trunc({RW}*(1+{z}*t/{s + X:.2f})/2)*2':h=-2:eval=frame,crop={RW}:{RH},fps={fps},format=yuv420p,setsar=1[v{i}]")
+    last, off = "v0", 0.0
+    for i in range(1, len(durs)):
+        off += durs[i - 1]
+        flt.append(f"[{last}][v{i}]xfade=transition=slideleft:duration={X}:offset={off - X * (i - 1):.2f}[x{i}]")
+        last = f"x{i}"
+    mp4 = out / "reel.mp4"
+    cmd += ["-filter_complex", ";".join(flt), "-map", f"[{last}]", "-c:v", "libx264", "-preset", "medium", "-crf", "20",
+            "-pix_fmt", "yuv420p", "-movflags", "+faststart", "-r", str(fps), str(mp4)]
+    subprocess.run(cmd, check=True)
+    shutil.copy(tmp / files[0], out / "reel-cover.png")
+    shutil.rmtree(tmp)
+    print(mp4)
+    return mp4
+
+
+def caption_reel(d, ev):
+    lines = "\n".join(zeile(e) for e in ev[:REEL_MAX])
+    return (f"Heute auf Fehmarn, {datum(d)}:\n\n{lines}\n\nAlle Termine auf {URL}\n\n{hashtags(ev)}")
 
 
 def pages_tag(d):
@@ -269,6 +386,13 @@ def vorbereiten(start, out_root, n_days=8):  # 8 Tage: sonntags auch der nächst
             files = render(pages, out_root / pid, jpg=True)
             plan.append({"id": pid, "kind": "tag", "when": f"{d.isoformat()}T{'10:30' if d.weekday() == 6 else '10:00'}",
                          "images": [f"{pid}/{f}" for f in files], "caption": caption_tag(d, ev)})
+            try:  # Reel zum Selbstposten (Sound in der App wählen); ein Fehler hier darf die Bilder nicht verhindern
+                if reel_woche(d, out_root / pid):  # Wochenübersicht ab diesem Tag, dann jeder Tag einzeln
+                    plan[-1]["reel"] = f"{pid}/reel.mp4"
+                    wk = [d + dt.timedelta(days=k) for k in range(7)]
+                    (out_root / pid / "reel-caption.txt").write_text(caption_woche(wk, [load(x, fehmarn_first=False) for x in wk]).replace("Jeder Tag im Karussell", "Jeder Tag im Video"))
+            except Exception as err:
+                print("Reel fehlgeschlagen:", d, err)
     (out_root / "plan.json").write_text(json.dumps({"generated": dt.datetime.now(ZoneInfo("Europe/Berlin")).isoformat(timespec="minutes"),
                                                    "posts": plan}, ensure_ascii=False, indent=1))
     print(out_root / "plan.json", len(plan), "Posts")
@@ -280,6 +404,19 @@ if __name__ == "__main__":
     d = dt.date.fromisoformat(sys.argv[2]) if len(sys.argv) > 2 else None
     if kind == "tag":
         render(pages_tag(d or today)[1], HERE / "out" / f"{(d or today).isoformat()}-tag")
+    elif kind == "reel":
+        d = d or today
+        o = HERE / "out" / f"{d.isoformat()}-reel"
+        o.mkdir(parents=True, exist_ok=True)
+        if reel(d, o):
+            (o / "caption.txt").write_text(caption_reel(d, load(d)))
+    elif kind == "reelwoche":
+        d = d or today
+        o = HERE / "out" / f"{d.isoformat()}-reelwoche"
+        o.mkdir(parents=True, exist_ok=True)
+        if reel_woche(d, o):
+            days = [d + dt.timedelta(days=i) for i in range(7)]
+            (o / "caption.txt").write_text(caption_woche(days, [load(x, fehmarn_first=False) for x in days]))
     elif kind == "woche":
         s = d or today + dt.timedelta(days=(6 - today.weekday()) % 7)
         render(pages_woche(s)[2], HERE / "out" / f"{s.isoformat()}-woche")
