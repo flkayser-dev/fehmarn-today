@@ -1,19 +1,11 @@
 {
- "generated": "2026-11-22T11:53:36",
- "dupes_removed": 1,
+ "generated": "2026-11-23T10:02:54",
+ "dupes_removed": 0,
  "errors": {
   "fehmarn.de": "TimeoutError('The read operation timed out')"
  },
  "new": 0,
  "stats": {
-  "der reporter": {
-   "events": 77,
-   "date": 96,
-   "time": 94,
-   "town": 100,
-   "venue": 68,
-   "url": 100
-  },
   "Hochberg Flohmarkt": {
    "events": 6,
    "date": 100,
@@ -22,8 +14,16 @@
    "venue": 100,
    "url": 100
   },
+  "der reporter": {
+   "events": 69,
+   "date": 96,
+   "time": 93,
+   "town": 100,
+   "venue": 68,
+   "url": 100
+  },
   "fehmarn.de": {
-   "events": 92,
+   "events": 90,
    "date": 100,
    "time": 99,
    "town": 99,
@@ -76,34 +76,6 @@
   },
   {
    "source": "der reporter",
-   "title": "Präsentation Zine-Projekt „Zukunft gestalten“",
-   "date": "2026-11-05",
-   "dates_found": 1,
-   "time": "18:30",
-   "town": "Neustadt in Holstein",
-   "venue": "Stadtbücherei",
-   "url": "https://www.der-reporter.de/neustadt/artikel/praesentation-zine-projekt-zukunft-gestalten",
-   "recurring": null,
-   "description": "Neustadt in Holstein. Seit dem Frühjahr sind beim kreativen Zine-Projekt der Kulturschaffenden Heike Rhein über 100 kleine Heftchen zum Thema „Zukunft“ entstanden. Derzeit werden die Ergebnisse in einer Ausstellung in der Stadtbücherei gezeigt. Am Donnerstag, 5. November, beginnt um 18.30 Uhr dort b",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
-   "title": "Dorfkümmerei lädt zum Vortrag über Einbruchschutz ein",
-   "date": "2026-11-05",
-   "dates_found": 1,
-   "time": "15:00",
-   "town": "Kellenhusen",
-   "venue": null,
-   "url": "https://www.der-reporter.de/neustadt/artikel/dorfkuemmerei-laedt-zum-vortrag-ueber-einbruchschutz-ein",
-   "recurring": null,
-   "description": "Kellenhusen. Die Dorfkümmerei Kellenhusen lädt alle Einwohnerinnen und Einwohner von Kellenhusen am Donnerstag, 5. November, um 15 Uhr zu einem Vortrag im Diekhuus, Strandpromenade 15, ein. Die kostenlose Veranstaltung der Einbruchschutzberatung der Polizeidirektion Lübeck vermittelt praxisnahe Tipp",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
    "title": "VHS-Kurse",
    "date": "2026-11-06",
    "dates_found": 4,
@@ -113,20 +85,6 @@
    "url": "https://www.der-reporter.de/neustadt/artikel/vhs-kurse-91",
    "recurring": null,
    "description": "Neustadt in Holstein. Die Volkshochschule bietet folgende Kurse an: Freitag, 6. November, 17 Uhr Vortrag „Zwischen den Gedanken“ - die Kunst der Meditation mit Natalie Kruse in der Mensa des Küstengymnasiums. Montag, 9. November, 16 Uhr „Leichter durch den Alltag II“ mit Jennifer Dridiger im Seminar",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
-   "title": "Laternelaufen",
-   "date": "2026-11-07",
-   "dates_found": 1,
-   "time": "18:00",
-   "town": "Brenkenhagen",
-   "venue": null,
-   "url": "https://www.der-reporter.de/neustadt/artikel/laternelaufen-5",
-   "recurring": null,
-   "description": "Brenkenhagen. Die Freiwillige Feuerwehr Brenkenhagen lädt am Samstag, 7. November, um 18 Uhr zum Laternelaufen ein. Gestartet wird am Feuerwehrgerätehaus unter musikalischer Begleitung des Feuerwehrmusikzuges. Anschließend werden Grillspezialitäten sowie kalte und warme Getränke angeboten. (red)",
    "lnglat": null,
    "first_seen": "2026-11-17"
   },
@@ -314,20 +272,6 @@
   },
   {
    "source": "der reporter",
-   "title": "Laternelaufen",
-   "date": "2026-11-14",
-   "dates_found": 1,
-   "time": "17:30",
-   "town": "Bockholt",
-   "venue": "Wendehammer",
-   "url": "https://www.der-reporter.de/eutin/artikel/laternelaufen-3",
-   "recurring": null,
-   "description": "Bockholt. Am Samstag, dem 14. November findet der alljährliche Laternenumzug des Dorfgemeinschaftsvereins Bockholt statt. Unterstützt durch die Freiwillige Feuerwehr Röbel und angeführt durch den Röbeler Spielmannszug sind Groß und Klein eingeladen, ihre Laternen durch die Straßen von Bockholt zu tr",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
    "title": "Kirche und Grundschüler laden zum Erlebnistag ein",
    "date": "2026-11-15",
    "dates_found": 1,
@@ -384,20 +328,6 @@
   },
   {
    "source": "der reporter",
-   "title": "Martinsmarkt auf dem Museumshof Lensahn",
-   "date": "2026-11-20",
-   "dates_found": 2,
-   "time": "13:00–19:00",
-   "town": "Lensahn",
-   "venue": "Museumshof Lensahn",
-   "url": "https://www.der-reporter.de/neustadt/artikel/martinsmarkt-auf-dem-museumshof-lensahn",
-   "recurring": null,
-   "description": "Lensahn. Wenn der November Einzug hält und die Vorfreude auf Weihnachten wächst, wird es auf dem Museumshof Lensahn wieder stimmungsvoll: Am Freitag, 20. November, und Samstag, 21. November, öffnet der Martinsmarkt jeweils von 13 bis 19 Uhr seine Türen. Wer auf der Suche nach besonderen Weihnachtsge",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
    "title": "Kinder-Uni Stockelsdorf: So werden Verbrecher überführt",
    "date": "2026-11-21",
    "dates_found": 1,
@@ -409,34 +339,6 @@
    "description": "Stockelsdorf. Ein Fingerabdruck, eine Fußspur oder ein einzelnes Haar: Schon kleine Spuren können helfen, ein Verbrechen aufzuklären. Doch wie finden Kommissare heraus, was an einem Tatort geschehen ist? Was kann ein blauer Fleck verraten? Wie werden Fingerabdrücke genommen und Blutspuren gesichert?",
    "lnglat": null,
    "first_seen": "2026-11-19"
-  },
-  {
-   "source": "der reporter",
-   "title": "Schönwalder Budenzauber",
-   "date": "2026-11-21",
-   "dates_found": 1,
-   "time": "13:00–18:00",
-   "town": "Schönwalde ",
-   "venue": "Schönwalde",
-   "url": "https://www.der-reporter.de/neustadt/artikel/schoenwalder-budenzauber",
-   "recurring": null,
-   "description": "Schönwalde . Mit seiner fünften Auflage feiert der Budenzauber Ende November in Schönwalde in diesem Jahr ein kleines Jubiläum. Nach dem Umzug auf den historischen Pfarrhof im vergangenen Jahr laden Gemeindebeirat Schönwalde und die Kirchengemeinde erneut zur vorweihnachtlichen Zusammenkunft im Herz",
-   "lnglat": null,
-   "first_seen": "2026-11-18"
-  },
-  {
-   "source": "der reporter",
-   "title": "Adventsbasar",
-   "date": "2026-11-21",
-   "dates_found": 1,
-   "time": "11:00–17:00",
-   "town": "Lensahn",
-   "venue": "Waldorfschule",
-   "url": "https://www.der-reporter.de/neustadt/artikel/adventsbasar-9",
-   "recurring": null,
-   "description": "Lensahn. Am Samstag, dem 21. November von 11 bis 17 Uhr findet in der Waldorfschule in Ostholstein ein Adventsbasar statt. An zahlreichen Ständen gibt es liebevoll gefertigte Unikate, Schmuck, Dekorationen und besondere Geschenkideen zu entdecken. Vielfältige Bastelangebote und Mitmachaktionen für G",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
   },
   {
    "source": "der reporter",
@@ -506,48 +408,6 @@
    "recurring": null,
    "description": "Oldenburg in Holstein. Der Kulturbund Wagrien setzt am Sonntag, 22. November, seine Zusammenarbeit mit der Musikhochschule Lübeck mit einem Violin-Konzert fort. Die international besetzte Klasse der Violin-Professorin Maria Egelhof an der Musikhochschule Lübeck (MHL) reist nach Oldenburg, begleitet ",
    "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
-   "title": "Selbstverteidigungskurs für Frauen ab 16 Jahren",
-   "date": "2026-11-22",
-   "dates_found": 1,
-   "time": "10:00–15:30",
-   "town": "Grömitz",
-   "venue": null,
-   "url": "https://www.der-reporter.de/neustadt/artikel/selbstverteidigungskurs-fuer-frauen-ab-16-jahren",
-   "recurring": null,
-   "description": "Grömitz. Die ehrenamtliche Gleichstellungsbeauftragte der Verwaltungsgemeinschaft Grömitz Verena Schnitzler bietet am Sonntag, dem 22. November von 10 bis 15.30 Uhr in der kleinen Turnhalle am Rathaus (Parkplatz Theodor-Klinkforth-Straße) einen Selbstverteidigungskurs für Frauen ab 16 Jahren an. Der",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Eltern-Kind-Töpfern – gemeinsame Schale LemkenHafenKreativWerk ",
-   "date": "2026-11-22",
-   "dates_found": 1,
-   "time": "10:00–12:00",
-   "town": "Fehmarn OT Lemkenhafen",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/eltern-kind-toepfern-gemeinsame-schale-lemkenhafenkreativwerk",
-   "recurring": null,
-   "description": "Eltern-Kind-Töpfern – gemeinsam eine Schale gestalten Gemeinsam kreativ werden, Neues ausprobieren und eine schöne Erinnerung erschaffen\nMit Voranmeldung",
-   "lnglat": "11.08905,54.44644",
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Tuch Stricken ",
-   "date": "2026-11-22",
-   "dates_found": 1,
-   "time": "19:00–21:00",
-   "town": "Fehmarn OT Lemkenhafen",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/tuch-stricken",
-   "recurring": null,
-   "description": "Tuch stricken – eine kreative Auszeit mit Wolle Stricke dein eigenes kleines Tuch und entdecke, wie aus einem Knäuel Wolle Masche für Masche ein persönliches Lieblingsstück entsteht. \nMit Voranmeldung",
-   "lnglat": "11.08905,54.44644",
    "first_seen": "2026-11-17"
   },
   {
@@ -1494,6 +1354,22 @@
    "first_seen": "2026-11-17"
   },
   {
+   "source": "Wochensuche",
+   "title": "Adventskonzert",
+   "date": "2026-12-06",
+   "dates_found": [
+    "2026-12-06"
+   ],
+   "time": "17:00",
+   "town": "Heiligenhafen",
+   "venue": "Stadtkirche Heiligenhafen",
+   "url": "https://www.ostsee.de/heiligenhafen/veranstaltungen.php",
+   "recurring": false,
+   "description": "Adventskonzert in der Stadtkirche Heiligenhafen, Kirchenstraße 5.",
+   "lnglat": null,
+   "first_seen": "2026-11-23"
+  },
+  {
    "source": "der reporter",
    "title": "Weihnachtliches Bilderbuchkino",
    "date": "2026-12-07",
@@ -1592,6 +1468,22 @@
    "first_seen": "2026-11-17"
   },
   {
+   "source": "Wochensuche",
+   "title": "Heiligenhafen tanzt",
+   "date": "2026-12-12",
+   "dates_found": [
+    "2026-12-12"
+   ],
+   "time": "20:00",
+   "town": "Heiligenhafen",
+   "venue": "Pavillon am Binnensee, Ostsee-Ferienpark",
+   "url": "https://www.ostsee.de/heiligenhafen/veranstaltungen.php",
+   "recurring": false,
+   "description": "Tanzabend im Pavillon am Binnensee im Ostsee-Ferienpark.",
+   "lnglat": null,
+   "first_seen": "2026-11-23"
+  },
+  {
    "source": "Hochberg Flohmarkt",
    "title": "Flohmarkt famila Reinbek",
    "date": "2026-12-13",
@@ -1619,6 +1511,22 @@
    "description": "Die evangelisch-lutherischen Gemeinden Burg und Landkirchen laden alle Singbegeisterten zum diesjährigen Weihnachtsliedersingen ein. Es darf kräftig in die bekannten und beliebten Advents- und Weihnachtslieder mit eingestimmt werden.",
    "lnglat": "11.19629,54.43605",
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "Wochensuche",
+   "title": "Konzert: Gospel-Christmas",
+   "date": "2026-12-13",
+   "dates_found": [
+    "2026-12-13"
+   ],
+   "time": "16:30",
+   "town": "Heiligenhafen",
+   "venue": "Stadtkirche Heiligenhafen",
+   "url": "https://www.ostsee.de/heiligenhafen/veranstaltungen.php",
+   "recurring": false,
+   "description": "Weihnachtliches Gospelkonzert in der Stadtkirche Heiligenhafen.",
+   "lnglat": null,
+   "first_seen": "2026-11-23"
   },
   {
    "source": "der reporter",
@@ -1733,6 +1641,22 @@
    "first_seen": "2026-11-17"
   },
   {
+   "source": "Wochensuche",
+   "title": "Fackelwanderung",
+   "date": "2026-12-27",
+   "dates_found": [
+    "2026-12-27"
+   ],
+   "time": "17:30",
+   "town": "Heiligenhafen",
+   "venue": "Treffpunkt Tourismus-Service, Bergstraße 43",
+   "url": "https://www.ostsee.de/heiligenhafen/veranstaltungen.php",
+   "recurring": false,
+   "description": "Geführte Fackelwanderung ab dem Tourismus-Service Heiligenhafen.",
+   "lnglat": null,
+   "first_seen": "2026-11-23"
+  },
+  {
    "source": "fehmarn.de",
    "title": "Kreativ Studio - Winter-Schneeflocke basteln",
    "date": "2026-12-28",
@@ -1773,6 +1697,54 @@
    "description": "Das Georgie Carbutler Trio sorgt auf dem Weihnachtsmarkt Fehmarn für einen abwechslungsreichen Live-Abend.",
    "lnglat": "11.19716,54.43894",
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "Wochensuche",
+   "title": "Nachtbummel mit Fischer Stüben",
+   "date": "2026-12-28",
+   "dates_found": [
+    "2026-12-28"
+   ],
+   "time": "19:30",
+   "town": "Heiligenhafen",
+   "venue": "Treffpunkt Tourismus-Service, Bergstraße 43",
+   "url": "https://www.ostsee.de/heiligenhafen/veranstaltungen.php",
+   "recurring": false,
+   "description": "Abendlicher Rundgang durch Heiligenhafen, Treffpunkt am Tourismus-Service.",
+   "lnglat": null,
+   "first_seen": "2026-11-23"
+  },
+  {
+   "source": "Wochensuche",
+   "title": "Wintermarkt Grömitz - STILLaLIVE",
+   "date": "2026-12-28",
+   "dates_found": [
+    "2026-12-28"
+   ],
+   "time": "19:00",
+   "town": "Grömitz",
+   "venue": "Seebrückenvorplatz",
+   "url": "https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/wintermarkt-stillalive/",
+   "recurring": false,
+   "description": "Wintermarkt am Seebrückenvorplatz mit Coverband STILLaLIVE (Hits der 80er bis heute).",
+   "lnglat": null,
+   "first_seen": "2026-11-23"
+  },
+  {
+   "source": "Wochensuche",
+   "title": "Grömitzer Eiszeit - Marty Kessler Live",
+   "date": "2026-12-28",
+   "dates_found": [
+    "2026-12-28"
+   ],
+   "time": "19:00",
+   "town": "Grömitz",
+   "venue": "Wiese Uferstraße",
+   "url": "https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/marty-kessler-live/",
+   "recurring": false,
+   "description": "Ein-Mann-Liveshow mit Schlager, Fetenhits, Rock und Pop zum Mitsingen.",
+   "lnglat": null,
+   "first_seen": "2026-11-23"
   },
   {
    "source": "fehmarn.de",
@@ -1929,6 +1901,22 @@
    "first_seen": "2026-11-17"
   },
   {
+   "source": "Wochensuche",
+   "title": "Silvesterparty mit Feuerwerk",
+   "date": "2026-12-31",
+   "dates_found": [
+    "2026-12-31"
+   ],
+   "time": "17:00–02:00",
+   "town": "Heiligenhafen",
+   "venue": "Pavillon am Binnensee, Ostsee-Ferienpark",
+   "url": "https://www.ostsee.de/heiligenhafen/veranstaltungen.php",
+   "recurring": false,
+   "description": "Silvesterfeier mit Feuerwerk im Pavillon am Binnensee, bis 2 Uhr nachts.",
+   "lnglat": null,
+   "first_seen": "2026-11-23"
+  },
+  {
    "source": "fehmarn.de",
    "title": "Ralf Haun Ausstellungseröffnung:  Gegenüber ist Lolland  På den anden side ligger Lolland",
    "date": "2027-01-02",
@@ -1941,6 +1929,22 @@
    "description": "Der Wuppertaler Künstler Ralf Haun widmet sich in seiner Fotografie intensiv dem Leben auf der dänischen Insel Lolland.",
    "lnglat": "11.19525,54.44053",
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "Wochensuche",
+   "title": "Neujahrskonzert: Duo „Sing Your Soul“",
+   "date": "2027-01-02",
+   "dates_found": [
+    "2027-01-02"
+   ],
+   "time": "19:00",
+   "town": "Heiligenhafen",
+   "venue": "Stadtkirche Heiligenhafen",
+   "url": "https://www.ostsee.de/heiligenhafen/veranstaltungen.php",
+   "recurring": false,
+   "description": "Neujahrskonzert des Duos „Sing Your Soul“ in der Stadtkirche.",
+   "lnglat": null,
+   "first_seen": "2026-11-23"
   },
   {
    "source": "fehmarn.de",
