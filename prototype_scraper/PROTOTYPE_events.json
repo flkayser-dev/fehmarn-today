@@ -1,33 +1,39 @@
 {
- "generated": "2026-11-23T10:02:54",
+ "generated": "2026-11-23T11:05:13",
  "dupes_removed": 0,
- "errors": {
-  "fehmarn.de": "TimeoutError('The read operation timed out')"
- },
- "new": 0,
+ "errors": {},
+ "new": 7,
  "stats": {
+  "der reporter": {
+   "events": 70,
+   "date": 96,
+   "time": 93,
+   "town": 100,
+   "venue": 69,
+   "url": 100
+  },
+  "Wochensuche": {
+   "events": 9,
+   "date": 100,
+   "time": 100,
+   "town": 100,
+   "venue": 100,
+   "url": 100
+  },
+  "fehmarn.de": {
+   "events": 93,
+   "date": 100,
+   "time": 99,
+   "town": 99,
+   "venue": 0,
+   "url": 100
+  },
   "Hochberg Flohmarkt": {
    "events": 6,
    "date": 100,
    "time": 0,
    "town": 100,
    "venue": 100,
-   "url": 100
-  },
-  "der reporter": {
-   "events": 69,
-   "date": 96,
-   "time": 93,
-   "town": 100,
-   "venue": 68,
-   "url": 100
-  },
-  "fehmarn.de": {
-   "events": 90,
-   "date": 100,
-   "time": 99,
-   "town": 99,
-   "venue": 0,
    "url": 100
   }
  },
@@ -426,6 +432,20 @@
   },
   {
    "source": "fehmarn.de",
+   "title": "Perlenzauber LemkenHafen KreativWerk",
+   "date": "2026-11-23",
+   "dates_found": 1,
+   "time": "13:00–17:00",
+   "town": "Fehmarn OT Lemkenhafen",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/perlenzauber-lemkenhafen-kreativwerk",
+   "recurring": "5 weitere Termine",
+   "description": "Du suchst nach einer besonderen Urlaubserinnerung oder einem persönlichen Mitbringsel für Familie und Freunde? Dann bist du bei uns genau richtig!\n\nIn LemkenHafen kannst du während unserer Öffnungszeiten ganz ohne Anmeldung kreativ werden. Gestalte dein eigenes Armband, eine Kette, einen Schlüsselan",
+   "lnglat": "11.0890163,54.4464411",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "source": "fehmarn.de",
    "title": "Achtsamkeitsmeditation",
    "date": "2026-11-23",
    "dates_found": 1,
@@ -482,6 +502,20 @@
   },
   {
    "source": "fehmarn.de",
+   "title": "Digitale Krimi-Tour auf Fehmarn – Werden Sie zum Detektiv!",
+   "date": "2026-11-24",
+   "dates_found": 1,
+   "time": "14:00–16:00",
+   "town": "Fehmarn OT Burg",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/digitale-krimi-tour-auf-fehmarn-werden-sie-zum-detektiv",
+   "recurring": "8 weitere Termine",
+   "description": "Lust auf ein echtes Detektiv-Abenteuer? Beim Krimi-Trail Fehmarn übernehmen Sie selbst die Ermittlungen in einem spannenden Kunstdiebstahl rund um ein Kirchner-Gemälde. Mit dem Smartphone in der Hand folgen Sie Hinweisen, befragen virtuelle Verdächtige und kombinieren Beweise, bis der Täter überführ",
+   "lnglat": "11.19187653,54.441412836",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "source": "fehmarn.de",
    "title": "Damensauna",
    "date": "2026-11-24",
    "dates_found": 1,
@@ -535,6 +569,20 @@
    "description": "Plotter-Workshop – gestalte dein persönliches Lieblingsstück Aus einem schlichten Kleidungsstück wird ein echtes Unikat! \nMit Voranmeldung.",
    "lnglat": "11.08905,54.44644",
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Strandsauna Wallnau",
+   "date": "2026-11-25",
+   "dates_found": 1,
+   "time": "15:00–21:00",
+   "town": "Fehmarn",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/strandsauna-wallnau",
+   "recurring": "12 weitere Termine",
+   "description": "Doppelt entspannt: Sauna genießen - Massage geschenkt!",
+   "lnglat": "11.0179389,54.4901715",
+   "first_seen": "2026-11-23"
   },
   {
    "source": "fehmarn.de",
@@ -703,6 +751,20 @@
    "description": "Du möchtest eine Auszeit vom Alltag, Zeit nur für dich, zum Fühlen, Spüren, ganz bei dir selbst sein.\n\nEs ist eine Einladung, ein Geschenk, dir selbst zu begegnen.",
    "lnglat": "11.0913506,54.4962621",
    "first_seen": "2026-11-20"
+  },
+  {
+   "source": "der reporter",
+   "title": "Grömitzer Eiszeit: Wintervergnügen, Eisstockschießen und gemütliche Hüttenmomente",
+   "date": "2026-11-27",
+   "dates_found": 3,
+   "time": "17:00–21:00",
+   "town": "Grömitz",
+   "venue": "Grömitz",
+   "url": "https://www.der-reporter.de/neustadt/artikel/groemitzer-eiszeit-wintervergnuegen-eisstockschiessen-und-gemuetliche-huettenmomente",
+   "recurring": null,
+   "description": "Grömitz. Wenn die Tage kürzer werden und die Vorfreude auf Weihnachten steigt, beginnt in Grömitz wieder die Zeit für winterliche Erlebnisse: Vom 27. November bis zum 6. Januar verwandelt sich die Wiese an der Uferstraße in die Grömitzer Eiszeit . Direkt an der Ostsee erwartet Einheimische und Gäste",
+   "lnglat": null,
+   "first_seen": "2026-11-23"
   },
   {
    "source": "der reporter",
@@ -888,6 +950,20 @@
   },
   {
    "source": "fehmarn.de",
+   "title": "Ausdrucksmalen in der Villa FarbenFroh für Kinder",
+   "date": "2026-11-28",
+   "dates_found": 1,
+   "time": "13:00–14:15",
+   "town": "Fehmarn OT Vitzdorf",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/ausdrucksmalen-in-der-villa-farbenfroh-1",
+   "recurring": "4 weitere Termine",
+   "description": "Ausdrucksmalen hilft dabei sich neu zu erleben, es bringt bestärkende Erfahrungen!",
+   "lnglat": "11.2406222,54.4353836",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "source": "fehmarn.de",
    "title": "Keramik bemalen bei Pott und Pinsel",
    "date": "2026-11-28",
    "dates_found": 1,
@@ -913,6 +989,20 @@
    "description": "3D-Druck-Werkstatt als Mitmach-Aktion für alle Interessierten, auch ohne Anmeldung!\nKommt vorbei, probiert die 3D-Drucker aus und stellt eure Fragen!",
    "lnglat": "11.19187653,54.441412836",
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Ausdrucksmalen in der Villa FarbenFroh ",
+   "date": "2026-11-28",
+   "dates_found": 1,
+   "time": "15:00–16:30",
+   "town": "Fehmarn OT Vitzdorf",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/ausdrucksmalen-in-der-villa-farbenfroh-2",
+   "recurring": "4 weitere Termine",
+   "description": "Ausdrucksmalen hilft dabei sich neu zu erleben, es bringt bestärkende Erfahrungen!",
+   "lnglat": "11.2406222,54.4353836",
+   "first_seen": "2026-11-23"
   },
   {
    "source": "fehmarn.de",
@@ -1041,6 +1131,20 @@
    "description": "Neustadt in Holstein. Auf zahlreiche Auftritte und viele schöne musikalische Erlebnisse können die Akkordeonspielerinnen und Akkordeonspieler der Ostseekrabben zurückblicken. Auch in diesem Jahr möchten sie ihr Publikum wieder mit einem abwechslungsreichen Adventskonzert begeistern. Ein besonderer A",
    "lnglat": null,
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Flohmarkt in der Großsporthalle der Inselschule ",
+   "date": "2026-11-29",
+   "dates_found": 1,
+   "time": "11:00–15:00",
+   "town": "Fehmarn OT Burg",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/flohmarkt-in-der-grosssporthalle-der-inselschule",
+   "recurring": null,
+   "description": "Großer Flohmarkt mit über 70 Ständen für Groß und Klein - für jeden was dabei.",
+   "lnglat": "11.2021993,54.4384883",
+   "first_seen": "2026-11-23"
   },
   {
    "source": "fehmarn.de",
@@ -1340,20 +1444,6 @@
    "first_seen": "2026-11-17"
   },
   {
-   "source": "fehmarn.de",
-   "title": "Lichterzauber der Landwirte ",
-   "date": "2026-12-06",
-   "dates_found": 1,
-   "time": "16:30–18:30",
-   "town": "Fehmarn",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/lichterzauber-der-landwirte",
-   "recurring": null,
-   "description": "Lichterzauber der Landwirte durch die Burger Innenstadt",
-   "lnglat": "11.19716,54.43894",
-   "first_seen": "2026-11-17"
-  },
-  {
    "source": "Wochensuche",
    "title": "Adventskonzert",
    "date": "2026-12-06",
@@ -1368,6 +1458,20 @@
    "description": "Adventskonzert in der Stadtkirche Heiligenhafen, Kirchenstraße 5.",
    "lnglat": null,
    "first_seen": "2026-11-23"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Lichterzauber der Landwirte ",
+   "date": "2026-12-06",
+   "dates_found": 1,
+   "time": "16:30–18:30",
+   "town": "Fehmarn",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/lichterzauber-der-landwirte",
+   "recurring": null,
+   "description": "Lichterzauber der Landwirte durch die Burger Innenstadt",
+   "lnglat": "11.19716,54.43894",
+   "first_seen": "2026-11-17"
   },
   {
    "source": "der reporter",
@@ -1454,20 +1558,6 @@
    "first_seen": "2026-11-17"
   },
   {
-   "source": "fehmarn.de",
-   "title": "Konzert: Sportfreunde Helden",
-   "date": "2026-12-12",
-   "dates_found": 1,
-   "time": "20:00–22:00",
-   "town": "Fehmarn",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/konzert-sportfreunde-helden",
-   "recurring": null,
-   "description": "Die Sportfreunde Helden bringen Party-Rock-Power auf den Weihnachtsmarkt Fehmarn!",
-   "lnglat": "11.19716,54.43894",
-   "first_seen": "2026-11-17"
-  },
-  {
    "source": "Wochensuche",
    "title": "Heiligenhafen tanzt",
    "date": "2026-12-12",
@@ -1482,6 +1572,20 @@
    "description": "Tanzabend im Pavillon am Binnensee im Ostsee-Ferienpark.",
    "lnglat": null,
    "first_seen": "2026-11-23"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Konzert: Sportfreunde Helden",
+   "date": "2026-12-12",
+   "dates_found": 1,
+   "time": "20:00–22:00",
+   "town": "Fehmarn",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/konzert-sportfreunde-helden",
+   "recurring": null,
+   "description": "Die Sportfreunde Helden bringen Party-Rock-Power auf den Weihnachtsmarkt Fehmarn!",
+   "lnglat": "11.19716,54.43894",
+   "first_seen": "2026-11-17"
   },
   {
    "source": "Hochberg Flohmarkt",
@@ -1499,20 +1603,6 @@
    "first_seen": "2026-11-17"
   },
   {
-   "source": "fehmarn.de",
-   "title": "Weihnachtslieder-Singen",
-   "date": "2026-12-13",
-   "dates_found": 1,
-   "time": "15:00–16:15",
-   "town": "Fehmarn OT Burg",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/weihnachtslieder-singen-1",
-   "recurring": null,
-   "description": "Die evangelisch-lutherischen Gemeinden Burg und Landkirchen laden alle Singbegeisterten zum diesjährigen Weihnachtsliedersingen ein. Es darf kräftig in die bekannten und beliebten Advents- und Weihnachtslieder mit eingestimmt werden.",
-   "lnglat": "11.19629,54.43605",
-   "first_seen": "2026-11-17"
-  },
-  {
    "source": "Wochensuche",
    "title": "Konzert: Gospel-Christmas",
    "date": "2026-12-13",
@@ -1527,6 +1617,20 @@
    "description": "Weihnachtliches Gospelkonzert in der Stadtkirche Heiligenhafen.",
    "lnglat": null,
    "first_seen": "2026-11-23"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Weihnachtslieder-Singen",
+   "date": "2026-12-13",
+   "dates_found": 1,
+   "time": "15:00–16:15",
+   "town": "Fehmarn OT Burg",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/weihnachtslieder-singen-1",
+   "recurring": null,
+   "description": "Die evangelisch-lutherischen Gemeinden Burg und Landkirchen laden alle Singbegeisterten zum diesjährigen Weihnachtsliedersingen ein. Es darf kräftig in die bekannten und beliebten Advents- und Weihnachtslieder mit eingestimmt werden.",
+   "lnglat": "11.19629,54.43605",
+   "first_seen": "2026-11-17"
   },
   {
    "source": "der reporter",
@@ -1627,20 +1731,6 @@
    "first_seen": "2026-11-17"
   },
   {
-   "source": "fehmarn.de",
-   "title": "Jahresend-Führung durch die Ernst Ludwig Kirchner-Dokumentation  | kostenfrei",
-   "date": "2026-12-27",
-   "dates_found": 1,
-   "time": "11:15–12:15",
-   "town": "Fehmarn OT Burg",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/jahresend-fuehrung-durch-die-ernst-ludwig-kirchner-dokumentation-kostenfrei",
-   "recurring": null,
-   "description": "Der Ernst Ludwig Kirchner Verein e.V. lädt interessierte Besucherinnen und Besucher zu einer kostenlosen Führung durch die\nDokumentation über das Schaffen des Künstlers auf Fehmarn ein.",
-   "lnglat": "11.19187653,54.441412836",
-   "first_seen": "2026-11-17"
-  },
-  {
    "source": "Wochensuche",
    "title": "Fackelwanderung",
    "date": "2026-12-27",
@@ -1658,44 +1748,16 @@
   },
   {
    "source": "fehmarn.de",
-   "title": "Kreativ Studio - Winter-Schneeflocke basteln",
-   "date": "2026-12-28",
+   "title": "Jahresend-Führung durch die Ernst Ludwig Kirchner-Dokumentation  | kostenfrei",
+   "date": "2026-12-27",
    "dates_found": 1,
-   "time": "10:00–12:00",
-   "town": "Fehmarn OT Burgtiefe",
+   "time": "11:15–12:15",
+   "town": "Fehmarn OT Burg",
    "venue": null,
-   "url": "https://www.fehmarn.de/event/kreativ-studio-winter-schneeflocke-basteln",
+   "url": "https://www.fehmarn.de/event/jahresend-fuehrung-durch-die-ernst-ludwig-kirchner-dokumentation-kostenfrei",
    "recurring": null,
-   "description": "Lasst eure eigenen Winter-Schneeflocken funkeln! Aus Holzstäbchen und bunten Verzierungen gestaltet ihr Schneeflocken ganz nach euren Vorstellungen. So entsteht eine winterliche Dekoration für zu Hause.",
-   "lnglat": "11.2092,54.41187",
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Soundbath & Cacao",
-   "date": "2026-12-28",
-   "dates_found": 1,
-   "time": "18:30–20:00",
-   "town": "Fehmarn",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/soundbath-cacao",
-   "recurring": null,
-   "description": "Hier verschmelzen Klang und Mama Kakao zu einem Erlebnis der Sinne.",
-   "lnglat": "11.1697547,54.4566602",
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Konzert: Georgie Carbutler Trio",
-   "date": "2026-12-28",
-   "dates_found": 1,
-   "time": "19:00–21:00",
-   "town": "Fehmarn",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/konzert-georgie-carbutler-trio",
-   "recurring": null,
-   "description": "Das Georgie Carbutler Trio sorgt auf dem Weihnachtsmarkt Fehmarn für einen abwechslungsreichen Live-Abend.",
-   "lnglat": "11.19716,54.43894",
+   "description": "Der Ernst Ludwig Kirchner Verein e.V. lädt interessierte Besucherinnen und Besucher zu einer kostenlosen Führung durch die\nDokumentation über das Schaffen des Künstlers auf Fehmarn ein.",
+   "lnglat": "11.19187653,54.441412836",
    "first_seen": "2026-11-17"
   },
   {
@@ -1745,6 +1807,48 @@
    "description": "Ein-Mann-Liveshow mit Schlager, Fetenhits, Rock und Pop zum Mitsingen.",
    "lnglat": null,
    "first_seen": "2026-11-23"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Kreativ Studio - Winter-Schneeflocke basteln",
+   "date": "2026-12-28",
+   "dates_found": 1,
+   "time": "10:00–12:00",
+   "town": "Fehmarn OT Burgtiefe",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/kreativ-studio-winter-schneeflocke-basteln",
+   "recurring": null,
+   "description": "Lasst eure eigenen Winter-Schneeflocken funkeln! Aus Holzstäbchen und bunten Verzierungen gestaltet ihr Schneeflocken ganz nach euren Vorstellungen. So entsteht eine winterliche Dekoration für zu Hause.",
+   "lnglat": "11.2092,54.41187",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Soundbath & Cacao",
+   "date": "2026-12-28",
+   "dates_found": 1,
+   "time": "18:30–20:00",
+   "town": "Fehmarn",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/soundbath-cacao",
+   "recurring": null,
+   "description": "Hier verschmelzen Klang und Mama Kakao zu einem Erlebnis der Sinne.",
+   "lnglat": "11.1697547,54.4566602",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Konzert: Georgie Carbutler Trio",
+   "date": "2026-12-28",
+   "dates_found": 1,
+   "time": "19:00–21:00",
+   "town": "Fehmarn",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/konzert-georgie-carbutler-trio",
+   "recurring": null,
+   "description": "Das Georgie Carbutler Trio sorgt auf dem Weihnachtsmarkt Fehmarn für einen abwechslungsreichen Live-Abend.",
+   "lnglat": "11.19716,54.43894",
+   "first_seen": "2026-11-17"
   },
   {
    "source": "fehmarn.de",
@@ -1859,48 +1963,6 @@
    "first_seen": "2026-11-17"
   },
   {
-   "source": "fehmarn.de",
-   "title": "Party: Knuust-Selection Pardey mit Baltic Beats",
-   "date": "2026-12-30",
-   "dates_found": 1,
-   "time": "20:00–22:00",
-   "town": "Fehmarn",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/party-knuust-selection-pardey-mit-baltic-beats",
-   "recurring": null,
-   "description": "Die Knuust-Selection Pardey bringt Partylaune auf den Weihnachtsmarkt Fehmarn! Baltic Beats liefert die passende Musik!",
-   "lnglat": "11.19716,54.43894",
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Silvesterfrühschoppen",
-   "date": "2026-12-31",
-   "dates_found": 1,
-   "time": "11:00–14:00",
-   "town": "Fehmarn",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/silvesterfruehschoppen-fehmarn",
-   "recurring": null,
-   "description": "Silvesterfühschoppen in Haltermann's Scheune",
-   "lnglat": "11.1454324,54.4499882",
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Silvesterparty am Reitsportzentrum",
-   "date": "2026-12-31",
-   "dates_found": 1,
-   "time": "22:00–02:00",
-   "town": "Fehmarn",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/silvesterparty-fehmarn",
-   "recurring": null,
-   "description": "Silvesterparty am Reitsportzentrum mit DJ und Lasershow",
-   "lnglat": "11.2042577,54.4462408",
-   "first_seen": "2026-11-17"
-  },
-  {
    "source": "Wochensuche",
    "title": "Silvesterparty mit Feuerwerk",
    "date": "2026-12-31",
@@ -1917,20 +1979,6 @@
    "first_seen": "2026-11-23"
   },
   {
-   "source": "fehmarn.de",
-   "title": "Ralf Haun Ausstellungseröffnung:  Gegenüber ist Lolland  På den anden side ligger Lolland",
-   "date": "2027-01-02",
-   "dates_found": 1,
-   "time": "19:00–21:00",
-   "town": "Fehmarn OT Burg",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/ralf-haun-ausstellungseroeffnung-gegenueber-ist-lolland-pa-den-anden-side-ligger-lolland",
-   "recurring": null,
-   "description": "Der Wuppertaler Künstler Ralf Haun widmet sich in seiner Fotografie intensiv dem Leben auf der dänischen Insel Lolland.",
-   "lnglat": "11.19525,54.44053",
-   "first_seen": "2026-11-17"
-  },
-  {
    "source": "Wochensuche",
    "title": "Neujahrskonzert: Duo „Sing Your Soul“",
    "date": "2027-01-02",
@@ -1945,6 +1993,20 @@
    "description": "Neujahrskonzert des Duos „Sing Your Soul“ in der Stadtkirche.",
    "lnglat": null,
    "first_seen": "2026-11-23"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Ralf Haun Ausstellungseröffnung:  Gegenüber ist Lolland  På den anden side ligger Lolland",
+   "date": "2027-01-02",
+   "dates_found": 1,
+   "time": "19:00–21:00",
+   "town": "Fehmarn OT Burg",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/ralf-haun-ausstellungseroeffnung-gegenueber-ist-lolland-pa-den-anden-side-ligger-lolland",
+   "recurring": null,
+   "description": "Der Wuppertaler Künstler Ralf Haun widmet sich in seiner Fotografie intensiv dem Leben auf der dänischen Insel Lolland.",
+   "lnglat": "11.19525,54.44053",
+   "first_seen": "2026-11-17"
   },
   {
    "source": "fehmarn.de",
