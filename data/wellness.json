@@ -359,6 +359,15 @@
     "rejected": [
      "https://www.weissenhaeuserstrand.de/fileadmin/user_upload/mega-menue/Weisenhaeuser-Strand-Unterkuenfte.jpg"
     ]
+   },
+   "open_photo": {
+    "file": "img/open/duenenbad-weissenhaeuser-strand.jpg",
+    "author": "Weissenhäuser Strand GmbH & Co. KG",
+    "license": "CC-BY-SA",
+    "source": "Touristische Landesdatenbank Schleswig-Holstein (TA.SH), Open Data",
+    "source_url": "https://imxplatform-cust-tash.fsn1.your-objectstorage.com/media/weissenhaeuser-strand-suptropisches-badeparadies.png",
+    "poi_id": 462,
+    "place": "Ferien- und Freizeitpark Weissenhäuser Strand"
    }
   },
   {
@@ -955,6 +964,15 @@
     "rejected": [
      "https://www.gut-immenhof.de/media/w-1920/shared/xl/adobestock-378165924.jpg"
     ]
+   },
+   "open_photo": {
+    "file": "img/open/day-spa-gut-immenhof.jpg",
+    "author": "Hotel Gut Immenhof, Holger Martens",
+    "license": "CC-BY-SA",
+    "source": "Touristische Landesdatenbank Schleswig-Holstein (TA.SH), Open Data",
+    "source_url": "https://dam.destination.one/659953/0da092e35e3f86796ab89d34189bee48b19d1e3768f83259942622c0d5e4bcce/hotel-gut-immenhof-in-malente.jpg",
+    "poi_id": 144617,
+    "place": "Hofläden auf dem Gut Immenhof"
    }
   },
   {

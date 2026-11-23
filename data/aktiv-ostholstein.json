@@ -565,6 +565,15 @@
     "ok": true,
     "rejected": [],
     "recheck": false
+   },
+   "open_photo": {
+    "file": "img/open/seebruecke-kellenhusen.jpg",
+    "author": "TA.SH",
+    "license": "CC0",
+    "source": "Touristische Landesdatenbank Schleswig-Holstein (TA.SH), Open Data",
+    "source_url": "https://imxplatform-cust-tash.fsn1.your-objectstorage.com/media/moin_klein.jpg",
+    "poi_id": 2229,
+    "place": "Badestrand Kellenhusen"
    }
   },
   {

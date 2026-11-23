@@ -464,6 +464,15 @@
     "h": 724,
     "ok": true,
     "checked": "2026-11-15"
+   },
+   "open_photo": {
+    "file": "img/open/beltbude.jpg",
+    "author": "Tourismus-Service Fehmarn Sina Schweyer",
+    "license": "CC-BY",
+    "source": "Touristische Landesdatenbank Schleswig-Holstein (TA.SH), Open Data",
+    "source_url": "https://imxplatform-cust-tash.fsn1.your-objectstorage.com/media/fehmarn_norden_gruener_brink_strand_c_tourismus-service_fehmarn_sina_schweyer.jpg",
+    "poi_id": 2156,
+    "place": "Badestrand Grüner Brink"
    }
   },
   {
@@ -493,6 +502,15 @@
     "h": 1000,
     "ok": true,
     "checked": "2026-11-15"
+   },
+   "open_photo": {
+    "file": "img/open/strandbar-camping-miramar.jpg",
+    "author": "Tourismus-Service Fehmarn",
+    "license": "CC-BY",
+    "source": "Touristische Landesdatenbank Schleswig-Holstein (TA.SH), Open Data",
+    "source_url": "https://imxplatform-cust-tash.fsn1.your-objectstorage.com/media/strand_fehmarnsund_fehmarnsundbruecke_copyright_tourismus-service-fehmarn.jpg",
+    "poi_id": 43133,
+    "place": "Badestrand Fehmarn Sund"
    }
   },
   {
