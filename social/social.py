@@ -103,6 +103,10 @@ def slide_cta():
 
 
 def slide_day(d, ev):
+    zug = re.compile(r"konzert|musik|band|markt|party|fest|gospel|jazz|lesung|theater|kino|führung|lichter|feuer", re.I)
+    if len(ev) > 5:  # bei vielen Terminen die zugkräftigsten zeigen, in Zeitfolge
+        top = sorted(ev, key=lambda e: (not on_fehmarn(e), not zug.search(e.get("title") or "")))[:5]
+        ev = sorted(top, key=lambda e: e.get("time") or "99") + [e for e in ev if e not in top]
     rows = "".join(
         f'<li><span class=tm>{e_((e.get("time") or "ganztags").split("–")[0])}</span>'
         f'<span class=ti>{e_(e["title"])}<em>{e_(town(e.get("town")))}</em></span></li>' for e in ev[:5])
@@ -124,7 +128,9 @@ def highlight(ev):
     """Ein Termin pro Tag für die Übersicht: zuerst Fehmarn, abends vor tagsüber."""
     if not ev:
         return None
-    return sorted(ev, key=lambda e: (not on_fehmarn(e), not (e.get("time") or "").startswith(("18", "19", "20", "21")), e.get("time") or "99"))[0]
+    zug = re.compile(r"konzert|musik|band|markt|party|fest|gospel|jazz|lesung|theater|kino|führung|lichter|feuer", re.I)
+    return sorted(ev, key=lambda e: (not on_fehmarn(e), not zug.search(e.get("title") or ""),
+                                     not (e.get("time") or "").startswith(("18", "19", "20", "21")), e.get("time") or "99"))[0]
 
 
 def slide_week_overview(days, evs):
@@ -185,7 +191,9 @@ def caption_woche(days, evs):
     a, b = days[0], days[-1]
     total = sum(len(x) for x in evs)
     hl = [(d, highlight(ev)) for d, ev in zip(days, evs) if highlight(ev)]
-    hl = [x for x in hl if on_fehmarn(x[1])][:5] or hl[:5]
+    zug = re.compile(r"konzert|musik|band|markt|party|fest|gospel|jazz|lesung|theater|kino|führung|lichter|feuer", re.I)
+    hl = [x for x in hl if on_fehmarn(x[1])] or hl
+    hl = sorted(sorted(hl, key=lambda x: (not zug.search(x[1]["title"]), x[0]))[:5], key=lambda x: x[0])
     lines = "\n".join(zeile(h, True, d) for d, h in hl)
     return (f"Die Woche auf Fehmarn: {total} Termine vom {a.day}.{a.month}. bis {b.day}.{b.month}.\n\n"
             f"Ein paar Tipps:\n{lines}\n\nJeder Tag im Karussell, jeden Morgen um 10 der Tagesplan.\n"
@@ -224,14 +232,16 @@ def pages_tag(d):
     return ev, pages + [slide_cta()]
 
 
-def pages_woche(sunday):
-    days = [sunday + dt.timedelta(days=i) for i in range(1, 8)]
+def pages_woche(sunday, ab_heute=False):
+    first = sunday if ab_heute else sunday + dt.timedelta(days=1)
+    days = [first + dt.timedelta(days=i) for i in range(7)]
     evs = [load(x, fehmarn_first=False) for x in days]
     pages = [slide_week_overview(days, evs)] + [slide_day(x, ev) for x, ev in zip(days, evs)] + [slide_cta()]
     return days, evs, pages
 
 
 MIN_TAG = 2  # weniger Termine: kein Tagespost
+START = dt.date(2026, 11, 23)  # Starttag: Wochenübersicht ab heute statt Tagespost
 
 
 def vorbereiten(start, out_root, n_days=7):
@@ -240,6 +250,13 @@ def vorbereiten(start, out_root, n_days=7):
     plan = []
     for i in range(n_days):
         d = start + dt.timedelta(days=i)
+        if d == START:
+            days, evs, pages = pages_woche(d, ab_heute=True)
+            pid = f"{d.isoformat()}-start"
+            files = render(pages, out_root / pid, jpg=True)
+            plan.append({"id": pid, "kind": "start", "when": f"{d.isoformat()}T10:00", "images": [f"{pid}/{f}" for f in files],
+                         "caption": caption_woche(days, evs)})
+            continue
         if d.weekday() == 6:
             days, evs, pages = pages_woche(d)
             pid = f"{d.isoformat()}-woche"

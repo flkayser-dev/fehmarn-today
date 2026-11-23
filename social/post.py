@@ -46,7 +46,7 @@ def main():
     posted = json.loads(POSTED.read_text()) if POSTED.exists() else {}
     now = dt.datetime.now(ZoneInfo("Europe/Berlin")).replace(tzinfo=None)
     due = [p for p in plan if p["id"] not in posted
-           and dt.timedelta(0) <= now - dt.datetime.fromisoformat(p["when"]) <= FENSTER]
+           and dt.timedelta(0) <= now - dt.datetime.fromisoformat(p["when"]) <= (dt.timedelta(hours=14) if p["kind"] == "start" else FENSTER)]
     if not due:
         print("Nichts fällig.")
         return
