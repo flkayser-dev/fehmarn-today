@@ -29,10 +29,11 @@ h2 { font-size: var(--text-section); line-height: 1; text-transform: uppercase; 
 .nav { position: sticky; top: 0; z-index: var(--z-sticky-nav); background: var(--color-card); border-bottom: var(--rule-hair) solid var(--color-rule); }
 .nav .container { display: flex; align-items: center; gap: var(--space-xl); min-height: var(--nav-h); }
 .wordmark { display: inline-flex; align-items: center; gap: var(--space-sm); text-decoration: none; font-family: var(--font-display); font-weight: 700; font-size: 1.625rem; line-height: 1.05; text-transform: uppercase; color: var(--color-ink); white-space: nowrap; }
-.wm-svg { display: block; height: 44px; width: auto; overflow: visible; }
-.wm-svg text { font-family: var(--font-display); font-weight: 700; font-size: 63px; fill: currentColor; }
-.wm-svg .wm-2 { fill: var(--color-signal); }
-.wm-bow { fill: none; stroke: var(--color-signal); stroke-width: 4.5; stroke-linecap: round; }
+.wm-c { display: inline-flex; font-size: 1.75rem; line-height: 1; letter-spacing: 0.01em; }
+.wm-c > span { padding: 0.2em 0.34em 0.17em; color: var(--color-on-field); }
+.wm-c .wm-1 { background: var(--color-ink); }
+.wm-c .wm-2 { background: var(--color-signal); }
+.foot .wm-c .wm-1 { box-shadow: inset 0 0 0 1.5px var(--color-on-field); }
 .nav-links { display: flex; gap: var(--space-lg); margin: 0 0 0 auto; padding: 0; list-style: none; }
 .nav-links a { color: var(--color-ink-2); text-decoration: none; font-size: var(--text-sm); font-weight: 600; padding-block: var(--space-xs); border-bottom: 2px solid transparent; transition: border-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out); }
 .nav-links a:hover { color: var(--color-ink); border-bottom-color: var(--color-signal); }
@@ -237,7 +238,7 @@ h2 { font-size: var(--text-section); line-height: 1; text-transform: uppercase; 
   .ev { grid-template-columns: 4.75rem minmax(0, 1fr); gap: var(--space-sm); }
   .rain ul, .year-grid { grid-template-columns: minmax(0, 1fr); }
   .form { grid-template-columns: minmax(0, 1fr); }
-  .wm-svg { height: 40px; }
+  .wm-c { font-size: 1.375rem; }
   .wk-list li { grid-template-columns: 4.75rem minmax(0, 1fr); }
 }
 
@@ -526,7 +527,7 @@ h2 { font-size: var(--text-section); line-height: 1; text-transform: uppercase; 
   .foot ul a { display: inline-block; padding-block: var(--space-sm); }
 }
 @media (max-width: 21rem) {
-  .wm-svg { height: 34px; }
+  .wm-c { font-size: 1.125rem; }
   .nav .btn { padding: 0 var(--space-sm); font-size: var(--text-xs); }
 }
 
