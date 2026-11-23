@@ -1,17 +1,9 @@
 {
- "generated": "2026-11-23T11:05:13",
+ "generated": "2026-11-23T13:32:33",
  "dupes_removed": 0,
  "errors": {},
- "new": 7,
+ "new": 0,
  "stats": {
-  "der reporter": {
-   "events": 70,
-   "date": 96,
-   "time": 93,
-   "town": 100,
-   "venue": 69,
-   "url": 100
-  },
   "Wochensuche": {
    "events": 9,
    "date": 100,
@@ -20,20 +12,28 @@
    "venue": 100,
    "url": 100
   },
-  "fehmarn.de": {
-   "events": 93,
-   "date": 100,
-   "time": 99,
-   "town": 99,
-   "venue": 0,
-   "url": 100
-  },
   "Hochberg Flohmarkt": {
    "events": 6,
    "date": 100,
    "time": 0,
    "town": 100,
    "venue": 100,
+   "url": 100
+  },
+  "der reporter": {
+   "events": 70,
+   "date": 96,
+   "time": 93,
+   "town": 100,
+   "venue": 69,
+   "url": 100
+  },
+  "fehmarn.de": {
+   "events": 93,
+   "date": 100,
+   "time": 99,
+   "town": 99,
+   "venue": 0,
    "url": 100
   }
  },
