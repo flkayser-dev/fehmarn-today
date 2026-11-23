@@ -29,11 +29,10 @@ h2 { font-size: var(--text-section); line-height: 1; text-transform: uppercase; 
 .nav { position: sticky; top: 0; z-index: var(--z-sticky-nav); background: var(--color-card); border-bottom: var(--rule-hair) solid var(--color-rule); }
 .nav .container { display: flex; align-items: center; gap: var(--space-xl); min-height: var(--nav-h); }
 .wordmark { display: inline-flex; align-items: center; gap: var(--space-sm); text-decoration: none; font-family: var(--font-display); font-weight: 700; font-size: 1.625rem; line-height: 1.05; text-transform: uppercase; color: var(--color-ink); white-space: nowrap; }
-.wordmark { gap: 0.3em; align-items: baseline; }
-.wm-1 { position: relative; display: inline-block; padding-top: 0.62em; }
-.wm-arch { position: absolute; left: -0.06em; right: -0.06em; top: 0.04em; width: calc(100% + 0.12em); height: 0.56em; overflow: visible; }
-.wm-bow { stroke: var(--color-signal); stroke-width: 2.6px; stroke-linecap: round; vector-effect: non-scaling-stroke; }
-.wordmark .wm-2 { color: var(--color-signal); }
+.wm-svg { display: block; height: 46px; width: auto; overflow: visible; }
+.wm-svg text { font-family: var(--font-display); font-weight: 700; font-size: 46px; letter-spacing: 0.4px; fill: currentColor; }
+.wm-svg .wm-2 { fill: var(--color-signal); }
+.wm-bow { fill: none; stroke: var(--color-signal); stroke-width: 4; stroke-linecap: round; }
 .nav-links { display: flex; gap: var(--space-lg); margin: 0 0 0 auto; padding: 0; list-style: none; }
 .nav-links a { color: var(--color-ink-2); text-decoration: none; font-size: var(--text-sm); font-weight: 600; padding-block: var(--space-xs); border-bottom: 2px solid transparent; transition: border-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out); }
 .nav-links a:hover { color: var(--color-ink); border-bottom-color: var(--color-signal); }
@@ -202,8 +201,7 @@ h2 { font-size: var(--text-section); line-height: 1; text-transform: uppercase; 
 /* ---------- Fußzeile (Nachtblau) */
 .foot { background: var(--color-field); color: var(--color-on-field); padding-block: var(--space-3xl) var(--space-xl); }
 .foot .wordmark { color: var(--color-on-field); }
-.foot .wordmark .wm-2 { color: var(--color-signal); }
-.foot-grid { display: grid; grid-template-columns: minmax(0, 4fr) repeat(2, minmax(0, 3fr)); gap: var(--gap-columns); }
+.foot .foot-grid { display: grid; grid-template-columns: minmax(0, 4fr) repeat(2, minmax(0, 3fr)); gap: var(--gap-columns); }
 .foot h2 { font-family: var(--font-body); font-size: var(--text-md); font-weight: 700; text-transform: none; margin-bottom: var(--space-sm); }
 .foot ul { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-xs); }
 .foot a { color: var(--color-on-field-2); }
@@ -239,7 +237,7 @@ h2 { font-size: var(--text-section); line-height: 1; text-transform: uppercase; 
   .ev { grid-template-columns: 4.75rem minmax(0, 1fr); gap: var(--space-sm); }
   .rain ul, .year-grid { grid-template-columns: minmax(0, 1fr); }
   .form { grid-template-columns: minmax(0, 1fr); }
-  .wordmark { font-size: 1.375rem; }
+  .wm-svg { height: 40px; }
   .wk-list li { grid-template-columns: 4.75rem minmax(0, 1fr); }
 }
 
@@ -528,7 +526,7 @@ h2 { font-size: var(--text-section); line-height: 1; text-transform: uppercase; 
   .foot ul a { display: inline-block; padding-block: var(--space-sm); }
 }
 @media (max-width: 21rem) {
-  .wordmark .wm-2 { display: none; }
+  .wm-svg { height: 34px; }
   .nav .btn { padding: 0 var(--space-sm); font-size: var(--text-xs); }
 }
 
