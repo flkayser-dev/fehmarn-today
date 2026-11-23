@@ -504,7 +504,7 @@ LEGAL = """<!doctype html>
 <header class="nav">
   <div class="container">
     <a class="wordmark" href="./" aria-label="Fehmarn Today, zur Startseite">
-      <span class="wm-1">Fehmarn<svg class="wm-arch" viewBox="0 0 100 15" preserveAspectRatio="none" aria-hidden="true" fill="none"><path class="wm-hanger" d="M18 7.2V15"/><path class="wm-hanger" d="M30 3.9V15"/><path class="wm-hanger" d="M42 2.4V15"/><path class="wm-hanger" d="M58 2.4V15"/><path class="wm-hanger" d="M70 3.9V15"/><path class="wm-hanger" d="M82 7.2V15"/><path class="wm-bow" d="M2 15C16 -3 84 -3 98 15"/></svg></span> <span class="wm-2">Today</span>
+      <span class="wm-1">Fehmarn<svg class="wm-arch" viewBox="0 0 100 15" preserveAspectRatio="none" aria-hidden="true" fill="none"><path class="wm-bow" d="M2 15C16 -3 84 -3 98 15"/></svg></span> <span class="wm-2">Today</span>
     </a>
     <a class="legal-back" href="./">Zur Startseite</a>
   </div>

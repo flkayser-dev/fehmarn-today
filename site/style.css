@@ -33,7 +33,6 @@ h2 { font-size: var(--text-section); line-height: 1; text-transform: uppercase; 
 .wm-1 { position: relative; display: inline-block; padding-top: 0.62em; }
 .wm-arch { position: absolute; left: -0.06em; right: -0.06em; top: 0.04em; width: calc(100% + 0.12em); height: 0.56em; overflow: visible; }
 .wm-bow { stroke: var(--color-signal); stroke-width: 2.6px; stroke-linecap: round; vector-effect: non-scaling-stroke; }
-.wm-hanger { stroke: var(--color-stone); stroke-width: 1.2px; vector-effect: non-scaling-stroke; }
 .wordmark .wm-2 { color: var(--color-signal); }
 .nav-links { display: flex; gap: var(--space-lg); margin: 0 0 0 auto; padding: 0; list-style: none; }
 .nav-links a { color: var(--color-ink-2); text-decoration: none; font-size: var(--text-sm); font-weight: 600; padding-block: var(--space-xs); border-bottom: 2px solid transparent; transition: border-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out); }
