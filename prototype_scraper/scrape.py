@@ -193,10 +193,12 @@ def main():
     prev_file = HERE / "PROTOTYPE_events.json"
     prev = json.loads(prev_file.read_text())["events"] if prev_file.exists() else []
     seen_before = {(norm(e["title"]), e["date"]): e.get("first_seen") for e in prev}
-    keep_src = {"der reporter"} | set(errors)
+    # Vollständig gelesene Quellen ersetzen ihre alten Termine; alles andere (der reporter,
+    # Quellen mit Fehler, Termine aus der wöchentlichen Suche) bleibt bis zum Datum stehen.
+    scraped = {"fehmarn.de", "Hochberg Flohmarkt"} - set(errors)
     for e in prev:
         k = (norm(e["title"]), e["date"])
-        if e["source"] in keep_src and (e["date"] or "") >= TODAY.isoformat() and k not in uniq:
+        if e["source"] not in scraped and (e["date"] or "") >= TODAY.isoformat() and k not in uniq:
             uniq[k] = e
     new_n = 0
     for k, e in uniq.items():
