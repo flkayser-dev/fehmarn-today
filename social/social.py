@@ -240,18 +240,64 @@ def rpage(body, cls=""):
     return page(f"<style>{RCSS}</style>{body}", cls)
 
 
-def reel_cover(d, n, foto):
+def reel_cover(d, n, foto, title="Heute auf<br>Fehmarn", top=None, hint="Tipps für deinen Tag", fs=210):
     f, who, lic = foto
     bg = (ROOT / "site" / "img" / f"{f}.jpg").as_uri()
     return rpage(f"""<style>body.dark{{background:linear-gradient(180deg,rgba(3,32,61,.15) 0%,rgba(3,32,61,.55) 38%,rgba(3,32,61,.92) 70%),url('{bg}') center/cover;color:var(--white)}}</style>
 {sign()}
 <div style="margin-top:auto">
-<p style="font-size:44px;font-weight:700;color:var(--white);opacity:.9">{datum(d)}</p>
-<h1 class=A style="font-size:210px;margin-top:18px">Heute auf<br>Fehmarn</h1>
+<p style="font-size:44px;font-weight:700;color:var(--white);opacity:.9">{top or datum(d)}</p>
+<h1 class=A style="font-size:{fs}px;margin-top:18px">{title}</h1>
 <p style="margin-top:44px;display:flex;align-items:center;gap:26px;font-size:46px;font-weight:700">
-<span class=A style="background:var(--red);color:var(--white);font-size:110px;padding:.06em .28em .02em">{n}</span>Tipps für deinen Tag</p>
+<span class=A style="background:var(--red);color:var(--white);font-size:110px;padding:.06em .28em .02em">{n}</span>{hint}</p>
 </div>
 <p style="position:absolute;left:80px;bottom:60px;font-size:20px;opacity:.7">Foto: {e_(who)}, {lic}</p>""", "dark")
+
+
+def site_fotos():
+    """Foto je Termin so, wie die Webseite es zeigt (aus site/index.html), plus Bildnachweis je Foto."""
+    h = (ROOT / "site" / "index.html").read_text()
+    m = re.search(r'<script type="application/json" id="events-data">(.*?)</script>', h, re.S)
+    by = {(e["date"], e["title"]): (e.get("img"), e.get("alt")) for e in json.loads(m.group(1))} if m else {}
+    cr = {}
+    c = re.search(r"Fotos über Wikimedia Commons\. (.*?)(?:\. Regen-Ziele|\. Aktivitäten|\. Strände|\.\s*\n|\.$)", re.sub(r"<[^>]+>", "", h), re.S)
+    for part in (c.group(1) if c else "").split("; "):
+        alt, _, rest = part.partition(": ")
+        cr[alt.strip()] = rest.strip().replace("(", "").replace(")", "").replace("CC CC0", "CC0")
+    return by, cr
+
+
+def reel_tag(d, ev, fotos):
+    """Ein Tag im Wochen-Reel: Foto vom Highlight oben, darunter Tag, Highlight und was sonst los ist."""
+    by, cr = fotos
+    h = highlight(ev)
+    img, alt = by.get((d.isoformat(), h["title"]), (None, None))
+    f = ROOT / "site" / "img" / "k" / f"{img}.jpg"
+    if img and f.exists():
+        bg, credit = f.as_uri(), cr.get(alt or "", "Wikimedia Commons")
+    else:
+        fb = REEL_FOTOS[d.toordinal() % len(REEL_FOTOS)]
+        bg, credit = (ROOT / "site" / "img" / f"{fb[0]}.jpg").as_uri(), f"{fb[1]}, {fb[2]}"
+    t = (h.get("time") or "").split("–")[0]
+    when = f"{t} Uhr, " if t[:1].isdigit() else "ganztags, "
+    title = e_(h["title"])
+    fs = 92 if len(title) < 34 else 76 if len(title) < 60 else 62
+    rest = [e for e in ev if e is not h][:3]
+    more = "".join(f'<li>{e_(e["title"])}</li>' for e in rest)
+    extra = f'<p style="font-size:34px;font-weight:700;color:var(--stone);margin-top:26px">+ {len(ev) - 1 - len(rest)} weitere</p>' if len(ev) - 1 > len(rest) else ""
+    return rpage(f"""<style>body.dark{{padding-top:0}}
+.ph{{position:absolute;left:0;top:0;width:{RW}px;height:820px;background:linear-gradient(180deg,rgba(3,32,61,.35) 0%,rgba(3,32,61,0) 30%,rgba(3,32,61,0) 70%,var(--ink) 100%),url('{bg}') center/cover}}
+.cr{{position:absolute;left:80px;top:770px;font-size:18px;opacity:.6}}
+ul.m{{list-style:none;padding:0;margin-top:30px}}ul.m li{{font-size:36px;font-weight:600;line-height:1.25;padding:10px 0;border-top:1.5px solid rgba(255,255,255,.18);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}</style>
+<div class=ph></div><p class=cr>Foto: {e_(credit)}</p>
+<div style="position:relative;margin-top:150px">{sign()}</div>
+<div style="position:relative;margin-top:auto">
+<p style="display:flex;align-items:center;gap:22px"><span class=A style="background:var(--red);font-size:96px;padding:.05em .25em 0">{WD[d.weekday()]}</span>
+<span style="font-size:40px;font-weight:700">{d.day}. {MO[d.month-1]}<br><span style="color:var(--stone)">{len(ev)} {"Termin" if len(ev) == 1 else "Termine"}</span></span></p>
+<h2 style="font-size:{fs}px;line-height:1.06;margin-top:40px;font-weight:800;letter-spacing:-.01em">{title}</h2>
+<p style="font-size:40px;font-weight:600;color:var(--stone);margin-top:18px">{when}{e_(town(h.get("town")))}</p>
+{'<ul class=m>' + more + '</ul>' if more else ''}{extra}
+</div>""", "dark")
 
 
 def reel_event(e, i, n, d):
@@ -306,8 +352,13 @@ def reel_woche(start, out, fps=30):
     voll = [(x, ev) for x, ev in zip(days, evs) if ev]
     if len(voll) < 2:
         return None
-    pages = [hochkant(slide_week_overview(days, evs))] + [hochkant(slide_day(x, ev)) for x, ev in voll] + [reel_cta(0)]
-    return video(pages, [4.0] + [2.6] * len(voll) + [2.8], out, fps)
+    a, b = days[0], days[-1]
+    span = f"{a.day}. bis {b.day}. {MO[b.month-1]}" if a.month == b.month else f"{a.day}. {MO[a.month-1]} bis {b.day}. {MO[b.month-1]}"
+    cover = reel_cover(start, sum(len(x) for x in evs), REEL_FOTOS[start.toordinal() % len(REEL_FOTOS)],
+                       title="Diese Woche<br>auf Fehmarn", top=span, hint="Termine in 7 Tagen", fs=170)
+    fotos = site_fotos()
+    pages = [cover, hochkant(slide_week_overview(days, evs))] + [reel_tag(x, ev, fotos) for x, ev in voll] + [reel_cta(0)]
+    return video(pages, [2.6, 3.6] + [2.3] * len(voll) + [2.8], out, fps)
 
 
 def video(pages, durs, out, fps=30):
