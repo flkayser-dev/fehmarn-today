@@ -7,7 +7,7 @@ Ohne Token passiert nichts (Vorbereitungsphase). Bereits gepostete IDs stehen in
 import json, os, sys, time, pathlib, urllib.request, urllib.parse, datetime as dt
 from zoneinfo import ZoneInfo
 
-GRAPH = "https://graph.facebook.com/v21.0"
+GRAPH = "https://graph.facebook.com/v27.0"
 HERE = pathlib.Path(__file__).parent
 POSTED = HERE / "posted.json"
 FENSTER = dt.timedelta(hours=3)  # verspätete Läufe holen bis zu 3 Stunden nach
@@ -53,6 +53,10 @@ def main():
     if not (token and page and ig):
         print("Noch kein Meta-Zugang hinterlegt, fällig wäre:", ", ".join(p["id"] for p in due))
         return
+    try:  # ist ein Nutzer-Schlüssel hinterlegt, daraus den Seiten-Schlüssel holen
+        token = api_get(page, fields="access_token", access_token=token).get("access_token") or token
+    except Exception:
+        pass
     for p in sorted(due, key=lambda p: p["when"]):
         urls = [f"{base}/{i}" for i in p["images"]]
         res = {"when": now.isoformat(timespec="minutes")}
