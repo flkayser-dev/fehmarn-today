@@ -1,0 +1,45 @@
+name: Seite veröffentlichen
+
+on:
+  push:
+    branches: [main]
+    paths: ["site/**", "data/**", "prototype_scraper/PROTOTYPE_events.json", ".github/workflows/seite.yml"]
+  workflow_run:  # Pushes des täglichen Laufs lösen selbst keinen Workflow aus
+    workflows: ["Täglich aktualisieren"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  bauen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - run: cd site && python build.py
+      - run: echo "fehmarntoday.de" > site/CNAME
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  veroeffentlichen:
+    needs: bauen
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
