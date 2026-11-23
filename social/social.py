@@ -244,7 +244,7 @@ MIN_TAG = 2  # weniger Termine: kein Tagespost
 START = dt.date(2026, 11, 23)  # Starttag: Wochenübersicht ab heute statt Tagespost
 
 
-def vorbereiten(start, out_root, n_days=7):
+def vorbereiten(start, out_root, n_days=8):  # 8 Tage: sonntags auch der nächste Sonntag (TikTok-Planung)
     """Posts für n_days Tage ab start als Bilder + plan.json (Zeiten in deutscher Zeit)."""
     out_root.mkdir(parents=True, exist_ok=True)
     plan = []
