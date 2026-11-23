@@ -535,13 +535,13 @@ LEGAL = """<!doctype html>
 </main>
 <footer class="foot legal-foot">
   <div class="container">
-    <ul class="legal-links"><li><a href="./">Startseite</a></li><li><a href="impressum.html">Impressum</a></li><li><a href="datenschutz.html">Datenschutz</a></li></ul>
+    <ul class="legal-links"><li><a href="./">Startseite</a></li><li><a href="impressum.html">Impressum</a></li><li><a href="datenschutz.html">Datenschutz</a></li><li><a href="nutzungsbedingungen.html">Nutzungsbedingungen</a></li></ul>
   </div>
 </footer>
 </body>
 </html>
 """
-for slug, title in (("impressum", "Impressum"), ("datenschutz", "Datenschutz")):
+for slug, title in (("impressum", "Impressum"), ("datenschutz", "Datenschutz"), ("nutzungsbedingungen", "Nutzungsbedingungen")):
     frag = HERE / "legal" / f"{slug}.frag.html"
     if frag.exists():
         (HERE / f"{slug}.html").write_text(LEGAL.format(title=title, body=frag.read_text(), v=_v))
