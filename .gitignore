@@ -10,4 +10,8 @@ site/img/kandidaten*/
 site/img/themen-kandidaten/
 site/img/night/.tiles/
 data/cands.json
-social/
+social/posts/
+social/out/
+social/*.png
+social/*.html
+social/_base.css

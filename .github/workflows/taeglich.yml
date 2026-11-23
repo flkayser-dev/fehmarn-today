@@ -34,3 +34,15 @@ jobs:
           git add prototype_scraper/PROTOTYPE_events.json prototype_scraper/laufprotokoll.csv
           git diff --cached --quiet || git commit -m "Termine vom $(TZ=Europe/Berlin date +%d.%m.%Y)"
           git push
+      - name: Social-Posts für 7 Tage vorbereiten
+        if: github.event_name != 'push'
+        run: |
+          TODAY=$(TZ=Europe/Berlin date +%F)
+          python social/social.py vorbereiten "$TODAY" "$RUNNER_TEMP/posts"
+          cd "$RUNNER_TEMP/posts"
+          git init -q && git checkout -q -b social-posts
+          git config user.name "Fehmarn Today Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A && git commit -qm "Posts ab $TODAY"
+          # eigener Zweig ohne Verlauf: die Bilder blähen das Projekt nicht auf
+          git push -qf "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" social-posts

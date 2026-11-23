@@ -1,0 +1,39 @@
+name: Social Media posten
+
+on:
+  schedule:
+    # 10:00 und 10:30 Uhr deutscher Zeit, im Winter (UTC+1) und im Sommer (UTC+2)
+    - cron: "0,30 8,9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: posten
+  cancel-in-progress: false
+
+jobs:
+  posten:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Vorbereitete Posts holen
+        run: |
+          git fetch -q origin social-posts
+          git worktree add -q "$RUNNER_TEMP/posts" origin/social-posts
+      - name: Fällige Posts veröffentlichen
+        env:
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+        run: python social/post.py "$RUNNER_TEMP/posts" "https://raw.githubusercontent.com/${{ github.repository }}/social-posts"
+      - name: Gepostete merken
+        run: |
+          git config user.name "Fehmarn Today Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add social/posted.json 2>/dev/null || true
+          git diff --cached --quiet || { git commit -qm "Gepostet $(TZ=Europe/Berlin date '+%d.%m. %H:%M')"; git pull -q --rebase; git push -q; }
