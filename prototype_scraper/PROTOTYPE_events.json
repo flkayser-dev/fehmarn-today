@@ -1,15 +1,31 @@
 {
- "generated": "2026-11-23T13:32:33",
+ "generated": "2026-11-24T14:12:26",
  "dupes_removed": 0,
  "errors": {},
- "new": 0,
+ "new": 11,
  "stats": {
+  "fehmarn.de": {
+   "events": 101,
+   "date": 100,
+   "time": 99,
+   "town": 99,
+   "venue": 0,
+   "url": 100
+  },
   "Wochensuche": {
    "events": 9,
    "date": 100,
    "time": 100,
    "town": 100,
    "venue": 100,
+   "url": 100
+  },
+  "der reporter": {
+   "events": 65,
+   "date": 95,
+   "time": 92,
+   "town": 100,
+   "venue": 71,
    "url": 100
   },
   "Hochberg Flohmarkt": {
@@ -19,67 +35,9 @@
    "town": 100,
    "venue": 100,
    "url": 100
-  },
-  "der reporter": {
-   "events": 70,
-   "date": 96,
-   "time": 93,
-   "town": 100,
-   "venue": 69,
-   "url": 100
-  },
-  "fehmarn.de": {
-   "events": 93,
-   "date": 100,
-   "time": 99,
-   "town": 99,
-   "venue": 0,
-   "url": 100
   }
  },
  "events": [
-  {
-   "source": "der reporter",
-   "title": "Ab 30. Oktober: Die #TRelche sind zurück in Travemünde",
-   "date": "2026-10-30",
-   "dates_found": 4,
-   "time": "19:00",
-   "town": "Travemünde",
-   "venue": "Travemünde",
-   "url": "https://www.der-reporter.de/tdf-strand/artikel/ab-30-oktober-die-trelche-sind-zurueck-in-travemuende",
-   "recurring": null,
-   "description": "Travemünde. Wenn die Tage kürzer werden, beginnt in Travemünde mit der Zeitumstellung nicht nur die Winterzeit, sondern auch wieder die Zeit der #TRelche: Am 30. Oktober 2026 beziehen Linus, Kalli und Lumi ihr Winterquartier im Seebad und bringen ihr Nordlicht an die Ostsee. Lieblingsplatz Strandter",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
-   "title": "Naturwerkstatt Priwall: Beginn der Weidenflecht-Workshops",
-   "date": "2026-11-02",
-   "dates_found": 9,
-   "time": "16:00",
-   "town": "Travemünde-Priwall",
-   "venue": "Herbst",
-   "url": "https://www.der-reporter.de/tdf-strand/artikel/naturwerkstatt-priwall-beginn-der-weidenflecht-workshops",
-   "recurring": null,
-   "description": "Travemünde-Priwall. Alljährlich im Herbst und Winter bietet die Naturwerkstatt Priwall ihre Weidenflecht-Workshops an. Der erste Kurs fand am Montag, dem 2. November, statt – acht weitere folgen noch bis Ende des Jahres. Die Teilnehmer können unter anderem Meisenknödelhalter und Weihnachtssterne bas",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
-   "title": "Am Donnerstagabend: Dance Night mit der Big Band Bad Schwartau",
-   "date": "2026-11-05",
-   "dates_found": 1,
-   "time": "20:00",
-   "town": "Bad Schwartau/Lübeck",
-   "venue": null,
-   "url": "https://www.der-reporter.de/tdf-strand/artikel/am-donnerstagabend-dance-night-mit-der-big-band-bad-schwartau",
-   "recurring": null,
-   "description": "Bad Schwartau/Lübeck. Die Big Band Bad Schwartau lädt am Donnerstag, dem 5. November ab 20 Uhr zu einer „Dance Night” - einem Tanzabend in der Lübecker Gastro „Vorteil” (Falkenstraße 44) im LBV Phönix ein. Mit diesem Veranstaltungsformat wird ein Tanzabend der Superlative geboten, bei dem alle Musik",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
   {
    "source": "der reporter",
    "title": "VHS-Kurse",
@@ -107,34 +65,6 @@
    "description": "Travemünde. Das Abschlusskonzert „CHAMPAGNER! – Das prickelnde Finale“ am Sonntag, dem 8. November 2026, im Maritim Strandhotel Travemünde setzte einen festlichen Schlusspunkt unter das Festivaljahr 2026. Zu Beginn des Konzerts erinnerte Hans-Wilhelm Hagen, Leiter des CLASSICAL BEAT Festivals, an di",
    "lnglat": null,
    "first_seen": "2026-11-18"
-  },
-  {
-   "source": "der reporter",
-   "title": "„Champagner“: Classical Beat feiert Festivalfinale",
-   "date": "2026-11-08",
-   "dates_found": 1,
-   "time": "16:00",
-   "town": "Travemünde",
-   "venue": null,
-   "url": "https://www.der-reporter.de/tdf-strand/artikel/champagner-classical-beat-feiert-festivalfinale",
-   "recurring": null,
-   "description": "Travemünde. Mit französischem Esprit, Gypsy Jazz, Musette und Chanson beschließt Classical Beat am Sonntag, dem 8. November um 16 Uhr sein Jubiläumsjahr. Unter dem Titel „Champagner! – Das prickelnde Finale“ lädt das Festival zu einem festlichen Konzertnachmittag in den Konzertsaal des Maritim Stran",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
-   "title": "Ehrenamtstag lädt zum Entdecken und Mitmachen ein",
-   "date": "2026-11-08",
-   "dates_found": 1,
-   "time": "11:00–17:00",
-   "town": "Fehmarn",
-   "venue": null,
-   "url": "https://www.der-reporter.de/fehmarn/artikel/ehrenamtstag-laedt-zum-entdecken-und-mitmachen-ein",
-   "recurring": null,
-   "description": "Fehmarn. Rund 50 Vereine und Organisationen präsentieren am Sonntag, 8. November, ihre vielfältige ehrenamtliche Arbeit in der Großsporthalle in Burg. Ein buntes Programm für die ganze Familie sorgt für einen abwechslungsreichen Tag. Ohne ehrenamtliches Engagement wäre das gesellschaftliche Leben au",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
   },
   {
    "source": "der reporter",
@@ -376,20 +306,6 @@
   },
   {
    "source": "der reporter",
-   "title": "Adventsbasar in der Waldorfschule in Lensahn",
-   "date": "2026-11-21",
-   "dates_found": 1,
-   "time": "11:00–17:00",
-   "town": "Lensahn",
-   "venue": "Sternenwerkstatt",
-   "url": "https://www.der-reporter.de/neustadt/artikel/adventsbasar-in-der-waldorfschule-in-lensahn",
-   "recurring": null,
-   "description": "Lensahn. Kerzen ziehen, in der Sternenwerkstatt basteln oder einen Ausflug in den Märchenwald unternehmen: Der Waldorfbasar der Waldorfschule in Ostholstein bietet auch in diesem Jahr wieder zahlreiche besondere Erlebnisse für die ganze Familie. Am Samstag, dem 21. November, öffnet die Schule von 11",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
    "title": "Bingoabend",
    "date": "2026-11-21",
    "dates_found": 2,
@@ -429,34 +345,6 @@
    "description": "Heiligenhafen. Ab Montag, dem 23. November locken tausende LED-Lichter, verschiedene Stände, Kulinarik, Kinderattraktionen und Livemusik Besucher auf den Marktplatz von Heiligenhafen. Bis zum 31. Dezember findet hier wieder der Weihnachtstreff „Lichterglanz“ statt. Außer am 24. November und 29. Deze",
    "lnglat": null,
    "first_seen": "2026-11-20"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Perlenzauber LemkenHafen KreativWerk",
-   "date": "2026-11-23",
-   "dates_found": 1,
-   "time": "13:00–17:00",
-   "town": "Fehmarn OT Lemkenhafen",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/perlenzauber-lemkenhafen-kreativwerk",
-   "recurring": "5 weitere Termine",
-   "description": "Du suchst nach einer besonderen Urlaubserinnerung oder einem persönlichen Mitbringsel für Familie und Freunde? Dann bist du bei uns genau richtig!\n\nIn LemkenHafen kannst du während unserer Öffnungszeiten ganz ohne Anmeldung kreativ werden. Gestalte dein eigenes Armband, eine Kette, einen Schlüsselan",
-   "lnglat": "11.0890163,54.4464411",
-   "first_seen": "2026-11-23"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Achtsamkeitsmeditation",
-   "date": "2026-11-23",
-   "dates_found": 1,
-   "time": "17:00–17:45",
-   "town": "Fehmarn",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/achtsamkeitsmeditation",
-   "recurring": "5 weitere Termine",
-   "description": "Durchatmen und bei sich Ankommen. Kraft schöpfen in  liebevoller Atmosphäre und der Verbindung mit sich selber. Meditation ist viel mehr als still sitzen, erfahre die Magie der Innenschau.",
-   "lnglat": "11.132927,54.4700537",
-   "first_seen": "2026-11-17"
   },
   {
    "source": "der reporter",
@@ -499,6 +387,20 @@
    "description": "Erfahren Sie bei einer Führung durch das Infocenter Wissenswertes über den Fehmarnbelt-Tunnel, dem längsten Absenktunnel der Welt.",
    "lnglat": "11.1944988,54.4362296",
    "first_seen": "2026-11-20"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Perlenzauber LemkenHafen KreativWerk",
+   "date": "2026-11-24",
+   "dates_found": 1,
+   "time": "13:00–17:00",
+   "town": "Fehmarn OT Lemkenhafen",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/perlenzauber-lemkenhafen-kreativwerk",
+   "recurring": "4 weitere Termine",
+   "description": "Du suchst nach einer besonderen Urlaubserinnerung oder einem persönlichen Mitbringsel für Familie und Freunde? Dann bist du bei uns genau richtig!\n\nIn LemkenHafen kannst du während unserer Öffnungszeiten ganz ohne Anmeldung kreativ werden. Gestalte dein eigenes Armband, eine Kette, einen Schlüsselan",
+   "lnglat": "11.0890163,54.4464411",
+   "first_seen": "2026-11-24"
   },
   {
    "source": "fehmarn.de",
@@ -684,20 +586,6 @@
   },
   {
    "source": "der reporter",
-   "title": "Knusperhausbacken",
-   "date": "2026-11-26",
-   "dates_found": 2,
-   "time": "15:00",
-   "town": "Grube",
-   "venue": "Ostseebäcker Kinder",
-   "url": "https://www.der-reporter.de/neustadt/artikel/knusperhausbacken-2",
-   "recurring": null,
-   "description": "Grube. Am Donnerstag, 26. November um 15 Uhr, lädt der CDU Ortsverband Grube mit Unterstützung von Puck Mein Ostseebäcker Kinder zum traditionellen Knusperhausbauen in der Backstube ein. Unter Anleitung bauen und gestalten die kleinen Künstler ihr eigenes Knusperhaus. Die Kosten betragen 6 Euro und ",
-   "lnglat": null,
-   "first_seen": "2026-11-18"
-  },
-  {
-   "source": "der reporter",
    "title": "Dahmer Aktiv Club startet in die neue Herbst- und Wintersaison",
    "date": "2026-11-26",
    "dates_found": 6,
@@ -709,6 +597,20 @@
    "description": "Dahme. Kornelia Schlundt und ihr engagiertes Team freuen sich darauf, die Dahmer Bürgerinnen und Bürger auch in diesem Jahr wieder mit Torten, frisch gebrühtem Kaffee und herzhaften Leckereien zu verwöhnen. An den folgenden Terminen beginnen jeweils um 15 Uhr im Haus des Gastes die gemütlichen Stund",
    "lnglat": null,
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "der reporter",
+   "title": "Knusperhausbacken",
+   "date": "2026-11-26",
+   "dates_found": 2,
+   "time": "15:00",
+   "town": "Grube",
+   "venue": "Ostseebäcker Kinder",
+   "url": "https://www.der-reporter.de/neustadt/artikel/knusperhausbacken-2",
+   "recurring": null,
+   "description": "Grube. Am Donnerstag, 26. November um 15 Uhr, lädt der CDU Ortsverband Grube mit Unterstützung von Puck Mein Ostseebäcker Kinder zum traditionellen Knusperhausbauen in der Backstube ein. Unter Anleitung bauen und gestalten die kleinen Künstler ihr eigenes Knusperhaus. Die Kosten betragen 6 Euro und ",
+   "lnglat": null,
+   "first_seen": "2026-11-18"
   },
   {
    "source": "fehmarn.de",
@@ -863,6 +765,20 @@
    "description": "Die Andersons bringen jede Menge Party-Power auf den Weihnachtsmarkt Fehmarn!",
    "lnglat": "11.19716,54.43894",
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "der reporter",
+   "title": "AWO Adventsnachmittag",
+   "date": "2026-11-28",
+   "dates_found": 1,
+   "time": "14:00",
+   "town": "Schönwalde/Hansühn",
+   "venue": "Klönstuv",
+   "url": "https://www.der-reporter.de/neustadt/artikel/awo-adventsnachmittag",
+   "recurring": null,
+   "description": "Schönwalde/Hansühn. Am Samstag, dem 28. November um 14 Uhr laden die AWO-Ortsvereine Schönwalde und Hansühn zu einem Adventsnachmittag in der Klönstuv ein. Bei einem Kuchenbuffet werden Gedichte vorgetragen und Lieder zum Mitsingen eingestimmt, die Angelika Eger auf ihrem Akkordeon begleitet. Anmeld",
+   "lnglat": null,
+   "first_seen": "2026-11-24"
   },
   {
    "source": "der reporter",
@@ -1106,20 +1022,6 @@
   },
   {
    "source": "der reporter",
-   "title": "Herrenhauskonzerte: „Traditional Old Merry Tale Jazzband“ wieder dabei",
-   "date": "2026-11-29",
-   "dates_found": 1,
-   "time": "17:00",
-   "town": "Stockelsdorf",
-   "venue": "Stockelsdorfer Herrenhaus",
-   "url": "https://www.der-reporter.de/tdf-strand/artikel/herrenhauskonzerte-traditional-old-merry-tale-jazzband-wieder-dabei",
-   "recurring": null,
-   "description": "Stockelsdorf. Am Sonntag, dem 29. November findet um 17 Uhr im Stockelsdorfer Herrenhaus, Dorfstraße 7 (erstes Obergeschoss, Zugang nicht barrierefrei) ein Jazzkonzert mit der „Traditional Old Merry Tale Jazzband“ statt. 1957 gegründet, zählt die Traditional Old Merry Tale Jazzband seit nunmehr 69 J",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
    "title": "Adventskonzert voller Lieblingsmelodien",
    "date": "2026-11-29",
    "dates_found": 2,
@@ -1129,6 +1031,20 @@
    "url": "https://www.der-reporter.de/neustadt/artikel/adventskonzert-voller-lieblingsmelodien",
    "recurring": null,
    "description": "Neustadt in Holstein. Auf zahlreiche Auftritte und viele schöne musikalische Erlebnisse können die Akkordeonspielerinnen und Akkordeonspieler der Ostseekrabben zurückblicken. Auch in diesem Jahr möchten sie ihr Publikum wieder mit einem abwechslungsreichen Adventskonzert begeistern. Ein besonderer A",
+   "lnglat": null,
+   "first_seen": "2026-11-17"
+  },
+  {
+   "source": "der reporter",
+   "title": "Herrenhauskonzerte: „Traditional Old Merry Tale Jazzband“ wieder dabei",
+   "date": "2026-11-29",
+   "dates_found": 1,
+   "time": "17:00",
+   "town": "Stockelsdorf",
+   "venue": "Stockelsdorfer Herrenhaus",
+   "url": "https://www.der-reporter.de/tdf-strand/artikel/herrenhauskonzerte-traditional-old-merry-tale-jazzband-wieder-dabei",
+   "recurring": null,
+   "description": "Stockelsdorf. Am Sonntag, dem 29. November findet um 17 Uhr im Stockelsdorfer Herrenhaus, Dorfstraße 7 (erstes Obergeschoss, Zugang nicht barrierefrei) ein Jazzkonzert mit der „Traditional Old Merry Tale Jazzband“ statt. 1957 gegründet, zählt die Traditional Old Merry Tale Jazzband seit nunmehr 69 J",
    "lnglat": null,
    "first_seen": "2026-11-17"
   },
@@ -1201,6 +1117,20 @@
    "description": "Neustadt in Holstein. Fußball steht für Gemeinschaft und Zusammenhalt. Doch auch im Umfeld des Sports haben Rassismus, Ausgrenzung und rechtsextreme Ideologien eine Geschichte. Die Ausstellung „Ins rechte Licht gerückt - Der Einfluss von rechts auf die HSV-Fanszene der 1980er Jahre“ beleuchtet diese",
    "lnglat": null,
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Achtsamkeitsmeditation",
+   "date": "2026-11-30",
+   "dates_found": 1,
+   "time": "17:00–17:45",
+   "town": "Fehmarn",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/achtsamkeitsmeditation",
+   "recurring": "4 weitere Termine",
+   "description": "Durchatmen und bei sich Ankommen. Kraft schöpfen in  liebevoller Atmosphäre und der Verbindung mit sich selber. Meditation ist viel mehr als still sitzen, erfahre die Magie der Innenschau.",
+   "lnglat": "11.132927,54.4700537",
+   "first_seen": "2026-11-24"
   },
   {
    "source": "der reporter",
@@ -1461,6 +1391,20 @@
   },
   {
    "source": "fehmarn.de",
+   "title": "Makramee",
+   "date": "2026-12-06",
+   "dates_found": 1,
+   "time": "13:00–17:00",
+   "town": "Fehmarn OT Burg",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/makramee",
+   "recurring": null,
+   "description": "Wir starten am Nikolaustag 6.12. 13 Uhr als Auftakt einer Reihe von Veranstaltungen mit Basteln. Makramee kann unfaßbar stilvoll und spannend sein. Bastelt Euer Weihnachtsgeschenk für Papa, Mama und/oder Opa, Oma und Freunde. Spontanes Erscheinen möglich.",
+   "lnglat": "11.19525,54.44053",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "source": "fehmarn.de",
    "title": "Lichterzauber der Landwirte ",
    "date": "2026-12-06",
    "dates_found": 1,
@@ -1514,6 +1458,20 @@
    "description": "Grömitz. Der Tourismus-Service Grömitz lädt am Dienstag, 8. Dezember, ab 17 Uhr, zum Grömitzer Tourismusabend in den Dünenwelten ein. Das Jahr 2026 neigt sich dem Ende zu und die Planungen für das Jahr 2027 laufen auf Hochtouren. Auf dem Tourismusabend möchte der Tourismus-Service Grömitz allen Part",
    "lnglat": null,
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Vorlesezeit in der Stadtbücherei",
+   "date": "2026-12-08",
+   "dates_found": 1,
+   "time": "15:30–16:30",
+   "town": "Fehmarn OT Burg",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/vorlesezeit-in-der-stadtbuecherei-12",
+   "recurring": null,
+   "description": "Eingeladen sind Kinder ab 3 Jahren, die eine halbe Stunde zuhören und mitmachen können und wollen, die Größeren auch ohne Begleitung.",
+   "lnglat": "11.19187653,54.441412836",
+   "first_seen": "2026-11-24"
   },
   {
    "source": "der reporter",
@@ -1572,6 +1530,20 @@
    "description": "Tanzabend im Pavillon am Binnensee im Ostsee-Ferienpark.",
    "lnglat": null,
    "first_seen": "2026-11-23"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Adventsbasteln",
+   "date": "2026-12-12",
+   "dates_found": 1,
+   "time": "13:00–17:00",
+   "town": "Fehmarn OT Burg",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/adventsbasteln-1",
+   "recurring": "1 weiterer Termin",
+   "description": "Am Wochenende 12. und 13.12. jeweils von 13 bis 17 Uhr könnt Ihr für Eure Schätze Schatzkisten falten und diese individuell dekorieren. Damit Eure \"Schätze\" für ihre Schätze einen wunderbaren Ort haben. Spontanes Erscheinen möglich.",
+   "lnglat": "11.19525,54.44053",
+   "first_seen": "2026-11-24"
   },
   {
    "source": "fehmarn.de",
@@ -1687,6 +1659,20 @@
    "description": "Swing, Blues und Rock’n’Roll: The Chilkats bringen echtes Retro-Feeling auf den Weihnachtsmarkt Fehmarn.",
    "lnglat": "11.19716,54.43894",
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Carrerabahnrennen (inoffiz. Holstein-Meisterschaft)",
+   "date": "2026-12-19",
+   "dates_found": 1,
+   "time": "13:00–17:00",
+   "town": "Fehmarn OT Burg",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/carrerabahnrennen-inoffiz-holstein-meisterschaft",
+   "recurring": "1 weiterer Termin",
+   "description": "3-2-1- LOS!!! Ein fulminanter Spaß für alle. Carrerabahnfahren gegen die Zeit oder einen Gegner. Es gibt drei Alterskategorien 0 bis 10, 11 bis 16 und 17 bis 99 Jahre. Die ersten einer jeder Katagorie erhalten nach dem Wochenende einen geldwerten Vorteil (Gutschein). Spontanes ....Erscheinen, genau,",
+   "lnglat": "11.19525,54.44053",
+   "first_seen": "2026-11-24"
   },
   {
    "source": "fehmarn.de",
@@ -1963,6 +1949,20 @@
    "first_seen": "2026-11-17"
   },
   {
+   "source": "fehmarn.de",
+   "title": "Party: Knuust-Selection Pardey mit Baltic Beats",
+   "date": "2026-12-30",
+   "dates_found": 1,
+   "time": "20:00–22:00",
+   "town": "Fehmarn",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/party-knuust-selection-pardey-mit-baltic-beats",
+   "recurring": null,
+   "description": "Die Knuust-Selection Pardey bringt Partylaune auf den Weihnachtsmarkt Fehmarn! Baltic Beats liefert die passende Musik!",
+   "lnglat": "11.19716,54.43894",
+   "first_seen": "2026-11-24"
+  },
+  {
    "source": "Wochensuche",
    "title": "Silvesterparty mit Feuerwerk",
    "date": "2026-12-31",
@@ -1977,6 +1977,34 @@
    "description": "Silvesterfeier mit Feuerwerk im Pavillon am Binnensee, bis 2 Uhr nachts.",
    "lnglat": null,
    "first_seen": "2026-11-23"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Silvesterfrühschoppen",
+   "date": "2026-12-31",
+   "dates_found": 1,
+   "time": "11:00–14:00",
+   "town": "Fehmarn",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/silvesterfruehschoppen-fehmarn",
+   "recurring": null,
+   "description": "Silvesterfühschoppen in Haltermann's Scheune",
+   "lnglat": "11.1454324,54.4499882",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Silvesterparty am Reitsportzentrum",
+   "date": "2026-12-31",
+   "dates_found": 1,
+   "time": "22:00–02:00",
+   "town": "Fehmarn",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/silvesterparty-fehmarn",
+   "recurring": null,
+   "description": "Silvesterparty am Reitsportzentrum mit DJ und Lasershow",
+   "lnglat": "11.2042577,54.4462408",
+   "first_seen": "2026-11-24"
   },
   {
    "source": "Wochensuche",
@@ -2315,6 +2343,20 @@
    "description": "Wir starten wie jedes Jahr mit dem Surf-Festival in die Wassersport-Saison!",
    "lnglat": "11.208527684212,54.411769058846",
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Aktionstag mit den Seenotrettern",
+   "date": "2027-05-16",
+   "dates_found": 1,
+   "time": "11:00–15:00",
+   "town": "Fehmarn",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/aktionstag-mit-den-seenotrettern",
+   "recurring": "2 weitere Termine",
+   "description": "Werfen Sie einen Blick hinter die Kulissen der Seenotretter und lernen Sie die Arbeit der freiwilligen Besatzung auf der Station Burgstaaken aus nächster Nähe kennen.",
+   "lnglat": "11.1923499,54.4196538",
+   "first_seen": "2026-11-24"
   },
   {
    "source": "fehmarn.de",
