@@ -1,22 +1,14 @@
 {
- "generated": "2026-11-26T13:03:17",
+ "generated": "2026-11-27T13:00:38",
  "dupes_removed": 0,
  "errors": {},
- "new": 17,
+ "new": 6,
  "stats": {
-  "der reporter": {
-   "events": 82,
-   "date": 96,
-   "time": 94,
-   "town": 100,
-   "venue": 70,
-   "url": 100
-  },
   "fehmarn.de": {
    "events": 100,
    "date": 100,
    "time": 99,
-   "town": 98,
+   "town": 97,
    "venue": 0,
    "url": 100
   },
@@ -26,6 +18,14 @@
    "time": 0,
    "town": 100,
    "venue": 100,
+   "url": 100
+  },
+  "der reporter": {
+   "events": 79,
+   "date": 96,
+   "time": 94,
+   "town": 100,
+   "venue": 68,
    "url": 100
   },
   "Wochensuche": {
@@ -175,20 +175,6 @@
    "url": "https://www.der-reporter.de/neustadt/artikel/eiswelt-scharbeutz-praesentiert-von-holiday-on-ice",
    "recurring": null,
    "description": "Scharbeutz. Ab Samstag, dem 14. November, verwandelt sich der Scharbeutzer Kurpark wieder in eine winterliche Erlebniswelt. Die Eiswelt Scharbeutz lädt lädt Einheimische und Gäste zum Schlittschuhlaufen, Genießen und Verweilen ein. In dieser Saison hat das Ostsee-Wintererlebnis dabei einen prominent",
-   "lnglat": null,
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
-   "title": "Anzeige: Start in die Konzert-Wintersaison",
-   "date": "2026-11-14",
-   "dates_found": 2,
-   "time": "19:30",
-   "town": "Cismar",
-   "venue": "Kloster",
-   "url": "https://www.der-reporter.de/neustadt/artikel/anzeige-start-in-die-konzert-wintersaison",
-   "recurring": null,
-   "description": "Cismar. Am Wochenende des 14. und 15. November startet der Förderkreis Kloster Cismar gleich mit zwei Konzerten die Konzertreihe zur Wintersaison. Am Samstag, dem 14. November um 19.30 Uhr, erstmalig seit neun Jahren wieder im renovierten Gewölbesaal im Kloster, begrüßt der Förderkreis als Gäste „La",
    "lnglat": null,
    "first_seen": "2026-11-17"
   },
@@ -362,34 +348,6 @@
   },
   {
    "source": "der reporter",
-   "title": "Neue Dokumentation zum jüdischen Friedhof in Neustadt",
-   "date": "2026-11-26",
-   "dates_found": 2,
-   "time": "18:00",
-   "town": "Neustadt in Holstein",
-   "venue": "Neustadt",
-   "url": "https://www.der-reporter.de/neustadt/artikel/neue-dokumentation-zum-juedischen-friedhof-in-neustadt",
-   "recurring": null,
-   "description": "Neustadt in Holstein. Auf dem jüdischen Friedhof in Neustadt sind über hundert im Nationalsozialismus verfolgte Frauen, Männer und Kinder bestattet. Die meisten von ihnen waren 1945 aus dem Konzentrationslager Stutthof über die Ostsee in die Lübecker Bucht verschleppt worden und am 3. Mai 1945 in Ne",
-   "lnglat": null,
-   "first_seen": "2026-11-21"
-  },
-  {
-   "source": "der reporter",
-   "title": "Bücherei-Spiele-Treff",
-   "date": "2026-11-26",
-   "dates_found": 1,
-   "time": "17:30",
-   "town": "Neustadt in Holstein",
-   "venue": "Stadtbücherei",
-   "url": "https://www.der-reporter.de/neustadt/artikel/buecherei-spiele-treff-4",
-   "recurring": null,
-   "description": "Neustadt in Holstein. Am Donnerstag, dem 26. November findet um 17.30 Uhr der nächste Bücherei-Spiele-Treff in der Stadtbücherei, Waschgrabenallee 7, statt. Dabei sind Spielbegeisterte von 9 bis 99 Jahren willkommen. Gerne können Lieblingsbrett- oder Kartenspiele mitgebracht werden. Die Stadtbüchere",
-   "lnglat": null,
-   "first_seen": "2026-11-21"
-  },
-  {
-   "source": "der reporter",
    "title": "Dahmer Aktiv Club startet in die neue Herbst- und Wintersaison",
    "date": "2026-11-26",
    "dates_found": 6,
@@ -401,90 +359,6 @@
    "description": "Dahme. Kornelia Schlundt und ihr engagiertes Team freuen sich darauf, die Dahmer Bürgerinnen und Bürger auch in diesem Jahr wieder mit Torten, frisch gebrühtem Kaffee und herzhaften Leckereien zu verwöhnen. An den folgenden Terminen beginnen jeweils um 15 Uhr im Haus des Gastes die gemütlichen Stund",
    "lnglat": null,
    "first_seen": "2026-11-17"
-  },
-  {
-   "source": "der reporter",
-   "title": "Knusperhausbacken",
-   "date": "2026-11-26",
-   "dates_found": 2,
-   "time": "15:00",
-   "town": "Grube",
-   "venue": "Ostseebäcker Kinder",
-   "url": "https://www.der-reporter.de/neustadt/artikel/knusperhausbacken-2",
-   "recurring": null,
-   "description": "Grube. Am Donnerstag, 26. November um 15 Uhr, lädt der CDU Ortsverband Grube mit Unterstützung von Puck Mein Ostseebäcker Kinder zum traditionellen Knusperhausbauen in der Backstube ein. Unter Anleitung bauen und gestalten die kleinen Künstler ihr eigenes Knusperhaus. Die Kosten betragen 6 Euro und ",
-   "lnglat": null,
-   "first_seen": "2026-11-18"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Morgenmeditation Suprabatham",
-   "date": "2026-11-26",
-   "dates_found": 1,
-   "time": "08:30–09:00",
-   "town": "Fehmarn",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/morgenmeditation-suprabatham",
-   "recurring": "5 weitere Termine",
-   "description": "Diese Morgenmeditation ist eine wunderbare Möglichkeit , den Tag bewusst, achtsam und voller positiver Energie zu beginnen. Sie schenkt einen klaren Geist, ein offenes Herz und tiefen inneren Frieden.",
-   "lnglat": "11.132927,54.4700537",
-   "first_seen": "2026-11-20"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Führung durch das Infocenter zum Fehmarnbelt-Tunnel",
-   "date": "2026-11-26",
-   "dates_found": 1,
-   "time": "11:00–11:30",
-   "town": "Fehmarn OT Burg",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/fuehrung-durch-das-infocenter-zum-fehmarnbelt-tunnel-5",
-   "recurring": "7 weitere Termine",
-   "description": "Erfahren Sie bei einer Führung durch das Infocenter Wissenswertes über den Fehmarnbelt-Tunnel, dem längsten Absenktunnel der Welt.",
-   "lnglat": "11.1944988,54.4362296",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Perlenzauber LemkenHafen KreativWerk",
-   "date": "2026-11-26",
-   "dates_found": 1,
-   "time": "13:00–17:00",
-   "town": "Fehmarn OT Lemkenhafen",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/perlenzauber-lemkenhafen-kreativwerk",
-   "recurring": "3 weitere Termine",
-   "description": "Du suchst nach einer besonderen Urlaubserinnerung oder einem persönlichen Mitbringsel für Familie und Freunde? Dann bist du bei uns genau richtig!\n\nIn LemkenHafen kannst du während unserer Öffnungszeiten ganz ohne Anmeldung kreativ werden. Gestalte dein eigenes Armband, eine Kette, einen Schlüsselan",
-   "lnglat": "11.0890163,54.4464411",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Weihnachtsmarkt Fehmarn",
-   "date": "2026-11-26",
-   "dates_found": 1,
-   "time": null,
-   "town": "Fehmarn",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/weihnachtsmarkt-fehmarn-1",
-   "recurring": "32 weitere Termine",
-   "description": "Moin vom muggeligsten Weihnachtsmarkt am Meer! Willkommen auf dem Weihnachtsmarkt Fehmarn.",
-   "lnglat": "11.19716,54.43894",
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "fehmarn.de",
-   "title": "Qigong",
-   "date": "2026-11-26",
-   "dates_found": 1,
-   "time": "18:00–19:15",
-   "town": "Fehmarn",
-   "venue": null,
-   "url": "https://www.fehmarn.de/event/qigong",
-   "recurring": "3 weitere Termine",
-   "description": "Du möchtest eine Auszeit vom Alltag, Zeit nur für dich, zum Fühlen, Spüren, ganz bei dir selbst sein.\n\nEs ist eine Einladung, ein Geschenk, dir selbst zu begegnen.",
-   "lnglat": "11.0913506,54.4962621",
-   "first_seen": "2026-11-20"
   },
   {
    "source": "der reporter",
@@ -544,6 +418,20 @@
   },
   {
    "source": "fehmarn.de",
+   "title": "Perlenzauber LemkenHafen KreativWerk",
+   "date": "2026-11-27",
+   "dates_found": 1,
+   "time": "11:00–17:00",
+   "town": "Fehmarn OT Lemkenhafen",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/perlenzauber-lemkenhafen-kreativwerk",
+   "recurring": "2 weitere Termine",
+   "description": "Du suchst nach einer besonderen Urlaubserinnerung oder einem persönlichen Mitbringsel für Familie und Freunde? Dann bist du bei uns genau richtig!\n\nIn LemkenHafen kannst du während unserer Öffnungszeiten ganz ohne Anmeldung kreativ werden. Gestalte dein eigenes Armband, eine Kette, einen Schlüsselan",
+   "lnglat": "11.0890163,54.4464411",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "source": "fehmarn.de",
    "title": "Windspiel LemkenHafenKreativWerk",
    "date": "2026-11-27",
    "dates_found": 1,
@@ -586,16 +474,30 @@
   },
   {
    "source": "fehmarn.de",
+   "title": "Weihnachtsmarkt Fehmarn",
+   "date": "2026-11-27",
+   "dates_found": 1,
+   "time": null,
+   "town": "Fehmarn",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/weihnachtsmarkt-fehmarn-1",
+   "recurring": "31 weitere Termine",
+   "description": "Moin vom muggeligsten Weihnachtsmarkt am Meer! Willkommen auf dem Weihnachtsmarkt Fehmarn.",
+   "lnglat": "11.19716,54.43894",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "source": "fehmarn.de",
    "title": "Freies Basteln in der Murmelkiste auf Fehmarn",
    "date": "2026-11-27",
    "dates_found": 1,
    "time": "16:00–20:00",
-   "town": "Fehmarn",
+   "town": null,
    "venue": null,
    "url": "https://www.fehmarn.de/event/freies-basteln-in-der-murmelkiste-auf-fehmarn-1",
    "recurring": "7 weitere Termine",
    "description": "Eine kreative Auszeit für Kinder und Erwachsene: Gestalte in der Murmelkiste deine eigenen Lieblingsstücke. Ob Holzperlen, Makramee, Acrylpostkarten oder bemalte Steine, hier ist Platz für deine Ideen. Jeden Freitag von 16-20h. Im Dezember sogar samstags von 11-16h.",
-   "lnglat": "11.1887002,54.4418303",
+   "lnglat": "",
    "first_seen": "2026-11-21"
   },
   {
@@ -1176,6 +1078,20 @@
   },
   {
    "source": "fehmarn.de",
+   "title": "Führung durch das Infocenter zum Fehmarnbelt-Tunnel",
+   "date": "2026-12-01",
+   "dates_found": 1,
+   "time": "11:00–11:30",
+   "town": "Fehmarn OT Burg",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/fuehrung-durch-das-infocenter-zum-fehmarnbelt-tunnel-5",
+   "recurring": "6 weitere Termine",
+   "description": "Erfahren Sie bei einer Führung durch das Infocenter Wissenswertes über den Fehmarnbelt-Tunnel, dem längsten Absenktunnel der Welt.",
+   "lnglat": "11.1944988,54.4362296",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "source": "fehmarn.de",
    "title": "Damensauna",
    "date": "2026-12-01",
    "dates_found": 1,
@@ -1341,6 +1257,34 @@
    "description": "Neustadt-Pelzerhaken. Welche neuen Verbindungen und Chancen ergeben sich mit der festen Fehmarnbeltquerung? Dieser Frage widmet sich die zehnte Neustädter Wirtschafts-Lounge am Donnerstag, dem 3. Dezember, ab 18.30 Uhr in der Tourist-Information Pelzerhaken. Veranstalter sind das Stadtmarketing Neus",
    "lnglat": null,
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Morgenmeditation Suprabatham",
+   "date": "2026-12-03",
+   "dates_found": 1,
+   "time": "08:30–09:00",
+   "town": "Fehmarn",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/morgenmeditation-suprabatham",
+   "recurring": "4 weitere Termine",
+   "description": "Diese Morgenmeditation ist eine wunderbare Möglichkeit , den Tag bewusst, achtsam und voller positiver Energie zu beginnen. Sie schenkt einen klaren Geist, ein offenes Herz und tiefen inneren Frieden.",
+   "lnglat": "11.132927,54.4700537",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "source": "fehmarn.de",
+   "title": "Qigong",
+   "date": "2026-12-03",
+   "dates_found": 1,
+   "time": "18:00–19:15",
+   "town": "Fehmarn",
+   "venue": null,
+   "url": "https://www.fehmarn.de/event/qigong",
+   "recurring": "2 weitere Termine",
+   "description": "Du möchtest eine Auszeit vom Alltag, Zeit nur für dich, zum Fühlen, Spüren, ganz bei dir selbst sein.\n\nEs ist eine Einladung, ein Geschenk, dir selbst zu begegnen.",
+   "lnglat": "11.0913506,54.4962621",
+   "first_seen": "2026-11-27"
   },
   {
    "source": "fehmarn.de",
@@ -2385,6 +2329,20 @@
    "description": "Spielerisches Quiz zur Internetsicherheit mit praktischen Tipps, Austausch und leicht verständlichem Lernen für alle Interessierten.",
    "lnglat": "11.2092,54.41187",
    "first_seen": "2026-11-17"
+  },
+  {
+   "source": "der reporter",
+   "title": "Anzeige: Junges Theater Spektakulum spielt Schillers „Don Carlos“",
+   "date": "2027-02-19",
+   "dates_found": 7,
+   "time": "19:30",
+   "town": "Schönberg",
+   "venue": "Villa Tripaldi",
+   "url": "https://www.der-reporter.de/ploenpreetz/artikel/anzeige-junges-theater-spektakulum-spielt-schillers-don-carlos",
+   "recurring": null,
+   "description": "Schönberg. Mit der Inszenierung von Friedrich Schillers „Don Carlos“ verabschiedet sich das Junge Theater Spektakulum von seinem Publikum. Am 19. Februar beginnt in der Villa Tripaldi in Schönberg die definitiv letzte Aufführungsserie. Damit beenden Gunter Hagelberg (Text und Regie) und Lothar Köhrs",
+   "lnglat": null,
+   "first_seen": "2026-11-27"
   },
   {
    "source": "fehmarn.de",
